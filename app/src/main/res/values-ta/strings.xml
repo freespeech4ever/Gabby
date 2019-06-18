@@ -31,7 +31,7 @@
     <string name="title_blocks">தடைசெய்யபட்ட பயனர்கள்</string>
     <string name="title_follow_requests">பின்பற்ற கோரிக்கை</string>
     <string name="title_edit_profile">சுயவிவரத்தை திருத்த</string>
-    <string name="title_saved_toot">வரைவுகள்</string>
+    <string name="title_saved_post">வரைவுகள்</string>
     <string name="status_boosted_format">%s மேலேற்றப்பட்டது</string>
     <string name="status_sensitive_media_title">உணர்ச்சிகரமான உள்ளடக்கம்</string>
     <string name="status_media_hidden_title">ஊடகம் மறைக்கப்பட்டது</string>
@@ -39,8 +39,8 @@
     <string name="status_content_warning_show_more">அதிகமாக்கு</string>
     <string name="status_content_warning_show_less">கம்மியாக்கு</string>
     <string name="footer_empty">இங்கு எதுவுமில்லை. புதுப்பிக்க கீழே இழுக்கவும்!</string>
-    <string name="notification_reblog_format">%s தங்களின் toot உயர்த்தப்பட்டுள்ளது</string>
-    <string name="notification_favourite_format">%s தங்களின் toot பிடித்தவையானது</string>
+    <string name="notification_reblog_format">%s தங்களின் post உயர்த்தப்பட்டுள்ளது</string>
+    <string name="notification_favourite_format">%s தங்களின் post பிடித்தவையானது</string>
     <string name="notification_follow_format">%s தங்களை பின்பற்றுகிறார்</string>
     <string name="report_username_format">புகார் @%s</string>
     <string name="report_comment_hint">கூடுதல் கருத்துரைகள்?</string>
@@ -86,14 +86,14 @@
     <string name="action_accept">ஏற்கவும்</string>
     <string name="action_reject">நிராகரி</string>
     <string name="action_search">தேடு</string>
-    <string name="action_access_saved_toot">வரைவுகள்</string>
-    <string name="action_toggle_visibility">Toot புலப்படும் தன்மை</string>
+    <string name="action_access_saved_post">வரைவுகள்</string>
+    <string name="action_toggle_visibility">Post புலப்படும் தன்மை</string>
     <string name="action_content_warning">உள்ளடக்க எச்சரிக்கை</string>
     <string name="action_emoji_keyboard">Emoji விசைபலகை</string>
     <string name="download_image">பதிவிறக்கப்படுகிறது %1$s</string>
     <string name="action_copy_link">இணைப்பை நகலெடுக்கவும்</string>
-    <string name="send_status_link_to">Toot URL-யை பகிர…</string>
-    <string name="send_status_content_to">Toot உள்ளடக்கத்தை பகிர…</string>
+    <string name="send_status_link_to">Post URL-யை பகிர…</string>
+    <string name="send_status_content_to">Post உள்ளடக்கத்தை பகிர…</string>
     <string name="send_media_to">Mediaவை பகிர…</string>
     <string name="confirmation_reported">அனுப்பு!</string>
     <string name="confirmation_unblocked">பயனர்  முடக்கம் நீக்கப்பட்டது</string>
@@ -168,9 +168,9 @@
     <string name="notification_follow_name">புதிய பின்பற்றுபவர்கள்</string>
     <string name="notification_follow_description">புதிய பின்தொடர்பவர்களைப் பற்றிய அறிவிப்புகள்</string>
     <string name="notification_boost_name">ஊக்கியாக</string>
-    <string name="notification_boost_description">எமது toot மேலேற்றும் போது தெரிவி.</string>
+    <string name="notification_boost_description">எமது post மேலேற்றும் போது தெரிவி.</string>
     <string name="notification_favourite_name">பிடித்தவைகள்</string>
-    <string name="notification_favourite_description">எமது toot பிடித்தவையானால் தெரிவி.</string>
+    <string name="notification_favourite_description">எமது post பிடித்தவையானால் தெரிவி.</string>
     <string name="notification_mention_format">%s தங்களை குறிபிட்டுள்ளார்</string>
     <string name="notification_summary_large">%1$s, %2$s, %3$s மற்றும் %4$d மற்றவர்கள்</string>
     <string name="notification_summary_medium">%1$s, %2$s, மற்றும் %3$s</string>
@@ -178,8 +178,8 @@
     <string name="notification_title_summary">%d புதிய ஊடாடுதல்</string>
     <string name="description_account_locked">கணக்கு மூடப்பட்டது</string>
     <string name="about_title_activity">பற்றி</string>
-    <string name="about_tusky_version">Tusky(டஸ்கி) %s</string>
-    <string name="about_tusky_license">Tusky ஒரு கட்டற்ற மற்றும் திறந்த மூல மென்பொருள். இதன் உரிமம் GNU General Public License(பொது உரிமம்) பதிப்பு 3 -ன் கீழ் உள்ளது. நீங்கள் உரிமம் பற்றி காண: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="about_gabby_version">Gabby(டஸ்கி) %s</string>
+    <string name="about_gabby_license">Gabby ஒரு கட்டற்ற மற்றும் திறந்த மூல மென்பொருள். இதன் உரிமம் GNU General Public License(பொது உரிமம்) பதிப்பு 3 -ன் கீழ் உள்ளது. நீங்கள் உரிமம் பற்றி காண: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
          * you should think of “free” as in “free speech,” not as in “free beer”.
            We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom,
@@ -187,14 +187,14 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        	திட்டத்தின் வலைத்தளம்:\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        	பிழை அறிக்கைகள் &amp; அம்ச கோரிக்கைகள்:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Tusky-ன் கணக்கு</string>
-    <string name="status_share_content">Toot உள்ளடக்கத்தைப் பகிர்</string>
-    <string name="status_share_link">Toot இணைப்பைப் பகிர்</string>
+    <string name="about_gabby_account">Gabby-ன் கணக்கு</string>
+    <string name="status_share_content">Post உள்ளடக்கத்தைப் பகிர்</string>
+    <string name="status_share_link">Post இணைப்பைப் பகிர்</string>
     <string name="status_media_images">படங்கள்</string>
     <string name="status_media_video">காணொளி</string>
     <string name="state_follow_requested">கோரிக்கையைப் பின்பற்றவும்</string>
@@ -227,11 +227,11 @@
     <string name="lock_account_label">கணக்கை முடக்கு</string>
     <string name="lock_account_label_description">நீங்களாக பின்பற்றுபவர்களை அங்கீகரிக்க</string>
     <string name="compose_save_draft">வரைவை சேமிக்கவா?</string>
-    <string name="send_toot_notification_title">Toot அனுப்பபடுகிறது…</string>
-    <string name="send_toot_notification_error_title">Toot அனுப்புவதில் பிழை</string>
-    <string name="send_toot_notification_channel_name">Toots அனுப்பபடுகிறது</string>
-    <string name="send_toot_notification_cancel_title">Toot அனுப்பபல் நீக்கபட்டது</string>
-    <string name="send_toot_notification_saved_content">நகலெடுக்கபட்ட toot வரைவில் சேமிக்கபட்டது</string>
+    <string name="send_post_notification_title">Post அனுப்பபடுகிறது…</string>
+    <string name="send_post_notification_error_title">Post அனுப்புவதில் பிழை</string>
+    <string name="send_post_notification_channel_name">Posts அனுப்பபடுகிறது</string>
+    <string name="send_post_notification_cancel_title">Post அனுப்பபல் நீக்கபட்டது</string>
+    <string name="send_post_notification_saved_content">நகலெடுக்கபட்ட post வரைவில் சேமிக்கபட்டது</string>
     <string name="action_compose_shortcut">எழுது</string>
     <string name="error_no_custom_emojis">தங்கள் %s instance(களம்)-ல் எந்தவொரு custom emojis-ம் இல்லை </string>
     <string name="copy_to_clipboard_success">பிடிப்புப்பலகையில் நகலெடுக்க</string>
@@ -240,7 +240,7 @@
     <string name="download_fonts">தாங்கள் முதலில் இந்த Emoji sets-னை பதிவிறக்கவேண்டும்</string>
     <string name="performing_lookup_title">சேயல்பாட்டு தேடல்…</string>
     <string name="expand_collapse_all_statuses">அதிகமாக்கு/கம்மியாக்கு பற்றிய நிலைகள்</string>
-    <string name="action_open_toot">Tootயை திற</string>
+    <string name="action_open_post">Postயை திற</string>
     <string name="restart_required">செயலி மறுதொடக்கம் தேவைபடுகிறது</string>
     <string name="restart_emoji">இந்த மாறுதல்கள் செயற்படுத்த செயலியை மறுதொடக்கம் செய்ய வேண்டும்</string>
     <string name="later">பிறகு</string>
@@ -253,7 +253,7 @@
     <string name="account_moved_description">%1$s கணக்கு நகர்த்தபட்டது இதற்க்கு:</string>
     <string name="reblog_private">அசலான பார்வையாளர்களுக்கு மட்டும் மேலேற்று</string>
     <string name="unreblog_private">மேலேற்றத்தை தவிர்</string>
-    <string name="license_description">Tusky கொண்டுள்ள நிரல்  மற்றும் துணுக்குகள் பின்வரும் திறந்த மூல திட்டங்கள்:</string>
+    <string name="license_description">Gabby கொண்டுள்ள நிரல்  மற்றும் துணுக்குகள் பின்வரும் திறந்த மூல திட்டங்கள்:</string>
     <string name="license_apache_2">Apache License (copy below)-ன் கீழ் உரிமமளிக்கப்பட்டுள்ளது</string>
     <string name="profile_metadata_label">சுயவிவர  மேனிலை தரவு</string>
     <string name="profile_metadata_add">தகவலை இணைக்க</string>

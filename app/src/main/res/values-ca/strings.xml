@@ -23,7 +23,7 @@
     <string name="title_notifications">Notificacions</string>
     <string name="title_public_local">Local</string>
     <string name="title_public_federated">Federació</string>
-    <string name="title_view_thread">Toot</string>
+    <string name="title_view_thread">Post</string>
     <string name="title_tag">#%s</string>
     <string name="title_statuses">Posts</string>
     <string name="title_follows">Seguits</string>
@@ -33,10 +33,10 @@
     <string name="title_blocks">Usuaris blocats</string>
     <string name="title_follow_requests">Peticions de seguiment</string>
     <string name="title_edit_profile">Edita el perfil</string>
-    <string name="title_saved_toot">Esborranys</string>
+    <string name="title_saved_post">Esborranys</string>
 
     <string name="status_username_format">\@%s</string>
-    <string name="status_boosted_format">%s ha retootejat</string>
+    <string name="status_boosted_format">%s ha repostejat</string>
     <string name="status_sensitive_media_title">Contingut sensible</string>
     <string name="status_sensitive_media_directions">Fes clic per a visualitzar-lo</string>
     <string name="status_content_warning_show_more">Mostra\'n més</string>
@@ -44,15 +44,15 @@
 
     <string name="footer_empty">No hi ha res aquí. Llisca avall per a actualitzar!</string>
 
-    <string name="notification_reblog_format">%s ha retootejat el teu toot</string>
-    <string name="notification_favourite_format">%s ha marcat com a preferit el teu toot</string>
+    <string name="notification_reblog_format">%s ha repostejat el teu post</string>
+    <string name="notification_favourite_format">%s ha marcat com a preferit el teu post</string>
     <string name="notification_follow_format">%s et segueix</string>
 
     <string name="report_username_format">Denuncia @%s</string>
     <string name="report_comment_hint">Cap comentari addicional?</string>
 
     <string name="action_reply">Respon</string>
-    <string name="action_reblog">Retooteja</string>
+    <string name="action_reblog">Reposteja</string>
     <string name="action_favourite">Preferit</string>
     <string name="action_more">Més</string>
     <string name="action_compose">Redacta</string>
@@ -64,8 +64,8 @@
     <string name="action_unblock">Deixa de blocar</string>
     <string name="action_report">Denuncia</string>
     <string name="action_delete">Elimina</string>
-    <string name="action_send">TOOT</string>
-    <string name="action_send_public">TOOT!</string>
+    <string name="action_send">POST</string>
+    <string name="action_send_public">POST!</string>
     <string name="action_retry">Torna a intentar-ho</string>
     <string name="action_close">Tanca</string>
     <string name="action_view_profile">Perfil</string>
@@ -89,14 +89,14 @@
     <string name="action_accept">Accepta</string>
     <string name="action_reject">Rebutja</string>
     <string name="action_search">Cerca</string>
-    <string name="action_access_saved_toot">Esborranys</string>
+    <string name="action_access_saved_post">Esborranys</string>
 
     <string name="download_image">S\'està baixant %1$s</string>
 
     <string name="action_copy_link">Copia l\'enllaç</string>
 
-    <string name="send_status_link_to">Comparteix l\'URL del toot a…</string>
-    <string name="send_status_content_to">Comparteix el toot a…</string>
+    <string name="send_status_link_to">Comparteix l\'URL del post a…</string>
+    <string name="send_status_content_to">Comparteix el post a…</string>
 
     <string name="confirmation_reported">Enviat!</string>
     <string name="confirmation_unblocked">Usuari desblocat</string>
@@ -146,7 +146,7 @@
     <string name="pref_title_notification_filters">Notifica\'m si</string>
     <string name="pref_title_notification_filter_mentions">em mencionen</string>
     <string name="pref_title_notification_filter_follows">em segueixen</string>
-    <string name="pref_title_notification_filter_reblogs">retootejen les meves publicacions</string>
+    <string name="pref_title_notification_filter_reblogs">repostejen les meves publicacions</string>
     <string name="pref_title_notification_filter_favourites">marquen com a preferit les meves publicacions</string>
     <string name="pref_title_appearance_settings">Aparença</string>
     <string name="pref_title_browser_settings">Navegador</string>
@@ -154,11 +154,11 @@
     <string name="pref_title_hide_follow_button">Amaga el botó de redacció en desplaçament</string>
     <string name="pref_title_status_filter">Filtre de la cronologia</string>
     <string name="pref_title_status_tabs">Pestanyes</string>
-    <string name="pref_title_show_boosts">Mostra els retoots</string>
+    <string name="pref_title_show_boosts">Mostra els reposts</string>
     <string name="pref_title_show_replies">Mostra les respostes</string>
     <string name="pref_title_show_media_preview">Mostra les previsualitzacions</string>
 
-    <string name="pref_default_post_privacy">Privacitat predeterminada dels toots</string>
+    <string name="pref_default_post_privacy">Privacitat predeterminada dels posts</string>
     <string name="pref_publishing">Publicació</string>
 
     <string name="post_privacy_public">Pública</string>
@@ -171,10 +171,10 @@
     <string name="notification_mention_descriptions">Notificacions sobre mencions noves</string>
     <string name="notification_follow_name">Seguidors nous</string>
     <string name="notification_follow_description">Notificacions sobre nous seguidors</string>
-    <string name="notification_boost_name">Retoots</string>
-    <string name="notification_boost_description">Notificacions si retootejents els teus toots</string>
+    <string name="notification_boost_name">Reposts</string>
+    <string name="notification_boost_description">Notificacions si repostejents els teus posts</string>
     <string name="notification_favourite_name">Preferits</string>
-    <string name="notification_favourite_description">Notificacions si marquen com a preferits els teus toots</string>
+    <string name="notification_favourite_description">Notificacions si marquen com a preferits els teus posts</string>
 
 
     <string name="notification_mention_format">%s et mencionen</string>
@@ -186,23 +186,23 @@
     <string name="description_account_locked">Compte blocat</string>
 
     <string name="about_title_activity">Quant a</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky és programari gratuït, lliure i de codi obert.
+    <string name="about_gabby_version">Gabby %s</string>
+    <string name="about_gabby_license">Gabby és programari gratuït, lliure i de codi obert.
         Està llicenciat en els termes de la Llicència Pública General GNU versió 3.
         Podeu trobar les llicència aquí: https://www.gnu.org/licenses/gpl-3.0.ca.html</string>
     <!-- note to translators: the url can be changed to link to the localized version of the license -->
     <string name="about_project_site">
         Lloc web del projecte:\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">
         Informes d\'errors i peticions de funcionalitats:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Perfil del Tusky</string>
+    <string name="about_gabby_account">Perfil del Gabby</string>
 
-    <string name="status_share_content">Comparteix el contingut del toot</string>
-    <string name="status_share_link">Comparteix l\'enllaç al toot</string>
+    <string name="status_share_content">Comparteix el contingut del post</string>
+    <string name="status_share_link">Comparteix l\'enllaç al post</string>
     <string name="status_media_images">Imatges</string>
     <string name="status_media_video">Vídeo</string>
 
@@ -229,7 +229,7 @@
 <string name="poll_vote">Vota</string>
 
 
-<string name="error_sender_account_gone">Error enviant el toot.</string>
+<string name="error_sender_account_gone">Error enviant el post.</string>
 
     <string name="title_advanced">Avançat</string>
     <string name="title_tab_preferences">Pestanyes</string>
@@ -250,11 +250,11 @@
     <string name="status_content_show_less">Amagar</string>
 
     <string name="action_logout_confirm">Estas segur de tancar la sessió de %1$s\?</string>
-    <string name="action_hide_reblogs">Amaga els retoots</string>
-    <string name="action_show_reblogs">Mostra els retootejats</string>
+    <string name="action_hide_reblogs">Amaga els reposts</string>
+    <string name="action_show_reblogs">Mostra els repostejats</string>
     <string name="action_delete_and_redraft">Elimina i reecririu</string>
     <string name="action_open_drawer">Obre el menú</string>
-    <string name="action_toggle_visibility">Visibilitat del toot</string>
+    <string name="action_toggle_visibility">Visibilitat del post</string>
     <string name="action_content_warning">Contingut sensible</string>
     <string name="action_add_tab">Afegir una pestanya</string>
     <string name="action_links">Enllaç</string>
@@ -283,8 +283,8 @@
 
     <string name="label_quick_reply">Resposta …</string>
     <string name="dialog_message_cancel_follow_request">Revocar la petició de seguiment\?</string>
-    <string name="dialog_delete_toot_warning">Vols eliminar aquest toot\?</string>
-    <string name="dialog_redraft_toot_warning">Esborrar i reescriure aquest toot\?</string>
+    <string name="dialog_delete_post_warning">Vols eliminar aquest post\?</string>
+    <string name="dialog_redraft_post_warning">Esborrar i reescriure aquest post\?</string>
 
     <string name="pref_summary_notifications">per el compte %1$s</string>
     <string name="pref_title_notification_filter_poll">Finalització de les enquetes</string>
@@ -361,11 +361,11 @@
     <string name="lock_account_label">Protegir el compte</string>
     <string name="lock_account_label_description">S\'haurà d\'admetre els seguidors manualment</string>
     <string name="compose_save_draft">Guardar l\'esborrany\?</string>
-    <string name="send_toot_notification_title">Enviant toot…</string>
-    <string name="send_toot_notification_error_title">Error enviant el toot</string>
-    <string name="send_toot_notification_channel_name">Enviant toots</string>
-    <string name="send_toot_notification_cancel_title">Envio anul·lat</string>
-    <string name="send_toot_notification_saved_content">Una copia del toot s\'ha guardat a esborranys</string>
+    <string name="send_post_notification_title">Enviant post…</string>
+    <string name="send_post_notification_error_title">Error enviant el post</string>
+    <string name="send_post_notification_channel_name">Enviant posts</string>
+    <string name="send_post_notification_cancel_title">Envio anul·lat</string>
+    <string name="send_post_notification_saved_content">Una copia del post s\'ha guardat a esborranys</string>
     <string name="action_compose_shortcut">Escriure</string>
 
     <string name="error_no_custom_emojis">La teva instància %s no te emojis personalitzats</string>
@@ -375,7 +375,7 @@
     <string name="download_fonts">Hauràs de descarregar el joc d\'emojis</string>
     <string name="performing_lookup_title">Cercant…</string>
     <string name="expand_collapse_all_statuses">Expandir/ocultar tots els estats</string>
-    <string name="action_open_toot">Obrir toot</string>
+    <string name="action_open_post">Obrir post</string>
     <string name="restart_required">Cal reiniciar l\'aplicació</string>
     <string name="restart_emoji">Has de reiniciar l\'aplicació per tal d\'aplicar aquests canvis</string>
     <string name="later">Més tard</string>
@@ -391,7 +391,7 @@
     <string name="reblog_private">Tornar a impulsar</string>
     <string name="unreblog_private">No impulsar</string>
 
-    <string name="license_description">Tusky conté codi i recursos dels següents projectes:</string>
+    <string name="license_description">Gabby conté codi i recursos dels següents projectes:</string>
     <string name="license_apache_2">Sota llicencia Apache (text a sota)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
@@ -440,7 +440,7 @@
     <string name="notifications_apply_filter">Filtrar</string>
     <string name="filter_apply">Aplicar</string>
 
-    <string name="compose_shortcut_long_label">Escriure un toot</string>
+    <string name="compose_shortcut_long_label">Escriure un post</string>
     <string name="compose_shortcut_short_label">Escriure</string>
     <string name="pref_title_bot_overlay">Mostra l\'indicador dels bots</string>
 
@@ -477,8 +477,8 @@
 <string name="description_status_cw">Advertència: %s</string>
     <string name="poll_option_format"> <!-- 15% vota aquesta acció! --> &lt;b&gt;%1$d%%&lt;/b&gt; %2$s</string>
 
-    <string name="title_statuses_pinned">Toot fixat</string>
-    <string name="unpin_action">Toot no fixat</string>
+    <string name="title_statuses_pinned">Post fixat</string>
+    <string name="unpin_action">Post no fixat</string>
     <string name="pin_action">Fixar</string>
 
     <string name="description_status_reblogged">Respost</string>

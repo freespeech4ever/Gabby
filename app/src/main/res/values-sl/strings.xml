@@ -41,7 +41,7 @@
     <string name="title_blocks">Blokirani uporabniki</string>
     <string name="title_follow_requests">Zahteve za sledenje</string>
     <string name="title_edit_profile">Uredi svoj profil</string>
-    <string name="title_saved_toot">Osnutki</string>
+    <string name="title_saved_post">Osnutki</string>
     <string name="title_licenses">Licence</string>
 
     <string name="status_username_format">\@%s</string>
@@ -109,7 +109,7 @@
     <string name="action_accept">Sprejmi</string>
     <string name="action_reject">Zavrni</string>
     <string name="action_search">Iskanje</string>
-    <string name="action_access_saved_toot">Osnutki</string>
+    <string name="action_access_saved_post">Osnutki</string>
     <string name="action_toggle_visibility">Vidljivost tuta</string>
     <string name="action_content_warning">Opozorilo o vsebini</string>
     <string name="action_emoji_keyboard">Emoji tipkovnica</string>
@@ -178,7 +178,7 @@
     <string name="dialog_download_image">Prejmi</string>
     <string name="dialog_message_cancel_follow_request">Želite preklicati to zahtevo\?</string>
     <string name="dialog_unfollow_warning">Prenehajte slediti temu računu\?</string>
-    <string name="dialog_delete_toot_warning">Želite izbrisati ta tut\?</string>
+    <string name="dialog_delete_post_warning">Želite izbrisati ta tut\?</string>
 
     <string name="visibility_public">Javno: Objavi v javnih časovnicah</string>
     <string name="visibility_unlisted">Ni prikazano: Ne prikaže v javnih časovnicah</string>
@@ -246,13 +246,13 @@
     <string name="description_account_locked">Zaklenjen račun</string>
 
     <string name="about_title_activity">O aplikaciji</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky je prosta in odprtokodna programska oprema. Licencirana je pod licenco GNU General Public License različice 3. Licenco si lahko ogledate tukaj: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="about_gabby_version">Gabby %s</string>
+    <string name="about_gabby_license">Gabby je prosta in odprtokodna programska oprema. Licencirana je pod licenco GNU General Public License različice 3. Licenco si lahko ogledate tukaj: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <string name="about_project_site">Spletna stran projekta:
-\nhttps://tusky.app</string>
+\nhttps://gabby.app</string>
     <string name="about_bug_feature_request_site">Poročila o napakah in želje za nove funkcije:
-\nhttps://github.com/tuskyapp/Tusky/issues</string>
-    <string name="about_tusky_account">Profil Tusky</string>
+\nhttps://github.com/gabbyapp/Gabby/issues</string>
+    <string name="about_gabby_account">Profil Gabby</string>
 
     <string name="status_share_content">Deli vsebino tuta</string>
     <string name="status_share_link">Deli povezavo do tuta</string>
@@ -315,11 +315,11 @@
     <string name="lock_account_label">Zakleni račun</string>
     <string name="lock_account_label_description">Zahtevana je ročna potrditev sledilcev</string>
     <string name="compose_save_draft">Shrani osnutek\?</string>
-    <string name="send_toot_notification_title">Pošiljanje tuta…</string>
-    <string name="send_toot_notification_error_title">napaka pri pošiljanju tuta</string>
-    <string name="send_toot_notification_channel_name">Pošiljanje tutov</string>
-    <string name="send_toot_notification_cancel_title">Pošiljanje je preklicano</string>
-    <string name="send_toot_notification_saved_content">Kopija tuta je bila shranjena v osnutke</string>
+    <string name="send_post_notification_title">Pošiljanje tuta…</string>
+    <string name="send_post_notification_error_title">napaka pri pošiljanju tuta</string>
+    <string name="send_post_notification_channel_name">Pošiljanje tutov</string>
+    <string name="send_post_notification_cancel_title">Pošiljanje je preklicano</string>
+    <string name="send_post_notification_saved_content">Kopija tuta je bila shranjena v osnutke</string>
     <string name="action_compose_shortcut">Sestavi</string>
 
     <string name="error_no_custom_emojis">Vaše vozlišče %s nima emotikonov po meri</string>
@@ -329,9 +329,9 @@
     <string name="download_fonts">Najprej boste morali prenesti te emotikone</string>
     <string name="performing_lookup_title">Izvajanje iskanja…</string>
     <string name="expand_collapse_all_statuses">Razširi/Strni vse statuse</string>
-    <string name="action_open_toot">Odpri tut</string>
+    <string name="action_open_post">Odpri tut</string>
     <string name="restart_required">Potreben je ponovni zagon aplikacije</string>
-    <string name="restart_emoji">Če želite uveljaviti te spremembe, morate znova zagnati Tusky</string>
+    <string name="restart_emoji">Če želite uveljaviti te spremembe, morate znova zagnati Gabby</string>
     <string name="later">Kasneje</string>
     <string name="restart">Znova zaženi</string>
     <string name="caption_systememoji">"Privzeti komplet emotikonov vaše naprave "</string>
@@ -345,7 +345,7 @@
     <string name="reblog_private">Spodbudi izvirnemu občinstvu</string>
     <string name="unreblog_private">Prekini spodbudo</string>
 
-    <string name="license_description">Tusky vsebuje kodo in sredstva iz naslednjih odprtokodnih projektov:</string>
+    <string name="license_description">Gabby vsebuje kodo in sredstva iz naslednjih odprtokodnih projektov:</string>
     <string name="license_apache_2">Licencirano pod licenco Apache (spodaj)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
@@ -412,7 +412,7 @@
     <string name="notification_clear_text">Ali ste prepričani, da želite trajno izbrisati vsa obvestila\?</string>
 
 <string name="action_delete_and_redraft">Izbriši in preoblikuj</string>
-    <string name="dialog_redraft_toot_warning">Izbriši in preoblikuj tut\?</string>
+    <string name="dialog_redraft_post_warning">Izbriši in preoblikuj tut\?</string>
 
 
     <string name="poll_info_format"> <!-- 15 votes • 1 hour left --> %1$s • %2$s</string>

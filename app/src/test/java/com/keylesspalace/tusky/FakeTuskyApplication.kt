@@ -1,10 +1,10 @@
-package com.keylesspalace.tusky
+package com.gab.gabby
 
 /**
  * Created by charlag on 3/7/18.
  */
 
-class FakeTuskyApplication : TuskyApplication() {
+class FakeGabbyApplication : GabbyApplication() {
 
     private lateinit var locator: ServiceLocator
 

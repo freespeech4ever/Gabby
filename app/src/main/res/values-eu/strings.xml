@@ -35,7 +35,7 @@
     <string name="title_blocks">Blokeatuak</string>
     <string name="title_follow_requests">Eskakizunak</string>
     <string name="title_edit_profile">Profila editatu</string>
-    <string name="title_saved_toot">Zirriborroak</string>
+    <string name="title_saved_post">Zirriborroak</string>
     <string name="title_licenses">Lizentziak</string>
     <string name="status_boosted_format">%s-(e)k bultzatu du</string>
     <string name="status_sensitive_media_title">Kontuz edukiarekin</string>
@@ -96,7 +96,7 @@
     <string name="action_accept">Onartu</string>
     <string name="action_reject">Ukatu</string>
     <string name="action_search">Bilatu</string>
-    <string name="action_access_saved_toot">Zirriborroak</string>
+    <string name="action_access_saved_post">Zirriborroak</string>
     <string name="action_toggle_visibility">Tutaren ikusgarritasuna</string>
     <string name="action_content_warning">Edukiaren abisua</string>
     <string name="action_emoji_keyboard">Emoji teklatua</string>
@@ -132,7 +132,7 @@
     <string name="dialog_download_image">Jaitsi</string>
     <string name="dialog_message_cancel_follow_request">Lagun eskaera ezeztatu?</string>
     <string name="dialog_unfollow_warning">Kontu hau jarraitzeari utzi?</string>
-    <string name="dialog_delete_toot_warning">Tuta ezabatu?</string>
+    <string name="dialog_delete_post_warning">Tuta ezabatu?</string>
     <string name="visibility_public">Publikoa: Istorio publikoetan erakutsi</string>
     <string name="visibility_unlisted">Ezkutukoa: Ez erakutsi istorio publikoetan</string>
     <string name="visibility_private">Pribatua: Jarraitzaileentzat soilik ikusgai</string>
@@ -202,7 +202,7 @@
     <string name="notification_title_summary">%d interakzio berri</string>
     <string name="description_account_locked">Kontu babestua</string>
     <string name="about_title_activity">Honi buruz</string>
-    <string name="about_tusky_license">Tusky software libre eta kode askekoa da.
+    <string name="about_gabby_license">Gabby software libre eta kode askekoa da.
         \"GNU General Public License Version 3\" lizentziapean zabaldua.
         Lizentzia hontaz gehiago irakurtzeko: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
@@ -212,12 +212,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        Proiektuaren gunea:\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        Akats jakinarazpenak eta hobekuntza eskariak:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Tusky-ren profila</string>
+    <string name="about_gabby_account">Gabby-ren profila</string>
     <string name="status_share_content">Partekatu edukia</string>
     <string name="status_share_link">Partekatu lotura</string>
     <string name="status_media_images">Irudiak</string>
@@ -250,11 +250,11 @@
     <string name="lock_account_label">Kontua babestu</string>
     <string name="lock_account_label_description">Jarraitzaileak eskuz onartu beharko dituzu</string>
     <string name="compose_save_draft">Zirriborroa gorde?</string>
-    <string name="send_toot_notification_title">Tuta ezabatzen…</string>
-    <string name="send_toot_notification_error_title">Errorea tuta bidaltzerakoan</string>
-    <string name="send_toot_notification_channel_name">Tuta bidaltzen</string>
-    <string name="send_toot_notification_cancel_title">Bidalketa ezeztatua</string>
-    <string name="send_toot_notification_saved_content">Tutaren kopia zirriborroetan sartu da</string>
+    <string name="send_post_notification_title">Tuta ezabatzen…</string>
+    <string name="send_post_notification_error_title">Errorea tuta bidaltzerakoan</string>
+    <string name="send_post_notification_channel_name">Tuta bidaltzen</string>
+    <string name="send_post_notification_cancel_title">Bidalketa ezeztatua</string>
+    <string name="send_post_notification_saved_content">Tutaren kopia zirriborroetan sartu da</string>
     <string name="action_compose_shortcut">Idatzi</string>
     <string name="error_no_custom_emojis">%s instantziak ez ditu emoji pertsonalizatuak eskaintzen</string>
     <string name="copy_to_clipboard_success">Arbelean kopiatua</string>
@@ -263,7 +263,7 @@
     <string name="download_fonts">Lehenago jaitsi beharko dituzu</string>
     <string name="performing_lookup_title">Bilatzen…</string>
     <string name="expand_collapse_all_statuses">Tut guztiak ezkutatu/zabaldu</string>
-    <string name="action_open_toot">Ireki</string>
+    <string name="action_open_post">Ireki</string>
     <string name="restart_required">Berrabiaraztea beharrezkoa da</string>
     <string name="restart_emoji">Aplikazioa berrabiarazi beharko duzu aldaketa ezartzeko</string>
     <string name="later">Beranduago</string>
@@ -276,7 +276,7 @@
     <string name="account_moved_description">%1$s hona mugitu da:</string>
     <string name="reblog_private">Berriz bultzatu</string>
     <string name="unreblog_private">Bultzatzea utzi</string>
-    <string name="license_description">Tusky-k ondorengo proiektuetako kode eta baliabideak ditu:</string>
+    <string name="license_description">Gabby-k ondorengo proiektuetako kode eta baliabideak ditu:</string>
     <string name="license_apache_2">Apache Lizentziapean (testua zerrendaren azpian)</string>
     <string name="profile_metadata_label">Informazio gehigarria</string>
     <string name="profile_metadata_add">Eremua gehitu</string>

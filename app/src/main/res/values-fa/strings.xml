@@ -35,7 +35,7 @@
     <string name="title_blocks">کاربرهای مسدود شده</string>
     <string name="title_follow_requests">درخواست‌های دنبال کردن</string>
     <string name="title_edit_profile">ویرایش نمایه شما</string>
-    <string name="title_saved_toot">پیش‌نویس‌ها</string>
+    <string name="title_saved_post">پیش‌نویس‌ها</string>
     <string name="title_licenses">مجوزها</string>
     <string name="status_boosted_format">%s تقویت شد</string>
     <string name="status_sensitive_media_title">محتوی حساس</string>
@@ -96,7 +96,7 @@
     <string name="action_accept">پذیرش</string>
     <string name="action_reject">رد</string>
     <string name="action_search">جستجو</string>
-    <string name="action_access_saved_toot">پیش‌نویس</string>
+    <string name="action_access_saved_post">پیش‌نویس</string>
     <string name="action_toggle_visibility">نمایش بوق</string>
     <string name="action_content_warning">هشدار محتوی</string>
     <string name="action_emoji_keyboard">صفحه کلیک شکلک</string>
@@ -128,7 +128,7 @@
     <string name="dialog_download_image">بارگیری</string>
     <string name="dialog_message_cancel_follow_request">درخواست دنبال کردن را لغو می‌کنید؟</string>
     <string name="dialog_unfollow_warning">لغو دنبال کردن این حساب</string>
-    <string name="dialog_delete_toot_warning">حذف این بوق</string>
+    <string name="dialog_delete_post_warning">حذف این بوق</string>
     <string name="visibility_public">عمومی:پست به خط زمانی عمومی</string>
     <string name="visibility_unlisted">خارج از لیست: در خط زمانی عمومی نشان نده</string>
     <string name="visibility_private">تنها دنبال‌کنندگان:پست فقط به دنبال‌کنندگان</string>
@@ -198,7 +198,7 @@
     <string name="notification_title_summary">%d تعاملات جدید</string>
     <string name="description_account_locked">حساب قفل شد</string>
     <string name="about_title_activity">درباره</string>
-    <string name="about_tusky_license">Tusky  یک برنامه آزاد و متن‌باز است که تحت مجوز  GNU General Public License Version 3.    منتشر شده است.\n
+    <string name="about_gabby_license">Gabby  یک برنامه آزاد و متن‌باز است که تحت مجوز  GNU General Public License Version 3.    منتشر شده است.\n
                 شما می‌توانید مجوز را از اینجا ببینید:\n
     https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
@@ -208,12 +208,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        سایت پروژه\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        گزارش خطا و درخواست ویژگی:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">نمایه Tusky</string>
+    <string name="about_gabby_account">نمایه Gabby</string>
     <string name="status_share_content">هم‌رسانی محتوی بوق</string>
     <string name="status_share_link">هم‌رسانی لینک بوق</string>
     <string name="status_media_images">تصویرها</string>
@@ -244,11 +244,11 @@
     <string name="lock_account_label">قفل حساب</string>
     <string name="lock_account_label_description">به شما امکان می‌دهد بصورت دستی دنبال‌کنندگان را تایید کنید</string>
     <string name="compose_save_draft">ذخیره به عنوان پیش‌نویس</string>
-    <string name="send_toot_notification_title">فرستادن بوق</string>
-    <string name="send_toot_notification_error_title">خطای فرستادن بوق</string>
-    <string name="send_toot_notification_channel_name">در حال فرستادن بوق‌ها</string>
-    <string name="send_toot_notification_cancel_title">فرستادن لغو شد</string>
-    <string name="send_toot_notification_saved_content">یک رونوشت از بوق در پیش‌نویس‌ها ذخیره شد</string>
+    <string name="send_post_notification_title">فرستادن بوق</string>
+    <string name="send_post_notification_error_title">خطای فرستادن بوق</string>
+    <string name="send_post_notification_channel_name">در حال فرستادن بوق‌ها</string>
+    <string name="send_post_notification_cancel_title">فرستادن لغو شد</string>
+    <string name="send_post_notification_saved_content">یک رونوشت از بوق در پیش‌نویس‌ها ذخیره شد</string>
     <string name="action_compose_shortcut">ایجاد</string>
     <string name="error_no_custom_emojis">سرور شما %s هیچ شکلک سفارشی ندارد</string>
     <string name="copy_to_clipboard_success">به کلیپ بورد کپی شد</string>
@@ -257,7 +257,7 @@
     <string name="download_fonts">شما ابتدا باید این شکلک‌ها را دریافت کنید</string>
     <string name="performing_lookup_title">اجرای جستجو</string>
     <string name="expand_collapse_all_statuses">باز/بستن همه وضعیت‌ها</string>
-    <string name="action_open_toot">بوق را باز کن</string>
+    <string name="action_open_post">بوق را باز کن</string>
     <string name="restart_required">برنامه به شروع مجدد نیاز دارد</string>
     <string name="restart_emoji">شما برای اعمال این تغییرات به شروع مجدد برنامه نیاز دارید</string>
     <string name="later">بعدا</string>
@@ -270,7 +270,7 @@
     <string name="account_moved_description">%1$s جابجا شد به:</string>
     <string name="reblog_private">تقویت برای مخاطب اصلی</string>
     <string name="unreblog_private">لغو تقویت</string>
-    <string name="license_description">Tusky شامل کد و دارایی‌های پروژه‌های منبع‌باز زیر است:</string>
+    <string name="license_description">Gabby شامل کد و دارایی‌های پروژه‌های منبع‌باز زیر است:</string>
     <string name="license_apache_2">تحت مجوز آپاچی (رونوشت در ادامه)</string>
     <string name="profile_metadata_label">متاداده نمایه</string>
     <string name="profile_metadata_add">افزودن داده</string>

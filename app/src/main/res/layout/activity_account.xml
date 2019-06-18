@@ -57,7 +57,7 @@
 
                     <Button
                         android:id="@+id/accountFollowButton"
-                        style="@style/TuskyButton"
+                        style="@style/GabbyButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
@@ -75,7 +75,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/accountMuteButton"
-                        style="@style/TuskyButton.Outlined"
+                        style="@style/GabbyButton.Outlined"
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:layout_marginStart="16dp"
@@ -105,7 +105,7 @@
                         android:textStyle="normal|bold"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        tools:text="Tusky Mastodon Client " />
+                        tools:text="Gabby Mastodon Client " />
 
                     <TextView
                         android:id="@+id/accountUsernameTextView"
@@ -118,7 +118,7 @@
                         android:textSize="?attr/status_text_medium"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/accountDisplayNameTextView"
-                        tools:text="\@Tusky" />
+                        tools:text="\@Gabby" />
 
                     <ImageView
                         android:id="@+id/accountLockedImageView"
@@ -324,14 +324,14 @@
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/accountTabLayout"
-                style="@style/TuskyTabAppearance"
+                style="@style/GabbyTabAppearance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:background="?android:colorBackground"
                 app:tabGravity="center"
                 app:tabMode="scrollable"
-                app:tabTextAppearance="@style/TuskyTabAppearance" />
+                app:tabTextAppearance="@style/GabbyTabAppearance" />
 
         </com.google.android.material.appbar.AppBarLayout>
 
@@ -352,7 +352,7 @@
 
         <include layout="@layout/item_status_bottom_sheet" />
 
-        <com.keylesspalace.tusky.view.RoundedImageView
+        <com.gab.gabby.view.RoundedImageView
             android:id="@+id/accountAvatarImageView"
             android:layout_width="@dimen/account_activity_avatar_size"
             android:layout_height="@dimen/account_activity_avatar_size"

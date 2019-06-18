@@ -20,7 +20,7 @@
     <string name="error_media_upload_sending">Il caricamento non è riuscito.</string>
     <string name="error_report_too_few_statuses">Almeno uno stato deve essere segnalato.</string>
     <string name="error_invalid_regex">Espressione regolare non valida</string>
-    <string name="error_sender_account_gone">Errore nell\'invio del toot.</string>
+    <string name="error_sender_account_gone">Errore nell\'invio del post.</string>
     <string name="title_home">Home</string>
     <string name="title_advanced">Avanzato</string>
     <string name="title_notifications">Notifiche</string>
@@ -28,7 +28,7 @@
     <string name="title_public_federated">Federata</string>
     <string name="title_direct_messages">Messaggi Diretti</string>
     <string name="title_tab_preferences">Schede</string>
-    <string name="title_view_thread">Toot</string>
+    <string name="title_view_thread">Post</string>
     <string name="title_tag">#%s</string>
     <string name="title_statuses">Post</string>
     <string name="title_statuses_with_replies">Con risposte</string>
@@ -40,7 +40,7 @@
     <string name="title_blocks">Utenti bloccati</string>
     <string name="title_follow_requests">Richieste di Seguire</string>
     <string name="title_edit_profile">Modifica il tuo profilo</string>
-    <string name="title_saved_toot">Bozze</string>
+    <string name="title_saved_post">Bozze</string>
     <string name="title_licenses">Licenze</string>
     <string name="status_username_format">\@%s</string>
     <string name="status_boosted_format">%s ha boostato</string>
@@ -53,8 +53,8 @@
     <string name="status_content_show_less">Riduci</string>
     <string name="message_empty">Qui non c\'è niente.</string>
     <string name="footer_empty">Qui non c\'è niente. Trascina verso il basso per aggiornare!</string>
-    <string name="notification_reblog_format">%s ha boostato il tuo toot</string>
-    <string name="notification_favourite_format">%s ha messo il tuo toot nei preferiti</string>
+    <string name="notification_reblog_format">%s ha boostato il tuo post</string>
+    <string name="notification_favourite_format">%s ha messo il tuo post nei preferiti</string>
     <string name="notification_follow_format">%s ti segue</string>
     <string name="report_username_format">Segnala @%s</string>
     <string name="report_comment_hint">Commenti aggiuntivi?</string>
@@ -77,8 +77,8 @@
     <string name="action_show_reblogs">Mostra boost</string>
     <string name="action_report">Segnala</string>
     <string name="action_delete">Elimina</string>
-    <string name="action_send">TOOT</string>
-    <string name="action_send_public">TOOT!</string>
+    <string name="action_send">POST</string>
+    <string name="action_send_public">POST!</string>
     <string name="action_retry">Riprova</string>
     <string name="action_close">Chiudi</string>
     <string name="action_view_profile">Profilo</string>
@@ -105,8 +105,8 @@
     <string name="action_accept">Accetta</string>
     <string name="action_reject">Rifiuta</string>
     <string name="action_search">Cerca</string>
-    <string name="action_access_saved_toot">Bozze</string>
-    <string name="action_toggle_visibility">Visibilità dei toot</string>
+    <string name="action_access_saved_post">Bozze</string>
+    <string name="action_toggle_visibility">Visibilità dei post</string>
     <string name="action_content_warning">Avviso per il contenuto</string>
     <string name="action_emoji_keyboard">Tastiera emoji</string>
     <string name="action_add_tab">Aggiungi Scheda</string>
@@ -124,8 +124,8 @@
     <string name="action_copy_link">Copia il link</string>
     <string name="action_open_as">Apri come %s</string>
     <string name="action_share_as">Condividi come …</string>
-    <string name="send_status_link_to">Condividi URL del toot su…</string>
-    <string name="send_status_content_to">Condividi toot su…</string>
+    <string name="send_status_link_to">Condividi URL del post su…</string>
+    <string name="send_status_content_to">Condividi post su…</string>
     <string name="send_media_to">Condividi media su…</string>
     <string name="confirmation_reported">Inviato!</string>
     <string name="confirmation_unblocked">Utente sbloccato</string>
@@ -156,7 +156,7 @@
     <string name="dialog_download_image">Scarica</string>
     <string name="dialog_message_cancel_follow_request">Revocare la richiesta di seguire?</string>
     <string name="dialog_unfollow_warning">Smettere di seguire questo account?</string>
-    <string name="dialog_delete_toot_warning">Eliminare questo toot?</string>
+    <string name="dialog_delete_post_warning">Eliminare questo post?</string>
     <string name="visibility_public">Pubblico: visibile sulla timeline pubblica</string>
     <string name="visibility_unlisted">Non Elencato: non visibile sulla timeline pubblica e locale</string>
     <string name="visibility_private">Solo Follower: visibile solo dai tuoi follower</string>
@@ -219,9 +219,9 @@
     <string name="notification_follow_name">Nuove persone che ti seguono</string>
     <string name="notification_follow_description">Notifiche su nuove persone che ti seguono</string>
     <string name="notification_boost_name">Boost</string>
-    <string name="notification_boost_description">Notifiche quando i tuoi toot vengono boostati</string>
+    <string name="notification_boost_description">Notifiche quando i tuoi post vengono boostati</string>
     <string name="notification_favourite_name">Preferiti</string>
-    <string name="notification_favourite_description">Notifiche quando i tuoi toot vengono segnati come preferiti</string>
+    <string name="notification_favourite_description">Notifiche quando i tuoi post vengono segnati come preferiti</string>
     <string name="notification_mention_format">%s ti ha menzionato</string>
     <string name="notification_summary_large">%1$s, %2$s, %3$s e %4$d altri</string>
     <string name="notification_summary_medium">%1$s, %2$s e %3$s</string>
@@ -229,8 +229,8 @@
     <string name="notification_title_summary">%d nuove interazioni</string>
     <string name="description_account_locked">Account bloccato</string>
     <string name="about_title_activity">A proposito</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky è un programma libero ed open source.
+    <string name="about_gabby_version">Gabby %s</string>
+    <string name="about_gabby_license">Gabby è un programma libero ed open source.
 		È distribuito con licenza GNU General Public License Version 3.
 		Puoi leggere la licenza qui: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
@@ -240,12 +240,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">Sito web del progetto:\n
-		https://tusky.app</string>
+		https://gabby.app</string>
     <string name="about_bug_feature_request_site">Segnala problemi &amp; richiedi funzionalità:\n
-		https://github.com/tuskyapp/Tusky/issues</string>
-    <string name="about_tusky_account">Profilo di Tusky</string>
-    <string name="status_share_content">Condividi contenuto del toot</string>
-    <string name="status_share_link">Condividi link al toot</string>
+		https://github.com/gabbyapp/Gabby/issues</string>
+    <string name="about_gabby_account">Profilo di Gabby</string>
+    <string name="status_share_content">Condividi contenuto del post</string>
+    <string name="status_share_link">Condividi link al post</string>
     <string name="status_media_images">Immagini</string>
     <string name="status_media_video">Video</string>
     <string name="state_follow_requested">In attesa di approvazione</string>
@@ -296,11 +296,11 @@
     <string name="lock_account_label">Blocca account</string>
     <string name="lock_account_label_description">Richiede la tua approvazione manuale di chi ti segue</string>
     <string name="compose_save_draft">Salvare bozza?</string>
-    <string name="send_toot_notification_title">Inviando il Toot…</string>
-    <string name="send_toot_notification_error_title">Errore durante l\'invio</string>
-    <string name="send_toot_notification_channel_name">Invio Toot</string>
-    <string name="send_toot_notification_cancel_title">Invio annullato</string>
-    <string name="send_toot_notification_saved_content">Una copia del toot è stata salvata nelle tue bozze</string>
+    <string name="send_post_notification_title">Inviando il Post…</string>
+    <string name="send_post_notification_error_title">Errore durante l\'invio</string>
+    <string name="send_post_notification_channel_name">Invio Post</string>
+    <string name="send_post_notification_cancel_title">Invio annullato</string>
+    <string name="send_post_notification_saved_content">Una copia del post è stata salvata nelle tue bozze</string>
     <string name="action_compose_shortcut">Componi</string>
     <string name="error_no_custom_emojis">La tua istanza %s non ha nessuna emoji personalizzata</string>
     <string name="copy_to_clipboard_success">Copiato negli appunti</string>
@@ -309,9 +309,9 @@
     <string name="download_fonts">Dovrai prima scaricare questo pacchetto di emoji</string>
     <string name="performing_lookup_title">Eseguendo una ricerca…</string>
     <string name="expand_collapse_all_statuses">Espandi/Riduci tutti gli stati</string>
-    <string name="action_open_toot">Apri toot</string>
+    <string name="action_open_post">Apri post</string>
     <string name="restart_required">Riavvio dell\'app richiesto</string>
-    <string name="restart_emoji">Devi riavviare Tusky per applicare queste modifiche</string>
+    <string name="restart_emoji">Devi riavviare Gabby per applicare queste modifiche</string>
     <string name="later">Più tardi</string>
     <string name="restart">Riavvia</string>
     <string name="caption_systememoji">Le emoji predefinite del tuo dispositivo</string>
@@ -322,7 +322,7 @@
     <string name="account_moved_description">%1$s si è spostato su:</string>
     <string name="reblog_private">Boost con la visibilità del post di origine</string>
     <string name="unreblog_private">Annulla boost</string>
-    <string name="license_description">Tusky contiene codice e risorse dai seguenti progetti open source:</string>
+    <string name="license_description">Gabby contiene codice e risorse dai seguenti progetti open source:</string>
     <string name="license_apache_2">Licenziata sotto la Licenza Apache (copia sotto)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
@@ -378,7 +378,7 @@
     <string name="hashtag">Hashtag</string>
 
 
-<string name="compose_shortcut_long_label">Componi Toot</string>
+<string name="compose_shortcut_long_label">Componi Post</string>
     <string name="compose_shortcut_short_label">Componi</string>
 
 <string name="notifications_clear">Pulisci</string>
@@ -390,7 +390,7 @@
 <string name="notification_clear_text">Sei sicuro di voler permanentemente eliminare tutte le tue notifiche\?</string>
 
 <string name="action_delete_and_redraft">Cancella e riscrivi</string>
-    <string name="dialog_redraft_toot_warning">Cancellare e riscrivere questo toot\?</string>
+    <string name="dialog_redraft_post_warning">Cancellare e riscrivere questo post\?</string>
 
     <plurals name="poll_info_votes">
 	<item quantity="one">%s voto</item>

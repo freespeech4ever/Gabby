@@ -34,7 +34,7 @@
     <string name="title_blocks">Utilizaires blocats</string>
     <string name="title_follow_requests">Demandas d’abonament</string>
     <string name="title_edit_profile">Modificar lo perfil</string>
-    <string name="title_saved_toot">Borrolhons</string>
+    <string name="title_saved_post">Borrolhons</string>
     <string name="title_licenses">Licéncias</string>
     <string name="status_boosted_format">%s partejat</string>
     <string name="status_sensitive_media_title">Contengut sensible</string>
@@ -94,7 +94,7 @@
     <string name="action_accept">Acceptar</string>
     <string name="action_reject">Regetar</string>
     <string name="action_search">Cercar</string>
-    <string name="action_access_saved_toot">Borrolhons</string>
+    <string name="action_access_saved_post">Borrolhons</string>
     <string name="action_toggle_visibility">Visibilitat del tut</string>
     <string name="action_content_warning">Avís de contengut</string>
     <string name="action_emoji_keyboard">Clavièr Emoji</string>
@@ -131,7 +131,7 @@
     <string name="dialog_download_image">Telecargar</string>
     <string name="dialog_message_cancel_follow_request">Anullar la demandar d’abonament ?</string>
     <string name="dialog_unfollow_warning">Volètz quitar de seguir aqueste compte ?</string>
-    <string name="dialog_delete_toot_warning">Suprimir aqueste tut \?</string>
+    <string name="dialog_delete_post_warning">Suprimir aqueste tut \?</string>
     <string name="visibility_public">Publica : es visibla a la cronologia publica</string>
     <string name="visibility_unlisted">Pas-listada : es pas visibla a las cronologias publicas</string>
     <string name="visibility_private">Solament seguidors : pas que visibla pels vòstres seguidors</string>
@@ -193,7 +193,7 @@
     <string name="notification_title_summary">%d interaccions nòvas</string>
     <string name="description_account_locked">Compte blocat</string>
     <string name="about_title_activity">A prepaus</string>
-    <string name="about_tusky_license">Tusky es programa gratuït, liure e de còdi dobèrt.
+    <string name="about_gabby_license">Gabby es programa gratuït, liure e de còdi dobèrt.
         Es publicat jols tèrms de la licéncia publica generala GNU version 3.
         Podeu trobar les llicència aquí: https://www.gnu.org/licenses/gpl-3.0.ca.html</string>
     <!-- note to translators:
@@ -203,12 +203,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        Site web del projècte :\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        Rapòrts d\'errors e demandas de foncionalitats :\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Perfil de Tusky</string>
+    <string name="about_gabby_account">Perfil de Gabby</string>
     <string name="status_share_content">Partejar lo contengut del tut</string>
     <string name="status_share_link">Partejar lo ligam del tut</string>
     <string name="status_media_images">Imatges</string>
@@ -239,11 +239,11 @@
     <string name="lock_account_label">Clavar lo compte</string>
     <string name="lock_account_label_description">Demanda que validetz manualament los seguidors</string>
     <string name="compose_save_draft">Salvar lo borrolhon ?</string>
-    <string name="send_toot_notification_title">Mandadís del tut…</string>
-    <string name="send_toot_notification_error_title">Error en enviar lo tut</string>
-    <string name="send_toot_notification_channel_name">Mandadís dels tuts</string>
-    <string name="send_toot_notification_cancel_title">Mandadís anullat</string>
-    <string name="send_toot_notification_saved_content">Una còpia del tut es estat salvat dins los borrolhons</string>
+    <string name="send_post_notification_title">Mandadís del tut…</string>
+    <string name="send_post_notification_error_title">Error en enviar lo tut</string>
+    <string name="send_post_notification_channel_name">Mandadís dels tuts</string>
+    <string name="send_post_notification_cancel_title">Mandadís anullat</string>
+    <string name="send_post_notification_saved_content">Una còpia del tut es estat salvat dins los borrolhons</string>
     <string name="action_compose_shortcut">Escriure</string>
     <string name="error_no_custom_emojis">L’instància %s es pas compatibla amb los emoji personalizats</string>
     <string name="copy_to_clipboard_success">Copiat al quichapapièr</string>
@@ -252,9 +252,9 @@
     <string name="download_fonts">D’en primièr vos cal telecargar los emojis seguents</string>
     <string name="performing_lookup_title">Recèrca…</string>
     <string name="expand_collapse_all_statuses">Desplegar/Plegar totes los estatuts</string>
-    <string name="action_open_toot">Dobrir lo tut</string>
+    <string name="action_open_post">Dobrir lo tut</string>
     <string name="restart_required">Reaviada necessària</string>
-    <string name="restart_emoji">Vos caldrà reaviar Tusky per aplicar aquestes cambiaments</string>
+    <string name="restart_emoji">Vos caldrà reaviar Gabby per aplicar aquestes cambiaments</string>
     <string name="later">Mai tard</string>
     <string name="restart">Reaviar</string>
     <string name="caption_systememoji">Los emoji per defaut de vòstre aparelh</string>
@@ -265,7 +265,7 @@
     <string name="account_moved_description">%1$s mudèt los catons a :</string>
     <string name="reblog_private">Partejar al public d’origina</string>
     <string name="unreblog_private">Quitar de partejar</string>
-    <string name="license_description">Tusky content de còdis e compausants dels projèctes liures seguents :</string>
+    <string name="license_description">Gabby content de còdis e compausants dels projèctes liures seguents :</string>
     <string name="license_apache_2">Licéncia Apache License (còpia çai-jos)</string>
     <string name="profile_metadata_label">Metadonada del perfil</string>
     <string name="profile_metadata_add">Contengut</string>
@@ -315,7 +315,7 @@
 
     <string name="pref_media_display">Afichatge dels mèdias</string>
 
-    <string name="about_tusky_version">Tusky %s</string>
+    <string name="about_gabby_version">Gabby %s</string>
     <string name="abbreviated_days_ago">%dd</string>
     <string name="abbreviated_hours_ago">%dh</string>
     <string name="abbreviated_minutes_ago">%dm</string>
@@ -385,7 +385,7 @@
     <string name="compose_shortcut_short_label">Escriure</string>
 
 <string name="action_delete_and_redraft">Suprimir e reformular</string>
-    <string name="dialog_redraft_toot_warning">Suprimir e reformular aqueste tut \?</string>
+    <string name="dialog_redraft_post_warning">Suprimir e reformular aqueste tut \?</string>
 
     <string name="app_theme_system">Utilizar lo tèma sistèma</string>
 

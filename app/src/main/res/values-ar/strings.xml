@@ -40,7 +40,7 @@
     <string name="title_blocks">الحسابات المحظورة</string>
     <string name="title_follow_requests">طلبات المتابعة</string>
     <string name="title_edit_profile">عدل ملفك الشخصي</string>
-    <string name="title_saved_toot">المسودات</string>
+    <string name="title_saved_post">المسودات</string>
     <string name="title_licenses">الرّخص</string>
     <string name="status_username_format">\@%s</string>
     <string name="status_boosted_format">%s رقّي</string>
@@ -105,7 +105,7 @@
     <string name="action_accept">موافقة</string>
     <string name="action_reject">رفض</string>
     <string name="action_search">البحث</string>
-    <string name="action_access_saved_toot">المسودات</string>
+    <string name="action_access_saved_post">المسودات</string>
     <string name="action_toggle_visibility">كيفية عرض التبويق</string>
     <string name="action_content_warning">تحذير عن المحتوى</string>
     <string name="action_emoji_keyboard">لوحة مفاتيح الإيموجي</string>
@@ -154,7 +154,7 @@
     <string name="dialog_download_image">تنزيل</string>
     <string name="dialog_message_cancel_follow_request">هل تريد رفض طلب المتابعة ؟</string>
     <string name="dialog_unfollow_warning">هل تود إلغاء متابعة هذا الحساب ؟</string>
-    <string name="dialog_delete_toot_warning">هل تريد حذف هذا التبويق؟</string>
+    <string name="dialog_delete_post_warning">هل تريد حذف هذا التبويق؟</string>
     <string name="visibility_public">عمومي : ينشر على الخيوط العمومية</string>
     <string name="visibility_unlisted">غير مدرج : لا يُعرَض على الخيوط العمومية</string>
     <string name="visibility_private">لمتابعيك فقط : يُنشر إلى متابعيك فقط</string>
@@ -227,8 +227,8 @@
     <string name="notification_title_summary">%d تفاعلات جديدة</string>
     <string name="description_account_locked">حساب مقفل</string>
     <string name="about_title_activity">عن التطبيق</string>
-    <string name="about_tusky_version">توسكي %s</string>
-    <string name="about_tusky_license">Tuksy برنامج حر و مفتوح المصدر.         مطور تحت رخصة GNU General Public License Version 3.         يمكنكم الإطلاع على الرخصة على : https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="about_gabby_version">توسكي %s</string>
+    <string name="about_gabby_license">Tuksy برنامج حر و مفتوح المصدر.         مطور تحت رخصة GNU General Public License Version 3.         يمكنكم الإطلاع على الرخصة على : https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
          * you should think of “free” as in “free speech,” not as in “free beer”.
            We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom,
@@ -236,10 +236,10 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">موقع المشروع :\n
-                   https://tusky.app</string>
+                   https://gabby.app</string>
     <string name="about_bug_feature_request_site">تقارير الأخطاء و طلبات التحسينات على  :\n
-                   https://github.com/tuskyapp/Tusky/issues</string>
-    <string name="about_tusky_account">الملف الشخصي لتوسكي</string>
+                   https://github.com/gabbyapp/Gabby/issues</string>
+    <string name="about_gabby_account">الملف الشخصي لتوسكي</string>
     <string name="status_share_content">شارك محتوى التبويق</string>
     <string name="status_share_link">شارك الرابط إلى التبويق</string>
     <string name="status_media_images">صور</string>
@@ -293,11 +293,11 @@
     <string name="lock_account_label">تجميد الحساب</string>
     <string name="lock_account_label_description">يتطلب منك قبول طلبات المتابَعة يدويا</string>
     <string name="compose_save_draft">هل تود الإحتفاظ بالمسودة ؟</string>
-    <string name="send_toot_notification_title">جارٍ إرسال التبويق…</string>
-    <string name="send_toot_notification_error_title">خطأ أثناء عملية إرسال التبويق</string>
-    <string name="send_toot_notification_channel_name">إرسال التبويقات</string>
-    <string name="send_toot_notification_cancel_title">أُلغيَ الإرسال</string>
-    <string name="send_toot_notification_saved_content">تم الاحتفاظ بنسخة مِن التبويق في مسوداتك</string>
+    <string name="send_post_notification_title">جارٍ إرسال التبويق…</string>
+    <string name="send_post_notification_error_title">خطأ أثناء عملية إرسال التبويق</string>
+    <string name="send_post_notification_channel_name">إرسال التبويقات</string>
+    <string name="send_post_notification_cancel_title">أُلغيَ الإرسال</string>
+    <string name="send_post_notification_saved_content">تم الاحتفاظ بنسخة مِن التبويق في مسوداتك</string>
     <string name="action_compose_shortcut">تحرير</string>
     <string name="error_no_custom_emojis">لا يحتوي مثيل خادومكم %s على أية حزمة إيموجي مخصصة</string>
     <string name="copy_to_clipboard_success">تم نسخه إلى الحافظة</string>
@@ -306,7 +306,7 @@
     <string name="download_fonts">يجب عليك أولا تنزيل حزمة الإيموجي هذه</string>
     <string name="performing_lookup_title">البحث جارٍ …</string>
     <string name="expand_collapse_all_statuses">توسيع/طي كافة المنشورات</string>
-    <string name="action_open_toot">افتح التبويق</string>
+    <string name="action_open_post">افتح التبويق</string>
     <string name="restart_required">مطلوب إعادة تشغيل التطبيق</string>
     <string name="restart_emoji">إعادة تشغيل توسكي مطلوبة قصد تفعيل التعديلات</string>
     <string name="later">لاحقًا</string>
@@ -353,7 +353,7 @@
     <string name="download_media">تنزيل الوسائط</string>
     <string name="downloading_media">جارٍ تنزيل الوسائط</string>
 
-    <string name="dialog_redraft_toot_warning">هل تريد حذف وإعادة صياغة هذا التبويق؟</string>
+    <string name="dialog_redraft_post_warning">هل تريد حذف وإعادة صياغة هذا التبويق؟</string>
 
     <string name="description_status_favourited">تم تفضيله</string>
     <string name="edit_hashtag_title">تعديل الوسم</string>

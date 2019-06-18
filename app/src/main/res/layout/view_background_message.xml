@@ -18,7 +18,7 @@
 
     <Button
         android:id="@+id/button"
-        style="@style/TuskyButton.Outlined"
+        style="@style/GabbyButton.Outlined"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"

@@ -21,7 +21,7 @@
     <string name="error_media_upload_sending">Opplastingen feilet.</string>
     <string name="error_report_too_few_statuses">Minst en status må rapporteres.</string>
     <string name="error_invalid_regex">Ugyldig regulært utrykk</string>
-    <string name="error_sender_account_gone">En feil oppsto under sending av tootet.</string>
+    <string name="error_sender_account_gone">En feil oppsto under sending av postet.</string>
 
     <string name="title_home">Hjem</string>
     <string name="title_advanced">Avansert</string>
@@ -30,9 +30,9 @@
     <string name="title_public_federated">Forent tidslinje</string>
     <string name="title_direct_messages">Direktemeldinger</string>
     <string name="title_tab_preferences">Faner</string>
-    <string name="title_view_thread">Toot</string>
+    <string name="title_view_thread">Post</string>
     <string name="title_tag">#%s</string>
-    <string name="title_statuses">Toots</string>
+    <string name="title_statuses">Posts</string>
     <string name="title_statuses_with_replies">Med svar</string>
     <string name="title_statuses_pinned">Festet</string>
     <string name="title_follows">Følger</string>
@@ -42,7 +42,7 @@
     <string name="title_blocks">Blokkerte brukere</string>
     <string name="title_follow_requests">Forespørsler om følging</string>
     <string name="title_edit_profile">Endre profilen din</string>
-    <string name="title_saved_toot">Kladder</string>
+    <string name="title_saved_post">Kladder</string>
     <string name="title_licenses">Lisenser</string>
 
     <string name="status_username_format">\@%s</string>
@@ -58,8 +58,8 @@
     <string name="message_empty">Her er det ingenting.</string>
     <string name="footer_empty">Her er det ingenting. Dra ned for å oppdatere!</string>
 
-    <string name="notification_reblog_format">%s boostet tootet ditt</string>
-    <string name="notification_favourite_format">%s favoriserte tootet ditt</string>
+    <string name="notification_reblog_format">%s boostet postet ditt</string>
+    <string name="notification_favourite_format">%s favoriserte postet ditt</string>
     <string name="notification_follow_format">%s fulgte deg</string>
 
     <string name="report_username_format">Rapporter @%s</string>
@@ -84,8 +84,8 @@
     <string name="action_show_reblogs">Vis boosts</string>
     <string name="action_report">Rapporter</string>
     <string name="action_delete">Slett</string>
-    <string name="action_send">TOOT</string>
-    <string name="action_send_public">TOOT!</string>
+    <string name="action_send">POST</string>
+    <string name="action_send_public">POST!</string>
     <string name="action_retry">Prøv igjen</string>
     <string name="action_close">Steng</string>
     <string name="action_view_profile">Profil</string>
@@ -102,7 +102,7 @@
     <string name="action_share">Del</string>
     <string name="action_mute">Demp bruker</string>
     <string name="action_unmute">Fjern demping</string>
-    <string name="action_mention">Nevn i ny toot</string>
+    <string name="action_mention">Nevn i ny post</string>
     <string name="action_hide_media">Skjul media</string>
     <string name="action_open_drawer">Åpne skuff</string>
     <string name="action_save">Lagre</string>
@@ -112,15 +112,15 @@
     <string name="action_accept">Aksepter</string>
     <string name="action_reject">Avvis</string>
     <string name="action_search">Søk</string>
-    <string name="action_access_saved_toot">Kladder</string>
-    <string name="action_toggle_visibility">Toot-synlighet</string>
+    <string name="action_access_saved_post">Kladder</string>
+    <string name="action_toggle_visibility">Post-synlighet</string>
     <string name="action_content_warning">Innholdsadvarsel</string>
     <string name="action_emoji_keyboard">Emoji-tastatur</string>
     <string name="action_add_tab">Legg til fane</string>
     <string name="action_links">Linker</string>
     <string name="action_mentions">Nevner</string>
     <string name="action_hashtags">Stikkord</string>
-    <string name="action_open_reblogger">Åpne toot-forfatter</string>
+    <string name="action_open_reblogger">Åpne post-forfatter</string>
     <string name="action_open_reblogged_by">Vis boosts</string>
     <string name="action_open_faved_by">Vis favoritter</string>
 
@@ -137,8 +137,8 @@
     <string name="download_media">Last ned media</string>
     <string name="downloading_media">Laster ned media</string>
 
-    <string name="send_status_link_to">Del toot-URL til…</string>
-    <string name="send_status_content_to">Del toot til…</string>
+    <string name="send_status_link_to">Del post-URL til…</string>
+    <string name="send_status_content_to">Del post til…</string>
     <string name="send_media_to">Del media til…</string>
 
     <string name="confirmation_reported">Sendt!</string>
@@ -177,7 +177,7 @@
     <string name="dialog_download_image">Last ned</string>
     <string name="dialog_message_cancel_follow_request">Trekk tilbake følgeforespørselen\?</string>
     <string name="dialog_unfollow_warning">Slutte å følge denne kontoen\?</string>
-    <string name="dialog_delete_toot_warning">Slette dette tootet\?</string>
+    <string name="dialog_delete_post_warning">Slette dette postet\?</string>
 
     <string name="visibility_public">Vis i offentlige tidslinjer</string>
     <string name="visibility_unlisted">Ikke vis i offentlige tidslinjer</string>
@@ -195,8 +195,8 @@
     <string name="pref_title_notification_filters">Varsle meg når</string>
     <string name="pref_title_notification_filter_mentions">nevnt</string>
     <string name="pref_title_notification_filter_follows">fulgt</string>
-    <string name="pref_title_notification_filter_reblogs">tootene mine blir boostet</string>
-    <string name="pref_title_notification_filter_favourites">tootene mine blir favorisert</string>
+    <string name="pref_title_notification_filter_reblogs">postene mine blir boostet</string>
+    <string name="pref_title_notification_filter_favourites">postene mine blir favorisert</string>
     <string name="pref_title_appearance_settings">Utseende</string>
     <string name="pref_title_app_theme">Applikasjonstema</string>
     <string name="pref_title_timelines">Tidslinjer</string>
@@ -232,9 +232,9 @@
     <string name="notification_follow_name">Nye følgere</string>
     <string name="notification_follow_description">Varsler om nye følgere</string>
     <string name="notification_boost_name">Boosts</string>
-    <string name="notification_boost_description">Varsler når tootene dine blir boostet</string>
+    <string name="notification_boost_description">Varsler når postene dine blir boostet</string>
     <string name="notification_favourite_name">Favoritter</string>
-    <string name="notification_favourite_description">Varsler når tootene dine blir favorisert</string>
+    <string name="notification_favourite_description">Varsler når postene dine blir favorisert</string>
 
 
     <string name="notification_mention_format">%s nevnte deg</string>
@@ -246,13 +246,13 @@
     <string name="description_account_locked">Låst konto</string>
 
     <string name="about_title_activity">Om</string>
-    <string name="about_tusky_version">Tusky %s</string>
+    <string name="about_gabby_version">Gabby %s</string>
     <string name="about_bug_feature_request_site">Rapporter feil og ønsker om funksjonalitet her: 
-\n https://github.com/tuskyapp/Tusky/issues</string>
-    <string name="about_tusky_account">Tuskys Mastodon-profil</string>
+\n https://github.com/gabbyapp/Gabby/issues</string>
+    <string name="about_gabby_account">Gabbys Mastodon-profil</string>
 
-    <string name="status_share_content">Del inneholdet i tootet</string>
-    <string name="status_share_link">Del link til tootet</string>
+    <string name="status_share_content">Del inneholdet i postet</string>
+    <string name="status_share_link">Del link til postet</string>
     <string name="status_media_images">Bilder</string>
     <string name="status_media_video">Video</string>
 
@@ -301,12 +301,12 @@
     <string name="action_add_to_list">Legg til konto i listen</string>
     <string name="action_remove_from_list">Slett konto fra listen</string>
 
-    <string name="pref_default_post_privacy">Standard synlighet for toots</string>
+    <string name="pref_default_post_privacy">Standard synlighet for posts</string>
     <string name="notification_mention_name">Nye omtaler</string>
     <string name="notification_mention_descriptions">Varsler om nye omtaler</string>
-    <string name="about_tusky_license">Tusky er fri og åpen kildekode. Applikasjonen er lisensiert under GNU General Public License versjon 3. Du kan se lisensen her: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="about_gabby_license">Gabby er fri og åpen kildekode. Applikasjonen er lisensiert under GNU General Public License versjon 3. Du kan se lisensen her: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <string name="about_project_site">Hjemmeside: 
-\n https://tusky.app</string>
+\n https://gabby.app</string>
     <string name="abbreviated_in_years">om %dy</string>
     <string name="compose_active_account_description">Poster med konto %1$s</string>
 
@@ -318,11 +318,11 @@
     <string name="lock_account_label">Lås konto</string>
     <string name="lock_account_label_description">Krever at du manuelt godkjenner nye følgere</string>
     <string name="compose_save_draft">Lagre kladd\?</string>
-    <string name="send_toot_notification_title">Sender Toot…</string>
-    <string name="send_toot_notification_error_title">Det oppsto en feil under sending av tootet</string>
-    <string name="send_toot_notification_channel_name">Sender Toots</string>
-    <string name="send_toot_notification_cancel_title">Sending avbrutt</string>
-    <string name="send_toot_notification_saved_content">En kopi av tootet er lagret i kladdene dine</string>
+    <string name="send_post_notification_title">Sender Post…</string>
+    <string name="send_post_notification_error_title">Det oppsto en feil under sending av postet</string>
+    <string name="send_post_notification_channel_name">Sender Posts</string>
+    <string name="send_post_notification_cancel_title">Sending avbrutt</string>
+    <string name="send_post_notification_saved_content">En kopi av postet er lagret i kladdene dine</string>
     <string name="action_compose_shortcut">Skriv</string>
 
     <string name="error_no_custom_emojis">Instansen %s har ingen egendefinerte emojis</string>
@@ -332,9 +332,9 @@
     <string name="download_fonts">Du må laste ned emoji-samlingene før de kan brukes</string>
     <string name="performing_lookup_title">Gjennomfører oppslag…</string>
     <string name="expand_collapse_all_statuses">Utvid/kollaps alle statuser</string>
-    <string name="action_open_toot">Åpne toot</string>
+    <string name="action_open_post">Åpne post</string>
     <string name="restart_required">Omstart av applikasjonen er påkrevd</string>
-    <string name="restart_emoji">Du må starte Tusky på nytt for at endringene skal bli aktive</string>
+    <string name="restart_emoji">Du må starte Gabby på nytt for at endringene skal bli aktive</string>
     <string name="later">Senere</string>
     <string name="restart">Start på nytt</string>
     <string name="caption_systememoji">Din enhets standard emoji-samling</string>
@@ -348,7 +348,7 @@
     <string name="reblog_private">Boost til opprinnelig publikum</string>
     <string name="unreblog_private">Fjern boost</string>
 
-    <string name="license_description">Tusky inneholder programkode og elementer fra følgende åpen kildekode-prosjekter:</string>
+    <string name="license_description">Gabby inneholder programkode og elementer fra følgende åpen kildekode-prosjekter:</string>
     <string name="license_apache_2">Lisensiert under Apache License (kopi under)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
@@ -402,14 +402,14 @@
     <string name="notifications_apply_filter">Filter</string>
     <string name="filter_apply">Bruk</string>
 
-    <string name="compose_shortcut_long_label">Skriv Toot</string>
+    <string name="compose_shortcut_long_label">Skriv Post</string>
     <string name="compose_shortcut_short_label">Skriv</string>
     <string name="pref_title_bot_overlay">Marker robotkontoer</string>
 
     <string name="notification_clear_text">Er du sikker på at du vil slette alle varsler\?</string>
 
 <string name="action_delete_and_redraft">Slett og skriv på nytt</string>
-    <string name="dialog_redraft_toot_warning">Vil du slette dette tottet og skrive det på nytt\?</string>
+    <string name="dialog_redraft_post_warning">Vil du slette dette tottet og skrive det på nytt\?</string>
 
 
     <string name="poll_info_format"> <!-- 15 votes • 1 hour left --> %1$s • %2$s</string>

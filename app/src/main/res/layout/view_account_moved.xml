@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Account has moved" />
 
-    <com.keylesspalace.tusky.view.RoundedImageView
+    <com.gab.gabby.view.RoundedImageView
         android:id="@+id/accountMovedAvatar"
         android:layout_width="48dp"
         android:layout_height="48dp"

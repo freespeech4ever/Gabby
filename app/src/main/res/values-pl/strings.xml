@@ -34,7 +34,7 @@
     <string name="title_blocks">Zablokowani użytkownicy</string>
     <string name="title_follow_requests">Prośby o możliwość śledzenia</string>
     <string name="title_edit_profile">Edytuj profil</string>
-    <string name="title_saved_toot">Szkice</string>
+    <string name="title_saved_post">Szkice</string>
     <string name="title_licenses">Licencje</string>
     <string name="status_boosted_format">%s podbił</string>
     <string name="status_sensitive_media_title"><b>Wrażliwe treści</b>\nDotknij, aby wyświetlić</string>
@@ -92,7 +92,7 @@
     <string name="action_accept">Akceptuj</string>
     <string name="action_reject">Odrzuć</string>
     <string name="action_search">Szukaj</string>
-    <string name="action_access_saved_toot">Szkice</string>
+    <string name="action_access_saved_post">Szkice</string>
     <string name="action_toggle_visibility">Widoczność wpisu</string>
     <string name="action_content_warning">Ostrzeżenie o zawartości</string>
     <string name="action_emoji_keyboard">Klawiatura emoji</string>
@@ -192,7 +192,7 @@
     <string name="notification_title_summary">%d nowych powiadomień</string>
     <string name="description_account_locked">Konto zablokowane</string>
     <string name="about_title_activity">O programie</string>
-    <string name="about_tusky_license">Tusky jest wolnym i otwartoźródłowym oprogramowaniem.
+    <string name="about_gabby_license">Gabby jest wolnym i otwartoźródłowym oprogramowaniem.
         Jest on dostępny na licencji GNU General Public License w wersji trzeciej.
         Możesz przeczytać przetłumaczoną treść licencji <a href="https://web.archive.org/web/20171024013739/http://itlaw.computerworld.pl/wp-content/uploads/2008/03/powszechna-licencja-publiczna-gnu_v2.pdf">tutaj</a>.</string>
     <!-- note to translators:
@@ -202,12 +202,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        Strona projektu:\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        Zgłoszenia błędów i propozycje funkcji:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Profil Tusky’ego</string>
+    <string name="about_gabby_account">Profil Gabby’ego</string>
     <string name="status_share_content">Udostępnij zawartość postu</string>
     <string name="status_share_link">Udostępnij link do postu</string>
     <string name="status_media_images">Obrazy</string>
@@ -242,11 +242,11 @@
     <string name="lock_account_label">Zablokuj konto</string>
     <string name="lock_account_label_description">Wymaga od Ciebie ręcznej akceptacji próśb o śledzenie</string>
     <string name="compose_save_draft">Czy chcesz zapisać szkic?</string>
-    <string name="send_toot_notification_title">Wysyłanie wpisu…</string>
-    <string name="send_toot_notification_error_title">Wystąpił błąd podczas wysyłania wpisu</string>
-    <string name="send_toot_notification_channel_name">Wysyłanie wpisów</string>
-    <string name="send_toot_notification_cancel_title">Anulowano wysyłanie</string>
-    <string name="send_toot_notification_saved_content">Kopia wpisu została zapisana jako szkic</string>
+    <string name="send_post_notification_title">Wysyłanie wpisu…</string>
+    <string name="send_post_notification_error_title">Wystąpił błąd podczas wysyłania wpisu</string>
+    <string name="send_post_notification_channel_name">Wysyłanie wpisów</string>
+    <string name="send_post_notification_cancel_title">Anulowano wysyłanie</string>
+    <string name="send_post_notification_saved_content">Kopia wpisu została zapisana jako szkic</string>
     <string name="action_compose_shortcut">Wyślij</string>
     <string name="error_no_custom_emojis">Twoja instancja %s nie używa żadnych niestandardowych emoji</string>
     <string name="copy_to_clipboard_success">Skopiowano do schowka</string>
@@ -255,9 +255,9 @@
     <string name="download_fonts">Musisz najpierw pobrać te zestawy emoji</string>
     <string name="performing_lookup_title">Wyszukiwanie…</string>
     <string name="expand_collapse_all_statuses">Rozwiń/zwiń wszystkie wpisy</string>
-    <string name="action_open_toot">Otwórz wpis</string>
+    <string name="action_open_post">Otwórz wpis</string>
     <string name="restart_required">Wymagane jest ponowne uruchomienie</string>
-    <string name="restart_emoji">Musisz uruchomić ponownie Tuskyego, aby zastosować zmiany</string>
+    <string name="restart_emoji">Musisz uruchomić ponownie Gabbyego, aby zastosować zmiany</string>
     <string name="later">Później</string>
     <string name="restart">Uruchom ponownie</string>
     <string name="caption_systememoji">Domyślny zestaw emoji tego urządzenia</string>
@@ -267,7 +267,7 @@
     <string name="account_moved_description">%1$s przeniósł się na:</string>
     <string name="reblog_private">Podbij grupie docelowej autora oryginału</string>
     <string name="unreblog_private">Cofnij podbicie</string>
-    <string name="license_description">Tusky zawiera kod i zasoby następujących projektów open source:</string>
+    <string name="license_description">Gabby zawiera kod i zasoby następujących projektów open source:</string>
     <string name="license_apache_2">Na licencji Apache (kopia poniżej)</string>
     <string name="profile_metadata_label">Metadane profilu</string>
     <string name="profile_metadata_add">dodaj dane</string>

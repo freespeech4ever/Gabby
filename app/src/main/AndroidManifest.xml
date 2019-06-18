@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.keylesspalace.tusky">
+    package="com.gab.gabby">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.VIBRATE" /> <!-- For notifications -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:maxSdkVersion="22"/> <!-- for day/night mode -->
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- For sending toots with foreground service -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- For sending posts with foreground service -->
 
 
     <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:name=".TuskyApplication"
+        android:name=".GabbyApplication"
         android:supportsRtl="true"
-        android:theme="@style/TuskyTheme">
+        android:theme="@style/GabbyTheme">
 
         <activity
             android:name=".SplashActivity"
@@ -31,7 +31,7 @@
                 android:resource="@xml/shortcuts"/>
         </activity>
         <activity
-            android:name=".SavedTootActivity"
+            android:name=".SavedPostActivity"
             android:configChanges="orientation|screenSize|keyboardHidden">
         </activity>
         <activity
@@ -78,12 +78,12 @@
             </intent-filter>
             <meta-data
                 android:name="android.service.chooser.chooser_target_service"
-                android:value="com.keylesspalace.tusky.service.AccountChooserService"
+                android:value="com.gab.gabby.service.AccountChooserService"
                 />
         </activity>
         <activity
             android:name=".ComposeActivity"
-            android:theme="@style/TuskyDialogActivityTheme"
+            android:theme="@style/GabbyDialogActivityTheme"
             android:windowSoftInputMode="stateVisible|adjustResize">
         </activity>
         <activity
@@ -91,7 +91,7 @@
             android:configChanges="orientation|screenSize" />
         <activity android:name=".ViewTagActivity" />
         <activity android:name=".ViewMediaActivity"
-            android:theme="@style/TuskyBaseTheme"
+            android:theme="@style/GabbyBaseTheme"
             android:configChanges="orientation|screenSize|keyboardHidden"/>
         <activity android:name=".AccountActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"/>
@@ -129,18 +129,18 @@
 
         <service
             tools:targetApi="24"
-            android:name="com.keylesspalace.tusky.service.TuskyTileService"
-            android:icon="@drawable/ic_tusky"
-            android:label="Compose Toot"
+            android:name="com.gab.gabby.service.GabbyTileService"
+            android:icon="@drawable/ic_gabby"
+            android:label="Compose Post"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
             </intent-filter>
         </service>
-        <service android:name=".service.SendTootService" />
+        <service android:name=".service.SendPostService" />
         <service
             tools:targetApi="23"
-            android:name="com.keylesspalace.tusky.service.AccountChooserService"
+            android:name="com.gab.gabby.service.AccountChooserService"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE"
             >

@@ -40,7 +40,7 @@
     <string name="title_blocks">Blockierte Profile</string>
     <string name="title_follow_requests">Folgeanfrage</string>
     <string name="title_edit_profile">Dein Profil bearbeiten</string>
-    <string name="title_saved_toot">Gespeicherte Beiträge</string>
+    <string name="title_saved_post">Gespeicherte Beiträge</string>
     <string name="title_licenses">Lizenzen</string>
     <string name="status_username_format">\@%s</string>
     <string name="status_boosted_format">%s teilte</string>
@@ -105,7 +105,7 @@
     <string name="action_accept">Akzeptieren</string>
     <string name="action_reject">Ablehnen</string>
     <string name="action_search">Suche</string>
-    <string name="action_access_saved_toot">Entwürfe</string>
+    <string name="action_access_saved_post">Entwürfe</string>
     <string name="action_toggle_visibility">Beitragssichtbarkeit</string>
     <string name="action_content_warning">Inhaltswarnung</string>
     <string name="action_emoji_keyboard">Emoji</string>
@@ -157,7 +157,7 @@
     <string name="dialog_download_image">Herunterladen</string>
     <string name="dialog_message_cancel_follow_request">Folgeanfrage zurückziehen?</string>
     <string name="dialog_unfollow_warning">Willst du diesem Profil wirklich nicht mehr folgen?</string>
-    <string name="dialog_delete_toot_warning">Diesen Beitrag löschen?</string>
+    <string name="dialog_delete_post_warning">Diesen Beitrag löschen?</string>
     <string name="visibility_public">Öffentlich: Für alle sichtbar</string>
     <string name="visibility_unlisted">Ungelistet: Nicht in der öffentlichen Timeline sichtbar</string>
     <string name="visibility_private">Nur Folgende: Nur für Folgende sichtbar</string>
@@ -230,7 +230,7 @@
     <string name="notification_title_summary">%d neue Interaktionen</string>
     <string name="description_account_locked">Gesperrtes Profil</string>
     <string name="about_title_activity">Über</string>
-    <string name="about_tusky_license">Tusky ist freie Open-Source-Software.
+    <string name="about_gabby_license">Gabby ist freie Open-Source-Software.
         Es ist lizenziert unter der GNU General Public License Version 3.
         Du kannst dir die Lizenz hier anschauen: https://www.gnu.org/licenses/gpl-3.0.de.html</string>
     <!-- note to translators:
@@ -240,12 +240,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        Webseite des Projekts:\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        Fehlermeldungen &amp; Verbesserungsvorschläge:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Tuskys Profil</string>
+    <string name="about_gabby_account">Gabbys Profil</string>
     <string name="status_share_content">Inhalt teilen</string>
     <string name="status_share_link">Link teilen</string>
     <string name="status_media_images">Bilder</string>
@@ -281,11 +281,11 @@
     <string name="lock_account_label">Gesperrtes Profil</string>
     <string name="lock_account_label_description">Wer dir folgen möchte, muss um deine Erlaubnis bitten</string>
     <string name="compose_save_draft">Entwurf speichern?</string>
-    <string name="send_toot_notification_title">Beitrag senden…</string>
-    <string name="send_toot_notification_error_title">Fehler beim senden</string>
-    <string name="send_toot_notification_channel_name">Beiträge senden</string>
-    <string name="send_toot_notification_cancel_title">Senden abgebrochen</string>
-    <string name="send_toot_notification_saved_content">Eine Kopie des Beitrags wurde in deine Entwürfe gespeichert</string>
+    <string name="send_post_notification_title">Beitrag senden…</string>
+    <string name="send_post_notification_error_title">Fehler beim senden</string>
+    <string name="send_post_notification_channel_name">Beiträge senden</string>
+    <string name="send_post_notification_cancel_title">Senden abgebrochen</string>
+    <string name="send_post_notification_saved_content">Eine Kopie des Beitrags wurde in deine Entwürfe gespeichert</string>
     <string name="action_compose_shortcut">Antworten</string>
     <string name="error_no_custom_emojis">Deine Instanz %s hat keine Emojis definiert</string>
     <string name="copy_to_clipboard_success">In die Zwischenablage kopiert</string>
@@ -294,9 +294,9 @@
     <string name="download_fonts">Du musst diese Emoji-Sets zunächst herunterladen.</string>
     <string name="performing_lookup_title">Nachschlagen…</string>
     <string name="expand_collapse_all_statuses">Alle Beiträge aus/einklappen</string>
-    <string name="action_open_toot">Beitrag öffnen</string>
+    <string name="action_open_post">Beitrag öffnen</string>
     <string name="restart_required">App-Neustart erforderlich</string>
-    <string name="restart_emoji">Du musst Tusky neustarten um die Änderungen anzuwenden</string>
+    <string name="restart_emoji">Du musst Gabby neustarten um die Änderungen anzuwenden</string>
     <string name="later">Später</string>
     <string name="restart">Neustarten</string>
     <string name="caption_systememoji">Die Standard-Emojis deines Geräts</string>
@@ -307,7 +307,7 @@
     <string name="account_moved_description">%1$s ist umgezogen auf:</string>
     <string name="reblog_private">An ursprüngliches Publikum teilen</string>
     <string name="unreblog_private">nicht mehr teilen</string>
-    <string name="license_description">Tusky enthält Code und Inhalte von den folgenden Open-Source-Projekten:</string>
+    <string name="license_description">Gabby enthält Code und Inhalte von den folgenden Open-Source-Projekten:</string>
     <string name="license_apache_2">Lizenziert unter der Apache-Lizenz (s. u.)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
@@ -359,7 +359,7 @@
     <string name="description_status_reblogged">Geteilt</string>
     <string name="description_visiblity_unlisted">Ungelistet</string>
     <string name="action_delete_and_redraft">Löschen und neu erstellen</string>
-    <string name="dialog_redraft_toot_warning">Bist du dir sicher, dass du diesen Beitrag löschen und neu machen möchtest\?</string>
+    <string name="dialog_redraft_post_warning">Bist du dir sicher, dass du diesen Beitrag löschen und neu machen möchtest\?</string>
 
     <string name="pref_title_notification_filter_poll">Umfragen vorbei sind</string>
     <string name="notification_poll_name">Umfragen</string>

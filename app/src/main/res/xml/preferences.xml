@@ -12,7 +12,7 @@
             android:summary="%s"
             android:title="@string/pref_title_app_theme" />
 
-        <com.keylesspalace.tusky.EmojiPreference
+        <com.gab.gabby.EmojiPreference
             android:defaultValue="@string/system_default"
             android:icon="@drawable/ic_emoji_24dp"
             android:key="emojiCompat"

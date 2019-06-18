@@ -40,7 +40,7 @@
     <string name="title_blocks">Blokitaj uzantoj</string>
     <string name="title_follow_requests">Petoj de sekvado</string>
     <string name="title_edit_profile">Redakti vian profilon</string>
-    <string name="title_saved_toot">Malnetoj</string>
+    <string name="title_saved_post">Malnetoj</string>
     <string name="title_licenses">Permesiloj</string>
     <string name="status_username_format">\@%s</string>
     <string name="status_boosted_format">%s diskonigis</string>
@@ -105,7 +105,7 @@
     <string name="action_accept">Rajtigi</string>
     <string name="action_reject">Rifuzi</string>
     <string name="action_search">Serĉi</string>
-    <string name="action_access_saved_toot">Malnetoj</string>
+    <string name="action_access_saved_post">Malnetoj</string>
     <string name="action_toggle_visibility">Videblo de la mesaĝo</string>
     <string name="action_content_warning">Tikla enhavo</string>
     <string name="action_emoji_keyboard">Klavaro de emoĝioj</string>
@@ -156,7 +156,7 @@
     <string name="dialog_download_image">Elŝuti</string>
     <string name="dialog_message_cancel_follow_request">Nuligi peton de sekvado?</string>
     <string name="dialog_unfollow_warning">Ne plu sekvi?</string>
-    <string name="dialog_delete_toot_warning">Forigi ĉi tiun mesaĝon?</string>
+    <string name="dialog_delete_post_warning">Forigi ĉi tiun mesaĝon?</string>
     <string name="visibility_public">Publika: afiŝi en publikaj tempolinioj</string>
     <string name="visibility_unlisted">Nelistigita: Ne afiŝi en publikaj tempolinioj</string>
     <string name="visibility_private">Nur por sekvantoj: Afiŝi nur al sekvantoj</string>
@@ -229,8 +229,8 @@
     <string name="notification_title_summary">%d novaj interagoj</string>
     <string name="description_account_locked">Ŝlosita konto</string>
     <string name="about_title_activity">Pri</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky estas libera kaj malfermitkoda programo.
+    <string name="about_gabby_version">Gabby %s</string>
+    <string name="about_gabby_license">Gabby estas libera kaj malfermitkoda programo.
         Ĝi estas publikigita laŭ la permesilo «GNU General Public License Version 3».
         Vi povas vidi la permesilon ĉi tie: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
@@ -240,12 +240,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        Paĝaro de projekto:\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        Raportoj de cimo kaj petoj de funkcio:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Profilo de Tusky</string>
+    <string name="about_gabby_account">Profilo de Gabby</string>
     <string name="status_share_content">Konigi enhavon de la mesaĝo</string>
     <string name="status_share_link">Konigi ligilon al mesaĝo</string>
     <string name="status_media_images">Bildoj</string>
@@ -298,11 +298,11 @@
     <string name="lock_account_label">Ŝlosi konton</string>
     <string name="lock_account_label_description">Vi devas permane rajtigi sekvantojn</string>
     <string name="compose_save_draft">Konservi malneton?</string>
-    <string name="send_toot_notification_title">Sendante la mesaĝo…</string>
-    <string name="send_toot_notification_error_title">Eraro dum sendo de la mesaĝo</string>
-    <string name="send_toot_notification_channel_name">Sendante la mesaĝoj</string>
-    <string name="send_toot_notification_cancel_title">Sendo nuligita</string>
-    <string name="send_toot_notification_saved_content">Kopio de la mesaĝo estis konservita en viaj malnetoj</string>
+    <string name="send_post_notification_title">Sendante la mesaĝo…</string>
+    <string name="send_post_notification_error_title">Eraro dum sendo de la mesaĝo</string>
+    <string name="send_post_notification_channel_name">Sendante la mesaĝoj</string>
+    <string name="send_post_notification_cancel_title">Sendo nuligita</string>
+    <string name="send_post_notification_saved_content">Kopio de la mesaĝo estis konservita en viaj malnetoj</string>
     <string name="action_compose_shortcut">Verki</string>
     <string name="error_no_custom_emojis">Via nodo %s ne havas proprajn emoĝiojn</string>
     <string name="copy_to_clipboard_success">Kopiita en tondujo</string>
@@ -311,9 +311,9 @@
     <string name="download_fonts">Vi unue devos elŝuti ĉi tiujn emoĝiarojn</string>
     <string name="performing_lookup_title">Serĉante…</string>
     <string name="expand_collapse_all_statuses">Pligrandigi/malgrandigi ĉiujn mesaĝojn</string>
-    <string name="action_open_toot">Malfermi mesaĝon</string>
+    <string name="action_open_post">Malfermi mesaĝon</string>
     <string name="restart_required">Restartigo necesas</string>
-    <string name="restart_emoji">Vi devos restartigi Tusky por apliki ĉi tiujn ŝanĝojn</string>
+    <string name="restart_emoji">Vi devos restartigi Gabby por apliki ĉi tiujn ŝanĝojn</string>
     <string name="later">Poste</string>
     <string name="restart">Restartigi</string>
     <string name="caption_systememoji">Dekomenca emoĝiaro de via aparato</string>
@@ -324,7 +324,7 @@
     <string name="account_moved_description">%1$s moviĝis al:</string>
     <string name="reblog_private">Diskonigi al la originala atentaro</string>
     <string name="unreblog_private">Eksdiskonigi</string>
-    <string name="license_description">Tusky enhavas kodon kaj risurcojn el la sekvantaj malfermitkodaj projetkoj:</string>
+    <string name="license_description">Gabby enhavas kodon kaj risurcojn el la sekvantaj malfermitkodaj projetkoj:</string>
     <string name="license_apache_2">Laŭ la permesilo «Apache License» (kopio sube)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>

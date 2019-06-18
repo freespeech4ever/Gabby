@@ -1,8 +1,8 @@
-package com.keylesspalace.tusky
+package com.gab.gabby
 
-import com.keylesspalace.tusky.util.dec
-import com.keylesspalace.tusky.util.inc
-import com.keylesspalace.tusky.util.isLessThan
+import com.gab.gabby.util.dec
+import com.gab.gabby.util.inc
+import com.gab.gabby.util.isLessThan
 import org.junit.Assert.*
 import org.junit.Test
 

@@ -28,7 +28,7 @@
     <string name="title_public_federated">Federerat</string>
     <string name="title_direct_messages">Direkta meddelanden</string>
     <string name="title_tab_preferences">Flikar</string>
-    <string name="title_view_thread">Toot</string>
+    <string name="title_view_thread">Post</string>
     <string name="title_tag">#%s</string>
     <string name="title_statuses">Inlägg</string>
     <string name="title_statuses_with_replies">Med svar</string>
@@ -40,7 +40,7 @@
     <string name="title_blocks">Blockerade användare</string>
     <string name="title_follow_requests">Följarförfrågningar</string>
     <string name="title_edit_profile">Ändra din profil</string>
-    <string name="title_saved_toot">Utkast</string>
+    <string name="title_saved_post">Utkast</string>
     <string name="title_licenses">Licenser</string>
     <string name="status_username_format">\@%s</string>
     <string name="status_boosted_format">%s knuffade</string>
@@ -53,8 +53,8 @@
     <string name="status_content_show_less">Dölj</string>
     <string name="message_empty">Ingenting här.</string>
     <string name="footer_empty">Inget här. Dra ner för att uppdatera!</string>
-    <string name="notification_reblog_format">%s knuffade din toot</string>
-    <string name="notification_favourite_format">%s favoriserade din toot</string>
+    <string name="notification_reblog_format">%s knuffade din post</string>
+    <string name="notification_favourite_format">%s favoriserade din post</string>
     <string name="notification_follow_format">%s följer dig</string>
     <string name="report_username_format">Rapportera @%s</string>
     <string name="report_comment_hint">Ytterligare kommentarer?</string>
@@ -77,8 +77,8 @@
     <string name="action_show_reblogs">Visa knuffar</string>
     <string name="action_report">Rapportera</string>
     <string name="action_delete">Radera</string>
-    <string name="action_send">TOOT</string>
-    <string name="action_send_public">TOOT!</string>
+    <string name="action_send">POST</string>
+    <string name="action_send_public">POST!</string>
     <string name="action_retry">Försök igen</string>
     <string name="action_close">Stäng</string>
     <string name="action_view_profile">Profil</string>
@@ -105,8 +105,8 @@
     <string name="action_accept">Acceptera</string>
     <string name="action_reject">Avvisa</string>
     <string name="action_search">Sök</string>
-    <string name="action_access_saved_toot">Utkast</string>
-    <string name="action_toggle_visibility">Toot synlighet</string>
+    <string name="action_access_saved_post">Utkast</string>
+    <string name="action_toggle_visibility">Post synlighet</string>
     <string name="action_content_warning">Innehållsvarning</string>
     <string name="action_emoji_keyboard">Emoji-tangentbord</string>
     <string name="action_add_tab">Lägg till flik</string>
@@ -124,8 +124,8 @@
     <string name="action_copy_link">Kopiera länken</string>
     <string name="action_open_as">Öppen som %s</string>
     <string name="action_share_as">Dela som …</string>
-    <string name="send_status_link_to">Dela toot-URL till…</string>
-    <string name="send_status_content_to">Dela toot till…</string>
+    <string name="send_status_link_to">Dela post-URL till…</string>
+    <string name="send_status_content_to">Dela post till…</string>
     <string name="send_media_to">Dela media till…</string>
     <string name="confirmation_reported">Skickat!</string>
     <string name="confirmation_unblocked">Användare avblockerad</string>
@@ -157,7 +157,7 @@
     <string name="dialog_download_image">Ladda ned</string>
     <string name="dialog_message_cancel_follow_request">Återkalla följningsförfrågan?</string>
     <string name="dialog_unfollow_warning">Avfölja detta konto?</string>
-    <string name="dialog_delete_toot_warning">Radera denna toot?</string>
+    <string name="dialog_delete_post_warning">Radera denna post?</string>
     <string name="visibility_public">Offentlig: Skicka till offentliga tidslinjer</string>
     <string name="visibility_unlisted">Olistad: Visa inte i offentliga tidslinjer</string>
     <string name="visibility_private">Enbart-följare: Ses enbart av följare</string>
@@ -220,9 +220,9 @@
     <string name="notification_follow_name">Nya följare</string>
     <string name="notification_follow_description">Notifieringar angående nya följare</string>
     <string name="notification_boost_name">Knuffar</string>
-    <string name="notification_boost_description">Notifieringar när dina toot blir knuffade</string>
+    <string name="notification_boost_description">Notifieringar när dina post blir knuffade</string>
     <string name="notification_favourite_name">Favoriter</string>
-    <string name="notification_favourite_description">Notifieringar när dina toot blir markerade som favoriter</string>
+    <string name="notification_favourite_description">Notifieringar när dina post blir markerade som favoriter</string>
     <string name="notification_mention_format">%s omnämnde dig</string>
     <string name="notification_summary_large">%1$s, %2$s, %3$s och %4$d andra</string>
     <string name="notification_summary_medium">%1$s, %2$s, och %3$s</string>
@@ -230,23 +230,23 @@
     <string name="notification_title_summary">%d nya interaktioner</string>
     <string name="description_account_locked">Låst konto</string>
     <string name="about_title_activity">Om</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky är fri programvara med öppen källkod. Det är licensierat under GNU General Public License version 3. Du kan läsa mer om licensen här: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="about_gabby_version">Gabby %s</string>
+    <string name="about_gabby_license">Gabby är fri programvara med öppen källkod. Det är licensierat under GNU General Public License version 3. Du kan läsa mer om licensen här: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
          * you should think of “free” as in “free speech,” not as in “free beer”.
            We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom,
            to show we do not mean the software is gratis. Source: https://www.gnu.org/philosophy/free-sw.html
          * the url can be changed to link to the localized version of the license.
     -->
-    <string name="about_project_site">        Tuskys webbsida:\n
-        https://tusky.app
+    <string name="about_project_site">        Gabbys webbsida:\n
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        Buggrapporter &amp; funktionsförslag:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Tuskys Profil</string>
-    <string name="status_share_content">Dela innehåll av toot</string>
-    <string name="status_share_link">Dela länk till toot</string>
+    <string name="about_gabby_account">Gabbys Profil</string>
+    <string name="status_share_content">Dela innehåll av post</string>
+    <string name="status_share_link">Dela länk till post</string>
     <string name="status_media_images">Bilder</string>
     <string name="status_media_video">Video</string>
     <string name="state_follow_requested">Följarförfrågning</string>
@@ -297,11 +297,11 @@
     <string name="lock_account_label">Lås konto</string>
     <string name="lock_account_label_description">Kräver att du manuellt godkänner följare</string>
     <string name="compose_save_draft">Spara utkast?</string>
-    <string name="send_toot_notification_title">Skickar toot…</string>
-    <string name="send_toot_notification_error_title">Fel vid sändning av toot</string>
-    <string name="send_toot_notification_channel_name">Skickar toot</string>
-    <string name="send_toot_notification_cancel_title">Sändning avbruten</string>
-    <string name="send_toot_notification_saved_content">En kopia av tooten har sparats i dina utkast</string>
+    <string name="send_post_notification_title">Skickar post…</string>
+    <string name="send_post_notification_error_title">Fel vid sändning av post</string>
+    <string name="send_post_notification_channel_name">Skickar post</string>
+    <string name="send_post_notification_cancel_title">Sändning avbruten</string>
+    <string name="send_post_notification_saved_content">En kopia av posten har sparats i dina utkast</string>
     <string name="action_compose_shortcut">Skriv</string>
     <string name="error_no_custom_emojis">Din instans %s har inga anpassade emojis</string>
     <string name="copy_to_clipboard_success">Kopierat till urklipp</string>
@@ -310,9 +310,9 @@
     <string name="download_fonts">Du behöver ladda ned dessa emojis först</string>
     <string name="performing_lookup_title">Utför sökning…</string>
     <string name="expand_collapse_all_statuses">Expandera/Dölj alla status</string>
-    <string name="action_open_toot">Öppna toot</string>
+    <string name="action_open_post">Öppna post</string>
     <string name="restart_required">Omstart av appen krävs</string>
-    <string name="restart_emoji">Du måste starta om Tusky för att kunna tillämpa ändringarna</string>
+    <string name="restart_emoji">Du måste starta om Gabby för att kunna tillämpa ändringarna</string>
     <string name="later">Senare</string>
     <string name="restart">Starta om</string>
     <string name="caption_systememoji">Standard-emojis för din enhet</string>
@@ -323,7 +323,7 @@
     <string name="account_moved_description">%1$s har flyttat till:</string>
     <string name="reblog_private">Knuffa till ursprunglig målgrupp</string>
     <string name="unreblog_private">Ta bort knuff</string>
-    <string name="license_description">Tusky innehåller kod och tillgångar från följande öppen källkodsprojekt:</string>
+    <string name="license_description">Gabby innehåller kod och tillgångar från följande öppen källkodsprojekt:</string>
     <string name="license_apache_2">Licensierad under the Apache License (kopia nedanför)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
@@ -378,7 +378,7 @@
     <string name="hashtag">Hashtag</string>
 
 
-<string name="compose_shortcut_long_label">Skriv toot</string>
+<string name="compose_shortcut_long_label">Skriv post</string>
     <string name="compose_shortcut_short_label">Skriv</string>
 
 <string name="notifications_clear">Rensa</string>
@@ -390,7 +390,7 @@
     <string name="notification_clear_text">Är du säker på att du vill rensa dina notifieringar permanent\?</string>
 
 <string name="action_delete_and_redraft">Radera och skriv nytt</string>
-    <string name="dialog_redraft_toot_warning">Radera och skriva ny toot\?</string>
+    <string name="dialog_redraft_post_warning">Radera och skriva ny post\?</string>
 
     <string name="poll_info_format"> <!-- 15 röster • 1 timme kvar --> %1$s • %2$s</string>
     <plurals name="poll_info_votes">

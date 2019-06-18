@@ -9,18 +9,18 @@
     <string name="error_authorization_unknown">Vyskytla se neidentifikovaná chyba autorizace.</string>
     <string name="error_authorization_denied">Autorizace byla zamítnuta.</string>
     <string name="error_retrieving_oauth_token">Nepodařilo se získat přihlašovací token.</string>
-    <string name="error_compose_character_limit">Toot je příliš dlouhý!</string>
+    <string name="error_compose_character_limit">Post je příliš dlouhý!</string>
     <string name="error_image_upload_size">Soubor musí být menší než 8 MB.</string>
     <string name="error_video_upload_size">Videosoubory musejí být menší než 40 MB.</string>
     <string name="error_media_upload_type">Tento typ spuboru namůže být nahrán.</string>
     <string name="error_media_upload_opening">Tento soubor nemohl být otevřen.</string>
     <string name="error_media_upload_permission">Je vyžadováno povolení číst média.</string>
     <string name="error_media_download_permission">Je vyžadováno povolení ukládat média.</string>
-    <string name="error_media_upload_image_or_video">K jednomu tootu nemohou být přiloženy obrázky i videa.</string>
+    <string name="error_media_upload_image_or_video">K jednomu postu nemohou být přiloženy obrázky i videa.</string>
     <string name="error_media_upload_sending">Nahrání selhalo.</string>
-    <string name="error_report_too_few_statuses">Musí být nahlášen alespoň jeden toot.</string>
+    <string name="error_report_too_few_statuses">Musí být nahlášen alespoň jeden post.</string>
     <string name="error_invalid_regex">Neplatný regulární výraz</string>
-    <string name="error_sender_account_gone">Chyba při odesílání tootu.</string>
+    <string name="error_sender_account_gone">Chyba při odesílání postu.</string>
     <string name="title_home">Domů</string>
     <string name="title_advanced">Pokročilé</string>
     <string name="title_notifications">Oznámení</string>
@@ -28,9 +28,9 @@
     <string name="title_public_federated">Federovaná</string>
     <string name="title_direct_messages">Přímé zprávy</string>
     <string name="title_tab_preferences">Panely</string>
-    <string name="title_view_thread">Toot</string>
+    <string name="title_view_thread">Post</string>
     <string name="title_tag">#%s</string>
-    <string name="title_statuses">Tooty</string>
+    <string name="title_statuses">Posty</string>
     <string name="title_statuses_with_replies">S odpověďmi</string>
     <string name="title_statuses_pinned">Připnuté</string>
     <string name="title_follows">Sledovaní</string>
@@ -40,7 +40,7 @@
     <string name="title_blocks">Blokovaní uživatelé</string>
     <string name="title_follow_requests">Požadavky o sledování</string>
     <string name="title_edit_profile">Upravit váš profil</string>
-    <string name="title_saved_toot">Koncepty</string>
+    <string name="title_saved_post">Koncepty</string>
     <string name="title_licenses">Licence</string>
     <string name="status_username_format">\@%s</string>
     <string name="status_boosted_format">%s boostnul/a</string>
@@ -53,8 +53,8 @@
     <string name="status_content_show_less">Zabalit</string>
     <string name="message_empty">Tady nic není.</string>
     <string name="footer_empty">Tady nic není. Obnovte přetažnením dolů!</string>
-    <string name="notification_reblog_format">%s boostnul/a váš toot</string>
-    <string name="notification_favourite_format">%s si oblíbil/a váš toot</string>
+    <string name="notification_reblog_format">%s boostnul/a váš post</string>
+    <string name="notification_favourite_format">%s si oblíbil/a váš post</string>
     <string name="notification_follow_format">%s vás nyní sleduje</string>
     <string name="report_username_format">Nahlásit uživatele @%s</string>
     <string name="report_comment_hint">Dodatečné komentáře?</string>
@@ -77,8 +77,8 @@
     <string name="action_show_reblogs">Zobrazit boosty</string>
     <string name="action_report">Nahlásit</string>
     <string name="action_delete">Smazat</string>
-    <string name="action_send">TOOTNOUT</string>
-    <string name="action_send_public">TOOTNOUT!</string>
+    <string name="action_send">POSTNOUT</string>
+    <string name="action_send_public">POSTNOUT!</string>
     <string name="action_retry">Zkusit znovu</string>
     <string name="action_close">Zavřít</string>
     <string name="action_view_profile">Profil</string>
@@ -105,8 +105,8 @@
     <string name="action_accept">Přijmout</string>
     <string name="action_reject">Zamítnout</string>
     <string name="action_search">Hledat</string>
-    <string name="action_access_saved_toot">Koncepty</string>
-    <string name="action_toggle_visibility">Viditelnost tootu</string>
+    <string name="action_access_saved_post">Koncepty</string>
+    <string name="action_toggle_visibility">Viditelnost postu</string>
     <string name="action_content_warning">Varování o obsahu</string>
     <string name="action_emoji_keyboard">Klávesnice s emoji</string>
     <string name="action_add_tab">Přidat panel</string>
@@ -126,8 +126,8 @@
     <string name="action_share_as">Sdílet jako…</string>
     <string name="download_media">Stáhnout média</string>
     <string name="downloading_media">Stahuji média</string>
-    <string name="send_status_link_to">Sdílet URL tootu na…</string>
-    <string name="send_status_content_to">Sdílet toot na…</string>
+    <string name="send_status_link_to">Sdílet URL postu na…</string>
+    <string name="send_status_content_to">Sdílet post na…</string>
     <string name="send_media_to">Sdílet média na…</string>
     <string name="confirmation_reported">Odesláno!</string>
     <string name="confirmation_unblocked">Uživatel odblokován</string>
@@ -160,7 +160,7 @@
     <string name="dialog_download_image">Stáhnout</string>
     <string name="dialog_message_cancel_follow_request">Zrušit požadavek o sledování?</string>
     <string name="dialog_unfollow_warning">Přestat sledovat tento účet?</string>
-    <string name="dialog_delete_toot_warning">Smazat tento toot?</string>
+    <string name="dialog_delete_post_warning">Smazat tento post?</string>
     <string name="visibility_public">Veřejný: Poslat na veřejné časové osy</string>
     <string name="visibility_unlisted">Neuvedený: Neposlat na veřejné časové osy</string>
     <string name="visibility_private">Pouze pro sledující: Poslat pouze sledujícím</string>
@@ -223,9 +223,9 @@
     <string name="notification_follow_name">Noví sledující</string>
     <string name="notification_follow_description">Oznámení o nových sledujících</string>
     <string name="notification_boost_name">Boosty</string>
-    <string name="notification_boost_description">Oznámení, když jsou vaše tooty boostnuty</string>
+    <string name="notification_boost_description">Oznámení, když jsou vaše posty boostnuty</string>
     <string name="notification_favourite_name">Oblíbení</string>
-    <string name="notification_favourite_description">Oznámení, když jsou vaše tooty označeny jako oblíbené</string>
+    <string name="notification_favourite_description">Oznámení, když jsou vaše posty označeny jako oblíbené</string>
     <string name="notification_mention_format">%s vás zmínil/a</string>
     <string name="notification_summary_large">%1$s, %2$s, %3$s a dalších %4$d</string>
     <string name="notification_summary_medium">%1$s, %2$s a %3$s</string>
@@ -233,8 +233,8 @@
     <string name="notification_title_summary">%d nových interakcí</string>
     <string name="description_account_locked">Uzamčený účet</string>
     <string name="about_title_activity">O této aplikaci</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky je svobodný a otevřený software.
+    <string name="about_gabby_version">Gabby %s</string>
+    <string name="about_gabby_license">Gabby je svobodný a otevřený software.
         Je dostupný pod licencí GNU General Public License, verze 3.
         Licenci můžete zobrazit zde: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
@@ -244,14 +244,14 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        Webová stránka projektu:\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        Hlášení chyb a návrhy na nové vlastnosti:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Profil aplikace Tusky</string>
-    <string name="status_share_content">Sdílet obsah tootu</string>
-    <string name="status_share_link">Sdílet odkaz k tootu</string>
+    <string name="about_gabby_account">Profil aplikace Gabby</string>
+    <string name="status_share_content">Sdílet obsah postu</string>
+    <string name="status_share_link">Sdílet odkaz k postu</string>
     <string name="status_media_images">Obrázky</string>
     <string name="status_media_video">Video</string>
     <string name="state_follow_requested">Vyžádáno sledování</string>
@@ -302,11 +302,11 @@
     <string name="lock_account_label">Uzamknout účet</string>
     <string name="lock_account_label_description">Vyžaduje, abyste ručně schvaloval/a sledující</string>
     <string name="compose_save_draft">Uložit koncept?</string>
-    <string name="send_toot_notification_title">Odesílám toot…</string>
-    <string name="send_toot_notification_error_title">Chyba při odesílání tootu</string>
-    <string name="send_toot_notification_channel_name">Odesílám tooty</string>
-    <string name="send_toot_notification_cancel_title">Odesílání bylo zrušeno</string>
-    <string name="send_toot_notification_saved_content">Kopie vašeho tootu byla uložena do vašich konceptů</string>
+    <string name="send_post_notification_title">Odesílám post…</string>
+    <string name="send_post_notification_error_title">Chyba při odesílání postu</string>
+    <string name="send_post_notification_channel_name">Odesílám posty</string>
+    <string name="send_post_notification_cancel_title">Odesílání bylo zrušeno</string>
+    <string name="send_post_notification_saved_content">Kopie vašeho postu byla uložena do vašich konceptů</string>
     <string name="action_compose_shortcut">Napsat</string>
     <string name="error_no_custom_emojis">Vaše instance %s nemá žádná vlastní emoji</string>
     <string name="copy_to_clipboard_success">Zkopírováno do schránky</string>
@@ -315,9 +315,9 @@
     <string name="download_fonts">Musíte si nejprve stáhnout tyto sady emoji</string>
     <string name="performing_lookup_title">Provádím prohledávání…</string>
     <string name="expand_collapse_all_statuses">Rozbalit/zabalit všechny příspěvky</string>
-    <string name="action_open_toot">Otevřít toot</string>
+    <string name="action_open_post">Otevřít post</string>
     <string name="restart_required">Je vyžadován restart aplikace</string>
-    <string name="restart_emoji">Pro použití těchto změn musíte restartovat aplikaci Tusky</string>
+    <string name="restart_emoji">Pro použití těchto změn musíte restartovat aplikaci Gabby</string>
     <string name="later">Později</string>
     <string name="restart">Restartovat</string>
     <string name="caption_systememoji">Výchozí sada emoji vašeho zařízení</string>
@@ -328,7 +328,7 @@
     <string name="account_moved_description">%1$s se přesunul/a na:</string>
     <string name="reblog_private">Boostnout původnímu publiku</string>
     <string name="unreblog_private">Zrušit boost</string>
-    <string name="license_description">Tusky obsahuje kód a zdroje z následujících otevřených projektů:</string>
+    <string name="license_description">Gabby obsahuje kód a zdroje z následujících otevřených projektů:</string>
     <string name="license_apache_2">Pod licencí Apache License (kopie níže)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
@@ -381,7 +381,7 @@
     <string name="edit_hashtag_title">Upravit hashtag</string>
     <string name="edit_hashtag_hint">Hashtag bez #</string>
     <string name="hashtag">Hashtag</string>
-<string name="compose_shortcut_long_label">Napsat toot</string>
+<string name="compose_shortcut_long_label">Napsat post</string>
     <string name="compose_shortcut_short_label">Napsat</string>
 
 <string name="notifications_clear">Vymazat</string>
@@ -393,7 +393,7 @@
 <string name="notification_clear_text">Jste si jistý/á, že chcete trvale vymazat všechna vaše oznámení\?</string>
 
 <string name="action_delete_and_redraft">Smazat a přepsat</string>
-    <string name="dialog_redraft_toot_warning">Smazat a přepsat tento toot\?</string>
+    <string name="dialog_redraft_post_warning">Smazat a přepsat tento post\?</string>
 
     <string name="poll_info_format"> <!-- 15 votes • 1 hour left --> %1$s • %2$s</string>
     <plurals name="poll_info_votes">

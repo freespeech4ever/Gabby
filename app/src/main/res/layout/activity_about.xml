@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.keylesspalace.tusky.AboutActivity">
+    tools:context="com.gab.gabby.AboutActivity">
 
     <include layout="@layout/toolbar_basic" />
 
@@ -52,7 +52,7 @@
                     android:textAlignment="center"
                     android:textIsSelectable="true"
                     android:textSize="16sp"
-                    tools:text="@string/about_tusky_license" />
+                    tools:text="@string/about_gabby_license" />
 
                 <TextView
                     android:id="@+id/aboutWebsiteInfoTextView"
@@ -81,19 +81,19 @@
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/tuskyProfileButton"
-                    style="@style/TuskyButton"
+                    android:id="@+id/gabbyProfileButton"
+                    style="@style/GabbyButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="24dp"
                     android:lineSpacingMultiplier="1.2"
-                    android:text="@string/about_tusky_account"
+                    android:text="@string/about_gabby_account"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/aboutLicensesButton"
-                    style="@style/TuskyButton.Outlined"
+                    style="@style/GabbyButton.Outlined"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.keylesspalace.tusky.LoginActivity">
+    tools:context="com.gab.gabby.LoginActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                 android:layout_height="178dp"
                 android:layout_marginBottom="50dp"
                 android:contentDescription="@null"
-                app:srcCompat="@drawable/elephant_friend" />
+                app:srcCompat="@drawable/ic_twemoji" />
 
             <LinearLayout
                 android:id="@+id/loginInputLayout"
@@ -38,7 +38,7 @@
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/domainTextInputLayout"
-                    style="@style/TuskyTextInput"
+                    style="@style/GabbyTextInput"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:hint="@string/hint_domain"
@@ -54,7 +54,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/loginButton"
-                    style="@style/TuskyButton"
+                    style="@style/GabbyButton"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
@@ -89,6 +89,16 @@
                     android:text="@string/login_connection"
                     android:textAlignment="center" />
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:gravity="center_vertical|fill_vertical"
+                android:lineSpacingExtra="8sp"
+                android:text="Welcome to Gabby, the free speech ActivityPub client.  You can connect to any compatible instance."
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>

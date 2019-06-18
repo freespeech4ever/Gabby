@@ -8,18 +8,18 @@
     <string name="error_authorization_unknown">Ocorreu um erro não-identificado de autorização.</string>
     <string name="error_authorization_denied">Autorização negada.</string>
     <string name="error_retrieving_oauth_token">Falha ao adquirir token de entrada.</string>
-    <string name="error_compose_character_limit">O toot é muito longo!</string>
+    <string name="error_compose_character_limit">O post é muito longo!</string>
     <string name="error_image_upload_size">O arquivo deve ser menor que 8MB.</string>
     <string name="error_video_upload_size">Vídeos devem ser menores que 40MB.</string>
     <string name="error_media_upload_type">Esse tipo de arquivo não pode ser enviado.</string>
     <string name="error_media_upload_opening">Esse arquivo não pode ser aberto.</string>
     <string name="error_media_upload_permission">Permissão para ler mídia é necessária.</string>
     <string name="error_media_download_permission">Permissão para armazenar mídia é necessária.</string>
-    <string name="error_media_upload_image_or_video">Imagens e vídeos não podem ser anexados no mesmo toot.</string>
+    <string name="error_media_upload_image_or_video">Imagens e vídeos não podem ser anexados no mesmo post.</string>
     <string name="error_media_upload_sending">Falha no envio.</string>
-    <string name="error_report_too_few_statuses">Pelo menos um toot deve ser denunciado.</string>
+    <string name="error_report_too_few_statuses">Pelo menos um post deve ser denunciado.</string>
     <string name="error_invalid_regex">Expressão regular inválida</string>
-    <string name="error_sender_account_gone">Erro ao enviar toot.</string>
+    <string name="error_sender_account_gone">Erro ao enviar post.</string>
     <string name="title_home">Página inicial</string>
     <string name="title_advanced">Avançado</string>
     <string name="title_notifications">Notificações</string>
@@ -28,7 +28,7 @@
     <string name="title_direct_messages">Mensagens diretas</string>
     <string name="title_tab_preferences">Abas</string>
     <string name="title_view_thread">Sequência</string>
-    <string name="title_statuses">Toots</string>
+    <string name="title_statuses">Posts</string>
     <string name="title_statuses_with_replies">Com respostas</string>
     <string name="title_follows">Segue</string>
     <string name="title_followers">Seguidores</string>
@@ -37,7 +37,7 @@
     <string name="title_blocks">Usuários bloqueados</string>
     <string name="title_follow_requests">Solicitações de seguidor</string>
     <string name="title_edit_profile">Editar seu perfil</string>
-    <string name="title_saved_toot">Rascunhos</string>
+    <string name="title_saved_post">Rascunhos</string>
     <string name="title_licenses">Licenças</string>
     <string name="status_boosted_format">%s deu boost</string>
     <string name="status_sensitive_media_title">Conteúdo sensível</string>
@@ -46,8 +46,8 @@
     <string name="status_content_warning_show_more">Mostrar mais</string>
     <string name="status_content_warning_show_less">Mostrar menos</string>
     <string name="footer_empty">Nada aqui. Arraste para atualizar!</string>
-    <string name="notification_reblog_format">%s deu boost no seu toot</string>
-    <string name="notification_favourite_format">%s favoritou seu toot</string>
+    <string name="notification_reblog_format">%s deu boost no seu post</string>
+    <string name="notification_favourite_format">%s favoritou seu post</string>
     <string name="notification_follow_format">%s te seguiu</string>
     <string name="report_username_format">Denunciar @%s</string>
     <string name="report_comment_hint">Comentários adicionais?</string>
@@ -70,8 +70,8 @@
     <string name="action_show_reblogs">Mostrar boosts</string>
     <string name="action_report">Denunciar</string>
     <string name="action_delete">Excluir</string>
-    <string name="action_send">TOOT</string>
-    <string name="action_send_public">TOOT!</string>
+    <string name="action_send">POST</string>
+    <string name="action_send_public">POST!</string>
     <string name="action_retry">Tentar novamente</string>
     <string name="action_close">Fechar</string>
     <string name="action_view_profile">Perfil</string>
@@ -97,8 +97,8 @@
     <string name="action_accept">Aceitar</string>
     <string name="action_reject">Rejeitar</string>
     <string name="action_search">Pesquisar</string>
-    <string name="action_access_saved_toot">Rascunhos</string>
-    <string name="action_toggle_visibility">Privacidade do toot</string>
+    <string name="action_access_saved_post">Rascunhos</string>
+    <string name="action_toggle_visibility">Privacidade do post</string>
     <string name="action_content_warning">Aviso de conteúdo</string>
     <string name="action_emoji_keyboard">Teclado de emojis</string>
     <string name="action_add_tab">Adicionar aba</string>
@@ -112,8 +112,8 @@
     <string name="action_copy_link">Copiar link</string>
     <string name="action_open_as">Abrir como %s</string>
     <string name="action_share_as">Compartilhar como …</string>
-    <string name="send_status_link_to">Compartilhar link do toot no…</string>
-    <string name="send_status_content_to">Compartilhar toot no…</string>
+    <string name="send_status_link_to">Compartilhar link do post no…</string>
+    <string name="send_status_content_to">Compartilhar post no…</string>
     <string name="send_media_to">Compartilhar mídia via…</string>
     <string name="confirmation_reported">Enviado!</string>
     <string name="confirmation_unblocked">Usuário desbloqueado</string>
@@ -144,7 +144,7 @@
     <string name="dialog_download_image">Baixar</string>
     <string name="dialog_message_cancel_follow_request">Revogar a solicitação de seguidor?</string>
     <string name="dialog_unfollow_warning">Deixar de seguir esta conta?</string>
-    <string name="dialog_delete_toot_warning">Excluir este toot?</string>
+    <string name="dialog_delete_post_warning">Excluir este post?</string>
     <string name="visibility_public">Público: Postar em timelines públicas</string>
     <string name="visibility_unlisted">Não-listado: Não postar em timelines públicas</string>
     <string name="visibility_private">Privado: Postar apenas para seguidores</string>
@@ -160,8 +160,8 @@
     <string name="pref_title_notification_filters">Notifique-me quando</string>
     <string name="pref_title_notification_filter_mentions">mencionado</string>
     <string name="pref_title_notification_filter_follows">seguido</string>
-    <string name="pref_title_notification_filter_reblogs">derem boosts nos meus toots</string>
-    <string name="pref_title_notification_filter_favourites">favoritarem meus toots</string>
+    <string name="pref_title_notification_filter_reblogs">derem boosts nos meus posts</string>
+    <string name="pref_title_notification_filter_favourites">favoritarem meus posts</string>
     <string name="pref_title_appearance_settings">Aparência</string>
     <string name="pref_title_app_theme">Temas</string>
     <string name="pref_title_timelines">Timelines</string>
@@ -189,7 +189,7 @@
     <string name="pref_failed_to_sync">Falha ao sincronizar configurações</string>
     <string name="post_privacy_public">Público</string>
     <string name="post_privacy_unlisted">Não-listado</string>
-    <string name="pref_status_text_size">Tamanho da fonte dos toots</string>
+    <string name="pref_status_text_size">Tamanho da fonte dos posts</string>
     <string name="status_text_size_smallest">Menor</string>
     <string name="status_text_size_small">Pequeno</string>
     <string name="status_text_size_medium">Médio</string>
@@ -202,9 +202,9 @@
     <string name="notification_follow_name">Novos Seguidores</string>
     <string name="notification_follow_description">Notificações sobre novos seguidores</string>
     <string name="notification_boost_name">Boosts</string>
-    <string name="notification_boost_description">Notificações quando derem boost nos seus toots</string>
+    <string name="notification_boost_description">Notificações quando derem boost nos seus posts</string>
     <string name="notification_favourite_name">Favoritos</string>
-    <string name="notification_favourite_description">Notificações quando favoritarem seus toots</string>
+    <string name="notification_favourite_description">Notificações quando favoritarem seus posts</string>
     <string name="notification_mention_format">%s te mencionou</string>
     <string name="notification_summary_large">%1$s, %2$s, %3$s e %4$d outros</string>
     <string name="notification_summary_medium">%1$s, %2$s, e %3$s</string>
@@ -212,8 +212,8 @@
     <string name="notification_title_summary">%d novas interações</string>
     <string name="description_account_locked">Conta trancada</string>
     <string name="about_title_activity">Sobre</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky é um software livre e de código aberto.
+    <string name="about_gabby_version">Gabby %s</string>
+    <string name="about_gabby_license">Gabby é um software livre e de código aberto.
         Ele é licenciado sob a versão 3 da Licença Pública Geral GNU.
         Você pode ler a licença aqui: https://www.gnu.org/licenses/gpl-3.0.pt-br.html</string>
     <!-- note to translators:
@@ -223,12 +223,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">Site do projeto:\n
-            https://tusky.app</string>
+            https://gabby.app</string>
     <string name="about_bug_feature_request_site">Reporte bugs &amp; requisite funcionalidades:\n
-            https://github.com/tuskyapp/Tusky/issues</string>
-    <string name="about_tusky_account">Perfil do Tusky</string>
-    <string name="status_share_content">Compartilhar conteúdo do toot</string>
-    <string name="status_share_link">Compartilhar link do toot</string>
+            https://github.com/gabbyapp/Gabby/issues</string>
+    <string name="about_gabby_account">Perfil do Gabby</string>
+    <string name="status_share_content">Compartilhar conteúdo do post</string>
+    <string name="status_share_link">Compartilhar link do post</string>
     <string name="status_media_images">Imagens</string>
     <string name="status_media_video">Vídeo</string>
     <string name="state_follow_requested">Solicitação enviada</string>
@@ -261,11 +261,11 @@
     <string name="lock_account_label">Trancar conta</string>
     <string name="lock_account_label_description">Requer aprovação manual de seguidores</string>
     <string name="compose_save_draft">Salvar rascunho?</string>
-    <string name="send_toot_notification_title">Enviando toot…</string>
-    <string name="send_toot_notification_error_title">Erro ao enviar toot</string>
-    <string name="send_toot_notification_channel_name">Enviando toots</string>
-    <string name="send_toot_notification_cancel_title">Envio cancelado</string>
-    <string name="send_toot_notification_saved_content">Uma cópia do toot foi salva nos seus rascunhos</string>
+    <string name="send_post_notification_title">Enviando post…</string>
+    <string name="send_post_notification_error_title">Erro ao enviar post</string>
+    <string name="send_post_notification_channel_name">Enviando posts</string>
+    <string name="send_post_notification_cancel_title">Envio cancelado</string>
+    <string name="send_post_notification_saved_content">Uma cópia do post foi salva nos seus rascunhos</string>
     <string name="action_compose_shortcut">Compor</string>
     <string name="error_no_custom_emojis">A sua instância %s não possui emojis personalizados</string>
     <string name="copy_to_clipboard_success">Copiado para a área de transferência</string>
@@ -273,10 +273,10 @@
     <string name="system_default">Padrão do sistema</string>
     <string name="download_fonts">É necessário baixar estes pacotes de emojis primeiro</string>
     <string name="performing_lookup_title">Realizando consulta…</string>
-    <string name="expand_collapse_all_statuses">Expandir/Ocultar todos os toots</string>
-    <string name="action_open_toot">Abrir toot</string>
+    <string name="expand_collapse_all_statuses">Expandir/Ocultar todos os posts</string>
+    <string name="action_open_post">Abrir post</string>
     <string name="restart_required">É preciso reiniciar o aplicativo</string>
-    <string name="restart_emoji">É preciso reiniciar o Tusky para aplicar essas mudanças</string>
+    <string name="restart_emoji">É preciso reiniciar o Gabby para aplicar essas mudanças</string>
     <string name="later">Depois</string>
     <string name="restart">Reiniciar</string>
     <string name="caption_systememoji">Pacote de emojis padrão do seu dispositivo</string>
@@ -287,7 +287,7 @@
     <string name="account_moved_description">%1$s mudou-se para:</string>
     <string name="reblog_private">Dar boost para audiência original</string>
     <string name="unreblog_private">Desfazer boost</string>
-    <string name="license_description">O Tusky contém código e recursos dos seguintes projetos de código aberto:</string>
+    <string name="license_description">O Gabby contém código e recursos dos seguintes projetos de código aberto:</string>
     <string name="license_apache_2">Licenciado sob a licença Apache (cópia abaixo)</string>
     <string name="profile_metadata_label">Metadados do perfil</string>
     <string name="profile_metadata_add">Adicionar</string>
@@ -317,7 +317,7 @@
     <string name="download_media">Baixar mídia</string>
     <string name="downloading_media">Baixando mídia</string>
 
-    <string name="dialog_redraft_toot_warning">Excluir e rascunhar este toot\?</string>
+    <string name="dialog_redraft_post_warning">Excluir e rascunhar este post\?</string>
 
     <string name="pref_title_notification_filter_poll">Enquetes terminaram</string>
     <string name="pref_title_timeline_filters">Filtros</string>
@@ -397,7 +397,7 @@
     <string name="notifications_apply_filter">Filtro</string>
     <string name="filter_apply">Salvar</string>
 
-    <string name="compose_shortcut_long_label">Compor toot</string>
+    <string name="compose_shortcut_long_label">Compor post</string>
     <string name="compose_shortcut_short_label">Compor</string>
     <string name="pref_title_bot_overlay">Mostrar indicador de robôs</string>
 

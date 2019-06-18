@@ -40,7 +40,7 @@
     <string name="title_blocks">Blokkolt felhasználók</string>
     <string name="title_follow_requests">Követési kérelmek</string>
     <string name="title_edit_profile">Profilod szerkesztése</string>
-    <string name="title_saved_toot">Piszkozatok</string>
+    <string name="title_saved_post">Piszkozatok</string>
     <string name="title_licenses">Licencek</string>
     <string name="status_username_format">\@%s</string>
     <string name="status_boosted_format">%s reblogolta</string>
@@ -103,7 +103,7 @@
     <string name="action_accept">Elfogad</string>
     <string name="action_reject">Elutasít</string>
     <string name="action_search">Keresés</string>
-    <string name="action_access_saved_toot">Piszkozatok</string>
+    <string name="action_access_saved_post">Piszkozatok</string>
     <string name="action_toggle_visibility">Tülkök láthatósága</string>
     <string name="action_content_warning">Tartalom figyelmeztetés</string>
     <string name="action_emoji_keyboard">Emoji billentyűzet</string>
@@ -152,7 +152,7 @@
     <string name="dialog_download_image">Letöltés</string>
     <string name="dialog_message_cancel_follow_request">Visszavonod a követési kérelmet?</string>
     <string name="dialog_unfollow_warning">Követés megszüntetése?</string>
-    <string name="dialog_delete_toot_warning">Törlöd ezt a tülköt?</string>
+    <string name="dialog_delete_post_warning">Törlöd ezt a tülköt?</string>
     <string name="visibility_public">Nyilvános: Nyilvános idővonalra való posztolás</string>
     <string name="visibility_unlisted">Listázatlan: Nem jelenik meg a nyilvános idővonalon</string>
     <string name="visibility_private">Csak követőknek: Posztolás csak követőknek</string>
@@ -218,7 +218,7 @@
     <string name="notification_title_summary">%d új interakció</string>
     <string name="description_account_locked">Zárolt fiók</string>
     <string name="about_title_activity">Rólunk</string>
-    <string name="about_tusky_version">Tusky %s</string>
+    <string name="about_gabby_version">Gabby %s</string>
     <!-- note to translators:
          * you should think of “free” as in “free speech,” not as in “free beer”.
            We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom,
@@ -226,12 +226,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        Projekt honlapja:\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        Hibajeletés &amp; funkcionalitási kérések:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Tusky Profilja</string>
+    <string name="about_gabby_account">Gabby Profilja</string>
     <string name="status_share_content">Tülk! tartalmának megosztása</string>
     <string name="status_share_link">Tülk linkjének megosztása</string>
     <string name="status_media_images">Képek</string>
@@ -250,11 +250,11 @@
     <string name="action_remove_media">Törlés</string>
     <string name="lock_account_label">Fiók lezárása</string>
     <string name="compose_save_draft">Elmented a vázlatot?</string>
-    <string name="send_toot_notification_title">Tülk elküldése…</string>
-    <string name="send_toot_notification_error_title">A tülk elküldése nem sikerult</string>
-    <string name="send_toot_notification_channel_name">Tülkök elküldése</string>
-    <string name="send_toot_notification_cancel_title">Küldés megszakítva</string>
-    <string name="send_toot_notification_saved_content">A tülk másolatát elmentettük a vázlataid közé</string>
+    <string name="send_post_notification_title">Tülk elküldése…</string>
+    <string name="send_post_notification_error_title">A tülk elküldése nem sikerult</string>
+    <string name="send_post_notification_channel_name">Tülkök elküldése</string>
+    <string name="send_post_notification_cancel_title">Küldés megszakítva</string>
+    <string name="send_post_notification_saved_content">A tülk másolatát elmentettük a vázlataid közé</string>
     <string name="action_compose_shortcut">Szerkeszt</string>
     <string name="error_no_custom_emojis">A %s instanciádnak nincsenek egyedi emoji-jai</string>
     <string name="copy_to_clipboard_success">Vágólapra másolva</string>
@@ -262,9 +262,9 @@
     <string name="system_default">Rendszer alapértelmezett</string>
     <string name="download_fonts">Először le kell töltened ezeket az emoji készleteket</string>
     <string name="performing_lookup_title">Keresés…</string>
-    <string name="action_open_toot">Tülk megnyitása</string>
+    <string name="action_open_post">Tülk megnyitása</string>
     <string name="restart_required">Újraindítás szükséges</string>
-    <string name="restart_emoji">A beállítások érvényesítéséhez újra kell indítani a Tusky-t</string>
+    <string name="restart_emoji">A beállítások érvényesítéséhez újra kell indítani a Gabby-t</string>
     <string name="later">Később</string>
     <string name="restart">Újraindítás</string>
     <string name="caption_systememoji">Az eszközöd alap emoji készlete</string>
@@ -273,7 +273,7 @@
     <string name="download_failed">Letöltés sikertelen</string>
     <string name="profile_badge_bot_text">Robot</string>
     <string name="account_moved_description">%1$s elköltözött:</string>
-    <string name="license_description">A Tusky a következő nyílt forráskódú projektekből tartalmaz programkódot és más elemeket:</string>
+    <string name="license_description">A Gabby a következő nyílt forráskódú projektekből tartalmaz programkódot és más elemeket:</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
     <string name="profile_metadata_label">Profil metaadatok</string>
@@ -299,7 +299,7 @@
 
     <string name="send_media_to">Média megosztása következővel:</string>
 
-    <string name="dialog_redraft_toot_warning">Törlöd és újraírod ezt a tootot\?</string>
+    <string name="dialog_redraft_post_warning">Törlöd és újraírod ezt a postot\?</string>
 
     <string name="pref_summary_notifications">a %1$s fióknak</string>
     <string name="pref_title_notification_filter_poll">befejeződött a szavazás</string>
@@ -315,7 +315,7 @@
     <string name="notification_poll_description">Értesítés a befejezett szavazásokról</string>
 
 
-    <string name="about_tusky_license">Tusky ingyenes és nyílt forráskódú szoftver. A GNU General Public License Version 3 érvényes rá, amit itt tekinthets meg: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="about_gabby_license">Gabby ingyenes és nyílt forráskódú szoftver. A GNU General Public License Version 3 érvényes rá, amit itt tekinthets meg: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <string name="abbreviated_in_years">%dé múlva</string>
     <string name="abbreviated_in_days">%nn múlva</string>
     <string name="abbreviated_in_hours">%dó múlva</string>

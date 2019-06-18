@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.keylesspalace.tusky.EditProfileActivity">
+    tools:context="com.gab.gabby.EditProfileActivity">
 
     <include layout="@layout/toolbar_basic" />
 
@@ -46,7 +46,7 @@
                 app:layout_constraintStart_toStartOf="@id/headerPreview"
                 app:layout_constraintTop_toTopOf="@id/headerPreview" />
 
-            <com.keylesspalace.tusky.view.RoundedImageView
+            <com.gab.gabby.view.RoundedImageView
                 android:id="@+id/avatarPreview"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
@@ -92,7 +92,7 @@
                 app:layout_constraintTop_toBottomOf="@id/avatarPreview">
 
                 <com.google.android.material.textfield.TextInputLayout
-                    style="@style/TuskyTextInput"
+                    style="@style/GabbyTextInput"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -110,7 +110,7 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
-                    style="@style/TuskyTextInput"
+                    style="@style/GabbyTextInput"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -168,7 +168,7 @@
 
                 <Button
                     android:id="@+id/addFieldButton"
-                    style="@style/TuskyButton"
+                    style="@style/GabbyButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"

@@ -1,21 +1,21 @@
 /* Copyright 2018 Levi Bard
  *
- * This file is a part of Tusky.
+ * This file is a part of Gabby.
  *
  * This program is free software; you can redistribute it and/or modify it under the terms of the
  * GNU General Public License as published by the Free Software Foundation; either version 3 of the
  * License, or (at your option) any later version.
  *
- * Tusky is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
+ * Gabby is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
  * the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
  * Public License for more details.
  *
- * You should have received a copy of the GNU General Public License along with Tusky; if not,
+ * You should have received a copy of the GNU General Public License along with Gabby; if not,
  * see <http://www.gnu.org/licenses>. */
 
-package com.keylesspalace.tusky
+package com.gab.gabby
 
-import com.keylesspalace.tusky.util.ComposeTokenizer
+import com.gab.gabby.util.ComposeTokenizer
 import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -47,10 +47,10 @@ class ComposeTokenizerTest(private val text: CharSequence,
                     arrayOf("mention", 7, 7),
                     arrayOf("ment10n", 7, 7),
                     arrayOf("mentio_", 7, 7),
-                    arrayOf("#tusky", 0, 6),
-                    arrayOf("#@tusky", 7, 7),
-                    arrayOf("@#tusky", 7, 7),
-                    arrayOf(" @#tusky", 8, 8),
+                    arrayOf("#gabby", 0, 6),
+                    arrayOf("#@gabby", 7, 7),
+                    arrayOf("@#gabby", 7, 7),
+                    arrayOf(" @#gabby", 8, 8),
                     arrayOf(":mastodon", 0, 9),
                     arrayOf(":@mastodon", 10, 10),
                     arrayOf("@:mastodon", 10, 10),

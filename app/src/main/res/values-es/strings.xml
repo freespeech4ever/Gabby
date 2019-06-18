@@ -40,7 +40,7 @@
     <string name="title_blocks">Bloqueados</string>
     <string name="title_follow_requests">Solicitudes</string>
     <string name="title_edit_profile">Editar tu perfil</string>
-    <string name="title_saved_toot">Borradores</string>
+    <string name="title_saved_post">Borradores</string>
     <string name="title_licenses">Licencias</string>
     <string name="status_username_format">\@%s</string>
     <string name="status_boosted_format">%s compartió</string>
@@ -103,7 +103,7 @@
     <string name="action_accept">Aceptar</string>
     <string name="action_reject">Rechazar</string>
     <string name="action_search">Buscar</string>
-    <string name="action_access_saved_toot">Borradores</string>
+    <string name="action_access_saved_post">Borradores</string>
     <string name="action_toggle_visibility">Visibilidad del estado</string>
     <string name="action_content_warning">Aviso de contenido</string>
     <string name="action_emoji_keyboard">Teclado de emojis</string>
@@ -146,7 +146,7 @@
     <string name="dialog_download_image">Descargar</string>
     <string name="dialog_message_cancel_follow_request">¿Cancelar petición de amistad?</string>
     <string name="dialog_unfollow_warning">¿Dejar de seguir esta cuenta?</string>
-    <string name="dialog_delete_toot_warning">¿Eliminar este toot?</string>
+    <string name="dialog_delete_post_warning">¿Eliminar este post?</string>
     <string name="visibility_public">Público: Mostrar en historias públicas</string>
     <string name="visibility_unlisted">Oculto: No mostrar en historias públicas</string>
     <string name="visibility_private">Privado: Sólo visible para seguidores</string>
@@ -216,8 +216,8 @@
     <string name="notification_title_summary">%d nuevas interacciones</string>
     <string name="description_account_locked">Cuenta protegida</string>
     <string name="about_title_activity">Acerca de</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky es un software libre y de código abierto.
+    <string name="about_gabby_version">Gabby %s</string>
+    <string name="about_gabby_license">Gabby es un software libre y de código abierto.
         Está licenciado bajo la licencia \"GNU General Public License Version 3\".
         Puedes leer sobre la misma en: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
@@ -227,12 +227,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        Sitio del proyecto:\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        Reporte de errores y peticiones de características:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Perfil de Tusky</string>
+    <string name="about_gabby_account">Perfil de Gabby</string>
     <string name="status_share_content">Compartir contenido</string>
     <string name="status_share_link">Compartir enlace</string>
     <string name="status_media_images">Imágenes</string>
@@ -268,11 +268,11 @@
     <string name="lock_account_label">Proteger cuenta</string>
     <string name="lock_account_label_description">Tendrá que admitir los seguidores manualmente</string>
     <string name="compose_save_draft">¿Guardar borrador?</string>
-    <string name="send_toot_notification_title">Enviando estado…</string>
-    <string name="send_toot_notification_error_title">Error enviando estado</string>
-    <string name="send_toot_notification_channel_name">Enviando estado</string>
-    <string name="send_toot_notification_cancel_title">Envío cancelado</string>
-    <string name="send_toot_notification_saved_content">Una copia del estado se ha guardado en borradores</string>
+    <string name="send_post_notification_title">Enviando estado…</string>
+    <string name="send_post_notification_error_title">Error enviando estado</string>
+    <string name="send_post_notification_channel_name">Enviando estado</string>
+    <string name="send_post_notification_cancel_title">Envío cancelado</string>
+    <string name="send_post_notification_saved_content">Una copia del estado se ha guardado en borradores</string>
     <string name="action_compose_shortcut">Redactar</string>
     <string name="error_no_custom_emojis">Su instancia %s no ofrece emojis personalizados</string>
     <string name="copy_to_clipboard_success">Copiado al portapapeles</string>
@@ -281,7 +281,7 @@
     <string name="download_fonts">Tendrás que descargarlos primero</string>
     <string name="performing_lookup_title">Buscando…</string>
     <string name="expand_collapse_all_statuses">Expandir/ocultar todos los estados</string>
-    <string name="action_open_toot">Abrir</string>
+    <string name="action_open_post">Abrir</string>
     <string name="restart_required">Reinicio requerido</string>
     <string name="restart_emoji">Tendrás que reiniciar la aplicación para aplicar estos cambios</string>
     <string name="later">Más tarde</string>
@@ -294,7 +294,7 @@
     <string name="account_moved_description">%1$s se trasladó a:</string>
     <string name="reblog_private">Volver a compartir</string>
     <string name="unreblog_private">Dejar de compartir</string>
-    <string name="license_description">Tusky contiene código y recursos de los siguientes proyectos:</string>
+    <string name="license_description">Gabby contiene código y recursos de los siguientes proyectos:</string>
     <string name="license_apache_2">Licenciado bajo Apache License (texto bajo la lista)</string>
     <string name="license_cc_by_4">CC BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>

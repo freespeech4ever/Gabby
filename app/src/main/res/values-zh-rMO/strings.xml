@@ -14,8 +14,8 @@
     <string name="error_video_upload_size">影片大小限制 40MB</string>
     <string name="error_media_upload_type">無法上傳此類型的檔案</string>
     <string name="error_media_upload_opening">此檔案無法開啟</string>
-    <string name="error_media_upload_permission">需要授予 Tusky 讀取媒體檔案的權限</string>
-    <string name="error_media_download_permission">需要授予 Tusky 寫入儲存空間的權限</string>
+    <string name="error_media_upload_permission">需要授予 Gabby 讀取媒體檔案的權限</string>
+    <string name="error_media_download_permission">需要授予 Gabby 寫入儲存空間的權限</string>
     <string name="error_media_upload_image_or_video">無法在嘟文中同時插入影片和圖片</string>
     <string name="error_media_upload_sending">媒體檔案上傳失敗</string>
     <string name="error_report_too_few_statuses">至少要檢舉 1 則嘟文</string>
@@ -41,7 +41,7 @@
     <string name="title_blocks">被封鎖的使用者</string>
     <string name="title_follow_requests">關注請求</string>
     <string name="title_edit_profile">編輯個人資料</string>
-    <string name="title_saved_toot">草稿</string>
+    <string name="title_saved_post">草稿</string>
     <string name="title_licenses">開源授權</string>
 
     <string name="status_username_format">\@%s</string>
@@ -112,7 +112,7 @@
     <string name="action_accept">接受</string>
     <string name="action_reject">拒絕</string>
     <string name="action_search">搜尋</string>
-    <string name="action_access_saved_toot">草稿</string>
+    <string name="action_access_saved_post">草稿</string>
     <string name="action_toggle_visibility">設定嘟文可見範圍</string>
     <string name="action_content_warning">設定敏感內容警告</string>
     <string name="action_emoji_keyboard">插入表情符號</string>
@@ -179,8 +179,8 @@
     <string name="dialog_download_image">下載</string>
     <string name="dialog_message_cancel_follow_request">移除關注請求？</string>
     <string name="dialog_unfollow_warning">停止關注此使用者？</string>
-    <string name="dialog_delete_toot_warning">刪除這條嘟文？</string>
-    <string name="dialog_redraft_toot_warning">刪除並重新編輯這條嘟文？</string>
+    <string name="dialog_delete_post_warning">刪除這條嘟文？</string>
+    <string name="dialog_redraft_post_warning">刪除並重新編輯這條嘟文？</string>
 
     <string name="visibility_public">公開：所有人可見，並會出現在公開時間軸上</string>
     <string name="visibility_unlisted">不公開：所有人可見，但不會出現在公開時間軸上</string>
@@ -270,8 +270,8 @@
 
     <string name="description_account_locked">鎖嘟用戶</string>
 
-    <string name="about_title_activity">關於 Tusky</string>
-    <string name="about_tusky_license">Tusky 是基於 GNU General Public License Version 3 許可證開源的自由軟體完整的許可證協議：https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="about_title_activity">關於 Gabby</string>
+    <string name="about_gabby_license">Gabby 是基於 GNU General Public License Version 3 許可證開源的自由軟體完整的許可證協議：https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
          * you should think of “free” as in “free speech,” not as in “free beer”.
            We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom,
@@ -283,13 +283,13 @@
 
     <string name="about_project_site">
         專案網站：\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">
         問題回報：\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Tusky 官方帳號</string>
+    <string name="about_gabby_account">Gabby 官方帳號</string>
 
     <string name="status_share_content">分享嘟文內容</string>
     <string name="status_share_link">分享嘟文連結</string>
@@ -352,11 +352,11 @@
     <string name="lock_account_label">保護你的帳戶（鎖嘟）</string>
     <string name="lock_account_label_description">你需要手動審核所有關注請求</string>
     <string name="compose_save_draft">儲存為草稿？</string>
-    <string name="send_toot_notification_title">正在發送…</string>
-    <string name="send_toot_notification_error_title">發送失敗</string>
-    <string name="send_toot_notification_channel_name">嘟文發送中</string>
-    <string name="send_toot_notification_cancel_title">發送已被取消</string>
-    <string name="send_toot_notification_saved_content">嘟文已儲存為草稿</string>
+    <string name="send_post_notification_title">正在發送…</string>
+    <string name="send_post_notification_error_title">發送失敗</string>
+    <string name="send_post_notification_channel_name">嘟文發送中</string>
+    <string name="send_post_notification_cancel_title">發送已被取消</string>
+    <string name="send_post_notification_saved_content">嘟文已儲存為草稿</string>
     <string name="action_compose_shortcut">撰寫嘟文</string>
 
     <string name="error_no_custom_emojis">當前站點 %s 沒有自訂表情符號</string>
@@ -366,9 +366,9 @@
     <string name="download_fonts">你需要先下載這些表情符號包</string>
     <string name="performing_lookup_title">正在查詢…</string>
     <string name="expand_collapse_all_statuses">展開/摺疊所有嘟文</string>
-    <string name="action_open_toot">開啟嘟文</string>
+    <string name="action_open_post">開啟嘟文</string>
     <string name="restart_required">需要重啟應用程式</string>
-    <string name="restart_emoji">你需要重啟 Tusky 才能生效</string>
+    <string name="restart_emoji">你需要重啟 Gabby 才能生效</string>
     <string name="later">稍後</string>
     <string name="restart">立即重啟</string>
     <string name="caption_systememoji">系統預設的表情符號包</string>
@@ -384,7 +384,7 @@
     <string name="reblog_private">轉嘟（可見者不變）</string>
     <string name="unreblog_private">取消轉嘟</string>
 
-    <string name="license_description">Tusky 使用了以下開源專案的原始碼：</string>
+    <string name="license_description">Gabby 使用了以下開源專案的原始碼：</string>
     <string name="license_apache_2">以 Apache License 授權（詳見下方）</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>

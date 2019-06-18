@@ -39,7 +39,7 @@
     <string name="title_blocks">ブロックしたユーザー</string>
     <string name="title_follow_requests">フォローリクエスト</string>
     <string name="title_edit_profile">プロフィールを編集</string>
-    <string name="title_saved_toot">下書き</string>
+    <string name="title_saved_post">下書き</string>
     <string name="title_licenses">ライセンス</string>
     <string name="status_boosted_format">%sさんがブーストしました</string>
     <string name="status_sensitive_media_title">閲覧注意</string>
@@ -102,7 +102,7 @@
     <string name="action_accept">許可</string>
     <string name="action_reject">拒否</string>
     <string name="action_search">検索</string>
-    <string name="action_access_saved_toot">下書き</string>
+    <string name="action_access_saved_post">下書き</string>
     <string name="action_toggle_visibility">トゥートの公開範囲</string>
     <string name="action_content_warning">閲覧注意</string>
     <string name="action_emoji_keyboard">絵文字キーボード</string>
@@ -149,7 +149,7 @@
     <string name="dialog_download_image">ダウンロード</string>
     <string name="dialog_message_cancel_follow_request">フォローリクエストを取り消しますか？</string>
     <string name="dialog_unfollow_warning">このアカウントをフォロー解除しますか？</string>
-    <string name="dialog_delete_toot_warning">本当に削除しますか？</string>
+    <string name="dialog_delete_post_warning">本当に削除しますか？</string>
     <string name="visibility_public">公開：公開タイムラインに投稿する</string>
     <string name="visibility_unlisted">未収載：公開タイムラインには表示しない</string>
     <string name="visibility_private">フォロワー限定：フォロワーだけに公開</string>
@@ -221,8 +221,8 @@
     <string name="notification_title_summary">%d件の新しい通知</string>
     <string name="description_account_locked">非公開アカウント</string>
     <string name="about_title_activity">このアプリについて</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tuskyは無料のオープンソースソフトウェアです。<!--
+    <string name="about_gabby_version">Gabby %s</string>
+    <string name="about_gabby_license">Gabbyは無料のオープンソースソフトウェアです。<!--
      -->GNU General Public License Version 3 の下で使用許諾されています。<!--
      -->ライセンスはここからご覧いただけます： https://www.gnu.org/licenses/gpl-3.0.ja.html</string>
     <!-- note to translators:
@@ -232,12 +232,12 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        プロジェクトのWebサイト（英語）：\n
-        https://tusky.app
+        https://gabby.app
     </string>
     <string name="about_bug_feature_request_site">        バグ報告 &amp; 機能リクエスト（英語）：\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/gabbyapp/Gabby/issues
     </string>
-    <string name="about_tusky_account">Tusky公式アカウント</string>
+    <string name="about_gabby_account">Gabby公式アカウント</string>
     <string name="status_share_content">トゥートの内容を共有</string>
     <string name="status_share_link">トゥートへのリンクを共有</string>
     <string name="status_media_images">画像</string>
@@ -277,11 +277,11 @@
     <string name="lock_account_label">アカウントをロック</string>
     <string name="lock_account_label_description">フォロワーを手動で承認する必要があります</string>
     <string name="compose_save_draft">下書きを保存しますか？</string>
-    <string name="send_toot_notification_title">トゥートを送信中です…</string>
-    <string name="send_toot_notification_error_title">トゥート送信エラー</string>
-    <string name="send_toot_notification_channel_name">トゥートの送信</string>
-    <string name="send_toot_notification_cancel_title">送信がキャンセルされました</string>
-    <string name="send_toot_notification_saved_content">トゥートのコピーが下書きに保存されました</string>
+    <string name="send_post_notification_title">トゥートを送信中です…</string>
+    <string name="send_post_notification_error_title">トゥート送信エラー</string>
+    <string name="send_post_notification_channel_name">トゥートの送信</string>
+    <string name="send_post_notification_cancel_title">送信がキャンセルされました</string>
+    <string name="send_post_notification_saved_content">トゥートのコピーが下書きに保存されました</string>
     <string name="action_compose_shortcut">投稿</string>
     <string name="error_no_custom_emojis">インスタンス %s にはカスタム絵文字がありません</string>
     <string name="copy_to_clipboard_success">クリップボードにコピーされました</string>
@@ -290,9 +290,9 @@
     <string name="download_fonts">最初にこれらの絵文字セットをダウンロードする必要があります</string>
     <string name="performing_lookup_title">検索中…</string>
     <string name="expand_collapse_all_statuses">全て開く/閉じる</string>
-    <string name="action_open_toot">トゥートを開く</string>
+    <string name="action_open_post">トゥートを開く</string>
     <string name="restart_required">アプリの再起動が必要です</string>
-    <string name="restart_emoji">これらの変更を適用するには、Tuskyの再起動が必要になります</string>
+    <string name="restart_emoji">これらの変更を適用するには、Gabbyの再起動が必要になります</string>
     <string name="later">後で</string>
     <string name="restart">再起動</string>
     <string name="caption_systememoji">あなたのデバイスのデフォルト絵文字セットです</string>
@@ -303,7 +303,7 @@
     <string name="account_moved_description">%1$s は引っ越しました:</string>
     <string name="reblog_private">ブースト</string>
     <string name="unreblog_private">ブーストを解除</string>
-    <string name="license_description">Tuskyは、以下のオープンソース プロジェクトからのコードとアセットを含んでいます:</string>
+    <string name="license_description">Gabbyは、以下のオープンソース プロジェクトからのコードとアセットを含んでいます:</string>
     <string name="license_apache_2">Apache Licenseの下にライセンスされています（下記をコピー）</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>

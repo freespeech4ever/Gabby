@@ -4,6 +4,6 @@
     <foreground>
     <inset
         android:inset="10%"
-        android:drawable="@drawable/ic_launcher_foreground" />
+        android:drawable="@mipmap/ic_launcher" />
     </foreground>
 </adaptive-icon>

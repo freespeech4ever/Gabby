@@ -1,32 +1,32 @@
 /* Copyright 2018 charlag
  *
- * This file is a part of Tusky.
+ * This file is a part of Gabby.
  *
  * This program is free software; you can redistribute it and/or modify it under the terms of the
  * GNU General Public License as published by the Free Software Foundation; either version 3 of the
  * License, or (at your option) any later version.
  *
- * Tusky is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
+ * Gabby is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
  * the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
  * Public License for more details.
  *
- * You should have received a copy of the GNU General Public License along with Tusky; if not,
+ * You should have received a copy of the GNU General Public License along with Gabby; if not,
  * see <http://www.gnu.org/licenses>. */
 
 
-package com.keylesspalace.tusky
+package com.gab.gabby
 
 import android.text.SpannedString
 import android.widget.EditText
-import com.keylesspalace.tusky.db.AccountEntity
-import com.keylesspalace.tusky.db.AccountManager
-import com.keylesspalace.tusky.db.AppDatabase
-import com.keylesspalace.tusky.db.InstanceDao
-import com.keylesspalace.tusky.entity.Account
-import com.keylesspalace.tusky.entity.Emoji
-import com.keylesspalace.tusky.entity.Instance
-import com.keylesspalace.tusky.network.MastodonApi
-import com.keylesspalace.tusky.util.ThemeUtils
+import com.gab.gabby.db.AccountEntity
+import com.gab.gabby.db.AccountManager
+import com.gab.gabby.db.AppDatabase
+import com.gab.gabby.db.InstanceDao
+import com.gab.gabby.entity.Account
+import com.gab.gabby.entity.Emoji
+import com.gab.gabby.entity.Instance
+import com.gab.gabby.network.MastodonApi
+import com.gab.gabby.util.ThemeUtils
 import okhttp3.Request
 import okhttp3.ResponseBody
 import org.junit.Assert
@@ -50,7 +50,7 @@ import retrofit2.Response
  * Created by charlag on 3/7/18.
  */
 
-@Config(application = FakeTuskyApplication::class)
+@Config(application = FakeGabbyApplication::class)
 @RunWith(AndroidJUnit4::class)
 class ComposeActivityTest {
 
@@ -180,18 +180,18 @@ class ComposeActivityTest {
     }
 
     @Test
-    fun whenMaximumTootCharsIsNull_defaultLimitIsUsed() {
-        instanceResponseCallback = getSuccessResponseCallbackWithMaximumTootCharacters(null)
+    fun whenMaximumPostCharsIsNull_defaultLimitIsUsed() {
+        instanceResponseCallback = getSuccessResponseCallbackWithMaximumPostCharacters(null)
         setupActivity()
-        assertEquals(ComposeActivity.STATUS_CHARACTER_LIMIT, activity.maximumTootCharacters)
+        assertEquals(ComposeActivity.STATUS_CHARACTER_LIMIT, activity.maximumPostCharacters)
     }
 
     @Test
-    fun whenMaximumTootCharsIsPopulated_customLimitIsUsed() {
+    fun whenMaximumPostCharsIsPopulated_customLimitIsUsed() {
         val customMaximum = 1000
-        instanceResponseCallback = getSuccessResponseCallbackWithMaximumTootCharacters(customMaximum)
+        instanceResponseCallback = getSuccessResponseCallbackWithMaximumPostCharacters(customMaximum)
         setupActivity()
-        assertEquals(customMaximum, activity.maximumTootCharacters)
+        assertEquals(customMaximum, activity.maximumPostCharacters)
     }
 
     @Test
@@ -203,7 +203,7 @@ class ComposeActivityTest {
             }
         }
         setupActivity()
-        assertEquals(ComposeActivity.STATUS_CHARACTER_LIMIT, activity.maximumTootCharacters)
+        assertEquals(ComposeActivity.STATUS_CHARACTER_LIMIT, activity.maximumPostCharacters)
     }
 
     @Test
@@ -223,7 +223,7 @@ class ComposeActivityTest {
 
     @Test
     fun whenTextContainsMultipleUrls_onlyEllipsizedURLIsCounted() {
-        val shortUrl = "https://tusky.app"
+        val shortUrl = "https://gabby.app"
         val url = "https://www.google.dk/search?biw=1920&bih=990&tbm=isch&sa=1&ei=bmDrWuOoKMv6kwWOkIaoDQ&q=indiana+jones+i+hate+snakes+animated&oq=indiana+jones+i+hate+snakes+animated&gs_l=psy-ab.3...54174.55443.0.55553.9.7.0.0.0.0.255.333.1j0j1.2.0....0...1c.1.64.psy-ab..7.0.0....0.40G-kcDkC6A#imgdii=PSp15hQjN1JqvM:&imgrc=H0hyE2JW5wrpBM:"
         val additionalContent = " Check out this @image #search result: "
         insertSomeTextInContent(shortUrl + additionalContent + url)
@@ -251,7 +251,7 @@ class ComposeActivityTest {
         activity.findViewById<EditText>(R.id.composeEditField).setText(text ?: "Some text")
     }
 
-    private fun getInstanceWithMaximumTootCharacters(maximumTootCharacters: Int?): Instance
+    private fun getInstanceWithMaximumPostCharacters(maximumPostCharacters: Int?): Instance
     {
         return Instance(
                 "https://example.token",
@@ -281,16 +281,16 @@ class ComposeActivityTest {
                         emptyList(),
                         emptyList()
                 ),
-                maximumTootCharacters
+                maximumPostCharacters
         )
     }
 
-    private fun getSuccessResponseCallbackWithMaximumTootCharacters(maximumTootCharacters: Int?): (Call<Instance>?, Callback<Instance>?) -> Unit
+    private fun getSuccessResponseCallbackWithMaximumPostCharacters(maximumPostCharacters: Int?): (Call<Instance>?, Callback<Instance>?) -> Unit
     {
         return {
             call: Call<Instance>?, callback: Callback<Instance>? ->
             if (call != null) {
-                callback?.onResponse(call, Response.success(getInstanceWithMaximumTootCharacters(maximumTootCharacters)))
+                callback?.onResponse(call, Response.success(getInstanceWithMaximumPostCharacters(maximumPostCharacters)))
             }
         }
     }
