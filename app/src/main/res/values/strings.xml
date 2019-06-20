@@ -148,7 +148,7 @@
     <string name="status_sent">Sent!</string>
     <string name="status_sent_long">Reply sent successfully.</string>
 
-    <string name="hint_domain">Which instance?</string>
+    <string name="hint_domain">Which ActivityPub instance?</string>
     <string name="hint_compose">What\'s happening?</string>
     <string name="hint_content_warning">Content warning</string>
     <string name="hint_display_name">Display name</string>
