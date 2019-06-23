@@ -405,7 +405,8 @@ public final class MainActivity extends BottomSheetActivity implements ActionBut
                 })
                 .build();
 
-        if (BuildConfig.DEBUG) {
+        // Dissenter: Using a debug build for lack of signing, but don't want to show debug features.
+        if (false && BuildConfig.DEBUG) {
             IDrawerItem debugItem = new SecondaryDrawerItem()
                     .withIdentifier(1337)
                     .withName("debug")

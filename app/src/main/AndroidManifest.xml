@@ -131,7 +131,7 @@
             tools:targetApi="24"
             android:name="com.freespeech4ever.gabby.service.TuskyTileService"
             android:icon="@drawable/ic_tusky"
-            android:label="Compose Toot"
+            android:label="Compose Post"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
