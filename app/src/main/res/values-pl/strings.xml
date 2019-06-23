@@ -54,7 +54,7 @@
     <string name="action_favourite">Dodaj do ulubionych</string>
     <string name="action_more">Więcej</string>
     <string name="action_compose">Napisz</string>
-    <string name="action_login">Zaloguj się Kontem Mastodon</string>
+    <string name="action_login">Zaloguj się Kontem Gabby</string>
     <string name="action_logout">Wyloguj się</string>
     <string name="action_logout_confirm">Czy na pewno chcesz wylogować się z konta %1$s?</string>
     <string name="action_follow">Śledź</string>
@@ -192,7 +192,7 @@
     <string name="notification_title_summary">%d nowych powiadomień</string>
     <string name="description_account_locked">Konto zablokowane</string>
     <string name="about_title_activity">O programie</string>
-    <string name="about_tusky_license">Tusky jest wolnym i otwartoźródłowym oprogramowaniem.
+    <string name="about_tusky_license"> jest wolnym i otwartoźródłowym oprogramowaniem.
         Jest on dostępny na licencji GNU General Public License w wersji trzeciej.
         Możesz przeczytać przetłumaczoną treść licencji <a href="https://web.archive.org/web/20171024013739/http://itlaw.computerworld.pl/wp-content/uploads/2008/03/powszechna-licencja-publiczna-gnu_v2.pdf">tutaj</a>.</string>
     <!-- note to translators:
@@ -205,9 +205,9 @@
         https://tusky.app
     </string>
     <string name="about_bug_feature_request_site">        Zgłoszenia błędów i propozycje funkcji:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/freespeech4ever/Gabby/issues
     </string>
-    <string name="about_tusky_account">Profil Tusky’ego</string>
+    <string name="about_tusky_account">Profil ’ego</string>
     <string name="status_share_content">Udostępnij zawartość postu</string>
     <string name="status_share_link">Udostępnij link do postu</string>
     <string name="status_media_images">Obrazy</string>
@@ -231,7 +231,7 @@
     <string name="replying_to">Odpowiadasz na wpis autorstwa @%s</string>
     <string name="load_more_placeholder_text">załaduj więcej</string>
     <string name="add_account_name">Dodaj konto</string>
-    <string name="add_account_description">Dodaj nowe Konto Mastodon</string>
+    <string name="add_account_description">Dodaj nowe Konto Gabby</string>
     <string name="action_lists">Listy</string>
     <string name="title_lists">Listy</string>
     <string name="title_list_timeline">Oś czasu listy</string>
@@ -257,7 +257,7 @@
     <string name="expand_collapse_all_statuses">Rozwiń/zwiń wszystkie wpisy</string>
     <string name="action_open_toot">Otwórz wpis</string>
     <string name="restart_required">Wymagane jest ponowne uruchomienie</string>
-    <string name="restart_emoji">Musisz uruchomić ponownie Tuskyego, aby zastosować zmiany</string>
+    <string name="restart_emoji">Musisz uruchomić ponownie ego, aby zastosować zmiany</string>
     <string name="later">Później</string>
     <string name="restart">Uruchom ponownie</string>
     <string name="caption_systememoji">Domyślny zestaw emoji tego urządzenia</string>
@@ -267,7 +267,7 @@
     <string name="account_moved_description">%1$s przeniósł się na:</string>
     <string name="reblog_private">Podbij grupie docelowej autora oryginału</string>
     <string name="unreblog_private">Cofnij podbicie</string>
-    <string name="license_description">Tusky zawiera kod i zasoby następujących projektów open source:</string>
+    <string name="license_description"> zawiera kod i zasoby następujących projektów open source:</string>
     <string name="license_apache_2">Na licencji Apache (kopia poniżej)</string>
     <string name="profile_metadata_label">Metadane profilu</string>
     <string name="profile_metadata_add">dodaj dane</string>

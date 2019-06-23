@@ -23,7 +23,7 @@
     <string name="title_notifications">Notificacions</string>
     <string name="title_public_local">Local</string>
     <string name="title_public_federated">Federació</string>
-    <string name="title_view_thread">Toot</string>
+    <string name="title_view_thread">Post</string>
     <string name="title_tag">#%s</string>
     <string name="title_statuses">Posts</string>
     <string name="title_follows">Seguits</string>
@@ -56,7 +56,7 @@
     <string name="action_favourite">Preferit</string>
     <string name="action_more">Més</string>
     <string name="action_compose">Redacta</string>
-    <string name="action_login">Inicia sessió amb Mastodon</string>
+    <string name="action_login">Inicia sessió amb Gabby</string>
     <string name="action_logout">Tanca sessió</string>
     <string name="action_follow">Segueix</string>
     <string name="action_unfollow">Deixa de seguir</string>
@@ -64,8 +64,8 @@
     <string name="action_unblock">Deixa de blocar</string>
     <string name="action_report">Denuncia</string>
     <string name="action_delete">Elimina</string>
-    <string name="action_send">TOOT</string>
-    <string name="action_send_public">TOOT!</string>
+    <string name="action_send">POST</string>
+    <string name="action_send_public">POST!</string>
     <string name="action_retry">Torna a intentar-ho</string>
     <string name="action_close">Tanca</string>
     <string name="action_view_profile">Perfil</string>
@@ -186,8 +186,8 @@
     <string name="description_account_locked">Compte blocat</string>
 
     <string name="about_title_activity">Quant a</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky és programari gratuït, lliure i de codi obert.
+    <string name="about_tusky_version"> %s</string>
+    <string name="about_tusky_license"> és programari gratuït, lliure i de codi obert.
         Està llicenciat en els termes de la Llicència Pública General GNU versió 3.
         Podeu trobar les llicència aquí: https://www.gnu.org/licenses/gpl-3.0.ca.html</string>
     <!-- note to translators: the url can be changed to link to the localized version of the license -->
@@ -197,9 +197,9 @@
     </string>
     <string name="about_bug_feature_request_site">
         Informes d\'errors i peticions de funcionalitats:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/freespeech4ever/Gabby/issues
     </string>
-    <string name="about_tusky_account">Perfil del Tusky</string>
+    <string name="about_tusky_account">Perfil del </string>
 
     <string name="status_share_content">Comparteix el contingut del toot</string>
     <string name="status_share_link">Comparteix l\'enllaç al toot</string>
@@ -391,7 +391,7 @@
     <string name="reblog_private">Tornar a impulsar</string>
     <string name="unreblog_private">No impulsar</string>
 
-    <string name="license_description">Tusky conté codi i recursos dels següents projectes:</string>
+    <string name="license_description"> conté codi i recursos dels següents projectes:</string>
     <string name="license_apache_2">Sota llicencia Apache (text a sota)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
@@ -477,8 +477,8 @@
 <string name="description_status_cw">Advertència: %s</string>
     <string name="poll_option_format"> <!-- 15% vota aquesta acció! --> &lt;b&gt;%1$d%%&lt;/b&gt; %2$s</string>
 
-    <string name="title_statuses_pinned">Toot fixat</string>
-    <string name="unpin_action">Toot no fixat</string>
+    <string name="title_statuses_pinned">Post fixat</string>
+    <string name="unpin_action">Post no fixat</string>
     <string name="pin_action">Fixar</string>
 
     <string name="description_status_reblogged">Respost</string>

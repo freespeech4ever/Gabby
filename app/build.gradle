@@ -15,7 +15,7 @@ def getGitSha = { ->
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.keylesspalace.tusky"
+        applicationId "com.freespeech4ever.gabby"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 62

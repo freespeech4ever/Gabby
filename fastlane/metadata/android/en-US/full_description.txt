@@ -1,4 +1,4 @@
-Tusky is a lightweight client for Mastodon, a free and open-source social network server.
+Gabby is a lightweight client for ActivityPub instances, free and open-source social network servers.
 
 • Material Design
 • Most Mastodon APIs implemented
@@ -8,5 +8,3 @@ Tusky is a lightweight client for Mastodon, a free and open-source social networ
 • Choose between different emoji styles 
 • Optimized for all screen sizes
 • Completely open-source - no non-free dependencies like Google services
-
-To learn more about Mastodon, visit https://joinmastodon.org/

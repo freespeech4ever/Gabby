@@ -13,7 +13,7 @@
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent">
 
-        <com.keylesspalace.tusky.view.RoundedImageView
+        <com.freespeech4ever.gabby.view.RoundedImageView
             android:id="@+id/composeAvatar"
             android:layout_width="?attr/actionBarSize"
             android:layout_height="?attr/actionBarSize"
@@ -93,7 +93,7 @@
 
             </LinearLayout>
 
-            <com.keylesspalace.tusky.view.EditTextTyped
+            <com.freespeech4ever.gabby.view.EditTextTyped
                 android:id="@+id/composeEditField"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -182,7 +182,7 @@
         app:behavior_peekHeight="0dp"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />
 
-    <com.keylesspalace.tusky.view.ComposeOptionsView
+    <com.freespeech4ever.gabby.view.ComposeOptionsView
         android:id="@+id/composeOptionsBottomSheet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -277,7 +277,7 @@
             android:textSize="?attr/status_text_medium"
             tools:text="500" />
 
-        <com.keylesspalace.tusky.view.TootButton
+        <com.freespeech4ever.gabby.view.TootButton
             android:id="@+id/composeTootButton"
             style="@style/TuskyButton"
             android:layout_width="@dimen/toot_button_width"

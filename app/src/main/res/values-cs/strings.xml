@@ -9,7 +9,7 @@
     <string name="error_authorization_unknown">Vyskytla se neidentifikovaná chyba autorizace.</string>
     <string name="error_authorization_denied">Autorizace byla zamítnuta.</string>
     <string name="error_retrieving_oauth_token">Nepodařilo se získat přihlašovací token.</string>
-    <string name="error_compose_character_limit">Toot je příliš dlouhý!</string>
+    <string name="error_compose_character_limit">Post je příliš dlouhý!</string>
     <string name="error_image_upload_size">Soubor musí být menší než 8 MB.</string>
     <string name="error_video_upload_size">Videosoubory musejí být menší než 40 MB.</string>
     <string name="error_media_upload_type">Tento typ spuboru namůže být nahrán.</string>
@@ -28,9 +28,9 @@
     <string name="title_public_federated">Federovaná</string>
     <string name="title_direct_messages">Přímé zprávy</string>
     <string name="title_tab_preferences">Panely</string>
-    <string name="title_view_thread">Toot</string>
+    <string name="title_view_thread">Post</string>
     <string name="title_tag">#%s</string>
-    <string name="title_statuses">Tooty</string>
+    <string name="title_statuses">Posty</string>
     <string name="title_statuses_with_replies">S odpověďmi</string>
     <string name="title_statuses_pinned">Připnuté</string>
     <string name="title_follows">Sledovaní</string>
@@ -66,7 +66,7 @@
     <string name="action_unfavourite">Odstranit oblíbení</string>
     <string name="action_more">Další</string>
     <string name="action_compose">Napsat</string>
-    <string name="action_login">Přihlásit účtem Mastodon</string>
+    <string name="action_login">Přihlásit účtem Gabby</string>
     <string name="action_logout">Odhlásit</string>
     <string name="action_logout_confirm">Jste si jistý/á, že se chcete odhlásit z účtu %1$s?</string>
     <string name="action_follow">Sledovat</string>
@@ -77,8 +77,8 @@
     <string name="action_show_reblogs">Zobrazit boosty</string>
     <string name="action_report">Nahlásit</string>
     <string name="action_delete">Smazat</string>
-    <string name="action_send">TOOTNOUT</string>
-    <string name="action_send_public">TOOTNOUT!</string>
+    <string name="action_send">POSTNOUT</string>
+    <string name="action_send_public">POSTNOUT!</string>
     <string name="action_retry">Zkusit znovu</string>
     <string name="action_close">Zavřít</string>
     <string name="action_view_profile">Profil</string>
@@ -233,8 +233,8 @@
     <string name="notification_title_summary">%d nových interakcí</string>
     <string name="description_account_locked">Uzamčený účet</string>
     <string name="about_title_activity">O této aplikaci</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky je svobodný a otevřený software.
+    <string name="about_tusky_version"> %s</string>
+    <string name="about_tusky_license"> je svobodný a otevřený software.
         Je dostupný pod licencí GNU General Public License, verze 3.
         Licenci můžete zobrazit zde: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
@@ -247,9 +247,9 @@
         https://tusky.app
     </string>
     <string name="about_bug_feature_request_site">        Hlášení chyb a návrhy na nové vlastnosti:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/freespeech4ever/Gabby/issues
     </string>
-    <string name="about_tusky_account">Profil aplikace Tusky</string>
+    <string name="about_tusky_account">Profil aplikace </string>
     <string name="status_share_content">Sdílet obsah tootu</string>
     <string name="status_share_link">Sdílet odkaz k tootu</string>
     <string name="status_media_images">Obrázky</string>
@@ -280,7 +280,7 @@
     <string name="filter_dialog_update_button">Aktualizovat</string>
     <string name="filter_add_description">Fráze k filtrování</string>
     <string name="add_account_name">Přidat účet</string>
-    <string name="add_account_description">Přidat nový účet Mastodon</string>
+    <string name="add_account_description">Přidat nový účet Gabby</string>
     <string name="action_lists">Seznamy</string>
     <string name="title_lists">Seznamy</string>
     <string name="title_list_timeline">Časová osa seznamu</string>
@@ -317,7 +317,7 @@
     <string name="expand_collapse_all_statuses">Rozbalit/zabalit všechny příspěvky</string>
     <string name="action_open_toot">Otevřít toot</string>
     <string name="restart_required">Je vyžadován restart aplikace</string>
-    <string name="restart_emoji">Pro použití těchto změn musíte restartovat aplikaci Tusky</string>
+    <string name="restart_emoji">Pro použití těchto změn musíte restartovat aplikaci </string>
     <string name="later">Později</string>
     <string name="restart">Restartovat</string>
     <string name="caption_systememoji">Výchozí sada emoji vašeho zařízení</string>
@@ -328,7 +328,7 @@
     <string name="account_moved_description">%1$s se přesunul/a na:</string>
     <string name="reblog_private">Boostnout původnímu publiku</string>
     <string name="unreblog_private">Zrušit boost</string>
-    <string name="license_description">Tusky obsahuje kód a zdroje z následujících otevřených projektů:</string>
+    <string name="license_description"> obsahuje kód a zdroje z následujících otevřených projektů:</string>
     <string name="license_apache_2">Pod licencí Apache License (kopie níže)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>

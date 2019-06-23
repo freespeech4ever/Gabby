@@ -66,7 +66,7 @@
     <string name="action_unfavourite">Supprimer le favori</string>
     <string name="action_more">Plus</string>
     <string name="action_compose">Écrire</string>
-    <string name="action_login">Se connecter à Mastodon</string>
+    <string name="action_login">Se connecter à Gabby</string>
     <string name="action_logout">Déconnexion</string>
     <string name="action_logout_confirm">Êtes-vous certain·e· de vouloir déconnecter le compte %1$s ?</string>
     <string name="action_follow">Suivre</string>
@@ -233,8 +233,8 @@
     <string name="notification_title_summary">%d nouvelles interactions</string>
     <string name="description_account_locked">Compte verrouillé</string>
     <string name="about_title_activity">À propos</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky est une application libre et open source.
+    <string name="about_tusky_version"> %s</string>
+    <string name="about_tusky_license"> est une application libre et open source.
         Elle est publiée sous licence publique générale GNU version 3.
         Vous pouvez consulter la licence ici : https://www.gnu.org/licenses/gpl-3.0.fr.html</string>
     <!-- note to translators:
@@ -247,9 +247,9 @@
       https://tusky.app
     </string>
     <string name="about_bug_feature_request_site">      Rapports d’anomalies &amp; demandes de fonctionnalités :\n
-      https://github.com/tuskyapp/Tusky/issues
+      https://github.com/freespeech4ever/Gabby/issues
     </string>
-    <string name="about_tusky_account">Profil de Tusky</string>
+    <string name="about_tusky_account">Profil de </string>
     <string name="status_share_content">Partager le contenu du pouet</string>
     <string name="status_share_link">Partager le lien du pouet</string>
     <string name="status_media_images">Images</string>
@@ -280,7 +280,7 @@
     <string name="filter_dialog_update_button">Mettre à jour</string>
     <string name="filter_add_description">Phrase à filtrer</string>
     <string name="add_account_name">Ajouter un compte</string>
-    <string name="add_account_description">Ajouter un nouveau compte Mastodon</string>
+    <string name="add_account_description">Ajouter un nouveau compte Gabby</string>
     <string name="action_lists">Listes</string>
     <string name="title_lists">Listes</string>
     <string name="title_list_timeline">Fil de la liste</string>
@@ -318,18 +318,18 @@
     <string name="expand_collapse_all_statuses">Déplier/replier tout les statuts</string>
     <string name="action_open_toot">Ouvrir le pouet</string>
     <string name="restart_required">Un redémarrage de l’application est nécessaire</string>
-    <string name="restart_emoji">Vous devrez redémarrer Tusky pour appliquer ces modifications</string>
+    <string name="restart_emoji">Vous devrez redémarrer  pour appliquer ces modifications</string>
     <string name="later">Plus tard</string>
     <string name="restart">Redémarrer</string>
     <string name="caption_systememoji">Votre jeu d’émojis par défaut</string>
     <string name="caption_blobmoji">Un jeu d’émojis basé sur les émojis « blob »</string>
-    <string name="caption_twemoji">Le jeu d’émojis standard de Mastodon</string>
+    <string name="caption_twemoji">Le jeu d’émojis standard de Gabby</string>
     <string name="download_failed">Échec du téléchargement</string>
     <string name="profile_badge_bot_text">Robot</string>
     <string name="account_moved_description">%1$s a déménagé vers :</string>
     <string name="reblog_private">Booster vers l’audience originale</string>
     <string name="unreblog_private">Ne plus booster</string>
-    <string name="license_description">Tusky contient du code et des ressources issus des projets open source suivants :</string>
+    <string name="license_description"> contient du code et des ressources issus des projets open source suivants :</string>
     <string name="license_apache_2">Sous licence Apache (copie ci-dessous)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>

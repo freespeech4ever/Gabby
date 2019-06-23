@@ -66,7 +66,7 @@
     <string name="action_unfavourite">Nuligi stelumon</string>
     <string name="action_more">Pli</string>
     <string name="action_compose">Verki</string>
-    <string name="action_login">Ensaluti al Mastodon</string>
+    <string name="action_login">Ensaluti al Gabby</string>
     <string name="action_logout">Elsaluti</string>
     <string name="action_logout_confirm">Ĉu vi certas ke vi volas elsaluti el konto %1$s?</string>
     <string name="action_follow">Sekvi</string>
@@ -229,8 +229,8 @@
     <string name="notification_title_summary">%d novaj interagoj</string>
     <string name="description_account_locked">Ŝlosita konto</string>
     <string name="about_title_activity">Pri</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky estas libera kaj malfermitkoda programo.
+    <string name="about_tusky_version"> %s</string>
+    <string name="about_tusky_license"> estas libera kaj malfermitkoda programo.
         Ĝi estas publikigita laŭ la permesilo «GNU General Public License Version 3».
         Vi povas vidi la permesilon ĉi tie: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
@@ -243,9 +243,9 @@
         https://tusky.app
     </string>
     <string name="about_bug_feature_request_site">        Raportoj de cimo kaj petoj de funkcio:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/freespeech4ever/Gabby/issues
     </string>
-    <string name="about_tusky_account">Profilo de Tusky</string>
+    <string name="about_tusky_account">Profilo de </string>
     <string name="status_share_content">Konigi enhavon de la mesaĝo</string>
     <string name="status_share_link">Konigi ligilon al mesaĝo</string>
     <string name="status_media_images">Bildoj</string>
@@ -313,18 +313,18 @@
     <string name="expand_collapse_all_statuses">Pligrandigi/malgrandigi ĉiujn mesaĝojn</string>
     <string name="action_open_toot">Malfermi mesaĝon</string>
     <string name="restart_required">Restartigo necesas</string>
-    <string name="restart_emoji">Vi devos restartigi Tusky por apliki ĉi tiujn ŝanĝojn</string>
+    <string name="restart_emoji">Vi devos restartigi  por apliki ĉi tiujn ŝanĝojn</string>
     <string name="later">Poste</string>
     <string name="restart">Restartigi</string>
     <string name="caption_systememoji">Dekomenca emoĝiaro de via aparato</string>
     <string name="caption_blobmoji">La emoĝioj «Blob» konataj el Android 4.4−7.1</string>
-    <string name="caption_twemoji">Norma emoĝiaro de Mastodon</string>
+    <string name="caption_twemoji">Norma emoĝiaro de Gabby</string>
     <string name="download_failed">Elŝuto malsukcesis</string>
     <string name="profile_badge_bot_text">Roboto</string>
     <string name="account_moved_description">%1$s moviĝis al:</string>
     <string name="reblog_private">Diskonigi al la originala atentaro</string>
     <string name="unreblog_private">Eksdiskonigi</string>
-    <string name="license_description">Tusky enhavas kodon kaj risurcojn el la sekvantaj malfermitkodaj projetkoj:</string>
+    <string name="license_description"> enhavas kodon kaj risurcojn el la sekvantaj malfermitkodaj projetkoj:</string>
     <string name="license_apache_2">Laŭ la permesilo «Apache License» (kopio sube)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>

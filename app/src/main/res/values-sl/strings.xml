@@ -246,13 +246,13 @@
     <string name="description_account_locked">Zaklenjen račun</string>
 
     <string name="about_title_activity">O aplikaciji</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky je prosta in odprtokodna programska oprema. Licencirana je pod licenco GNU General Public License različice 3. Licenco si lahko ogledate tukaj: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="about_tusky_version"> %s</string>
+    <string name="about_tusky_license"> je prosta in odprtokodna programska oprema. Licencirana je pod licenco GNU General Public License različice 3. Licenco si lahko ogledate tukaj: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <string name="about_project_site">Spletna stran projekta:
 \nhttps://tusky.app</string>
     <string name="about_bug_feature_request_site">Poročila o napakah in želje za nove funkcije:
-\nhttps://github.com/tuskyapp/Tusky/issues</string>
-    <string name="about_tusky_account">Profil Tusky</string>
+\nhttps://github.com/freespeech4ever/Gabby/issues</string>
+    <string name="about_tusky_account">Profil </string>
 
     <string name="status_share_content">Deli vsebino tuta</string>
     <string name="status_share_link">Deli povezavo do tuta</string>
@@ -331,7 +331,7 @@
     <string name="expand_collapse_all_statuses">Razširi/Strni vse statuse</string>
     <string name="action_open_toot">Odpri tut</string>
     <string name="restart_required">Potreben je ponovni zagon aplikacije</string>
-    <string name="restart_emoji">Če želite uveljaviti te spremembe, morate znova zagnati Tusky</string>
+    <string name="restart_emoji">Če želite uveljaviti te spremembe, morate znova zagnati </string>
     <string name="later">Kasneje</string>
     <string name="restart">Znova zaženi</string>
     <string name="caption_systememoji">"Privzeti komplet emotikonov vaše naprave "</string>
@@ -345,7 +345,7 @@
     <string name="reblog_private">Spodbudi izvirnemu občinstvu</string>
     <string name="unreblog_private">Prekini spodbudo</string>
 
-    <string name="license_description">Tusky vsebuje kodo in sredstva iz naslednjih odprtokodnih projektov:</string>
+    <string name="license_description"> vsebuje kodo in sredstva iz naslednjih odprtokodnih projektov:</string>
     <string name="license_apache_2">Licencirano pod licenco Apache (spodaj)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>

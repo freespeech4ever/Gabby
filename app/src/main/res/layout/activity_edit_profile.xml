@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.keylesspalace.tusky.EditProfileActivity">
+    tools:context="com.freespeech4ever.gabby.EditProfileActivity">
 
     <include layout="@layout/toolbar_basic" />
 
@@ -46,7 +46,7 @@
                 app:layout_constraintStart_toStartOf="@id/headerPreview"
                 app:layout_constraintTop_toTopOf="@id/headerPreview" />
 
-            <com.keylesspalace.tusky.view.RoundedImageView
+            <com.freespeech4ever.gabby.view.RoundedImageView
                 android:id="@+id/avatarPreview"
                 android:layout_width="80dp"
                 android:layout_height="80dp"

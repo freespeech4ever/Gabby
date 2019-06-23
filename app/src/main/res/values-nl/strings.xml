@@ -28,9 +28,9 @@
     <string name="title_public_federated">Globaal</string>
     <string name="title_direct_messages">Directe berichten</string>
     <string name="title_tab_preferences">Tabs</string>
-    <string name="title_view_thread">Toot</string>
+    <string name="title_view_thread">Post</string>
     <string name="title_tag">#%s</string>
-    <string name="title_statuses">Toots</string>
+    <string name="title_statuses">Posts</string>
     <string name="title_statuses_with_replies">Met reacties</string>
     <string name="title_statuses_pinned">Vastgezet</string>
     <string name="title_follows">Volgend</string>
@@ -77,8 +77,8 @@
     <string name="action_show_reblogs">Boosts tonen</string>
     <string name="action_report">Rapporteren</string>
     <string name="action_delete">Verwijderen</string>
-    <string name="action_send">TOOT</string>
-    <string name="action_send_public">TOOT!</string>
+    <string name="action_send">POST</string>
+    <string name="action_send_public">POST!</string>
     <string name="action_retry">Opnieuw proberen</string>
     <string name="action_close">Sluiten</string>
     <string name="action_view_profile">Profiel</string>
@@ -228,8 +228,8 @@
     <string name="notification_title_summary">%d nieuwe interacties</string>
     <string name="description_account_locked">Besloten account</string>
     <string name="about_title_activity">Over</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky is opensource- en vrije software. De licentie valt onder de GNU Algemene Publieke Licentie versie 3. Je kunt de licentie hier bekijken: https://www.gnu.org/licenses/gpl-3.0.nl.html</string>
+    <string name="about_tusky_version"> %s</string>
+    <string name="about_tusky_license"> is opensource- en vrije software. De licentie valt onder de GNU Algemene Publieke Licentie versie 3. Je kunt de licentie hier bekijken: https://www.gnu.org/licenses/gpl-3.0.nl.html</string>
     <!-- note to translators:
          * you should think of “free” as in “free speech,” not as in “free beer”.
            We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom,
@@ -239,8 +239,8 @@
     <string name="about_project_site">Projectwebsite:\n
                     https://tusky.app</string>
     <string name="about_bug_feature_request_site">Foutmeldingen &amp; nieuwe functies aanvragen:\n
-                    https://github.com/tuskyapp/Tusky/issues</string>
-    <string name="about_tusky_account">Tusky\'s profiel</string>
+                    https://github.com/freespeech4ever/Gabby/issues</string>
+    <string name="about_tusky_account">Dev profiel</string>
     <string name="status_share_content">Deel de inhoud van de toot</string>
     <string name="status_share_link">Deel de link van de toot</string>
     <string name="status_media_images">Afbeeldingen</string>
@@ -276,12 +276,12 @@
     <string name="lock_account_label">Account besloten maken</string>
     <string name="lock_account_label_description">Handmatige goedkeuring vereist voor volgers</string>
     <string name="compose_save_draft">Concept bewaren?</string>
-    <string name="send_toot_notification_title">Toot aan het verzenden…</string>
+    <string name="send_toot_notification_title">Post aan het verzenden…</string>
     <string name="send_toot_notification_error_title">Verzenden van toot mislukt</string>
-    <string name="send_toot_notification_channel_name">Toots aan het verzenden</string>
+    <string name="send_toot_notification_channel_name">Posts aan het verzenden</string>
     <string name="send_toot_notification_cancel_title">Verzenden geannuleerd</string>
     <string name="send_toot_notification_saved_content">Een kopie van de toot werd opgeslagen als concept</string>
-    <string name="action_compose_shortcut">Toot schrijven</string>
+    <string name="action_compose_shortcut">Post schrijven</string>
     <string name="error_no_custom_emojis">Jouw server %s heeft geen lokale emojis</string>
     <string name="copy_to_clipboard_success">Naar het klembord gekopieerd</string>
     <string name="emoji_style">Emojistijl</string>
@@ -289,20 +289,20 @@
     <string name="download_fonts">Je moet eerst deze emoji-sets downloaden</string>
     <string name="performing_lookup_title">Aan het zoeken…</string>
     <string name="expand_collapse_all_statuses">Alle toots in- of uitklappen</string>
-    <string name="action_open_toot">Toot openen</string>
+    <string name="action_open_toot">Post openen</string>
     <string name="restart_required">Herstarten app vereist</string>
-    <string name="restart_emoji">Je moet Tusky herstarten om deze veranderingen te kunnen doorvoeren</string>
+    <string name="restart_emoji">Je moet  herstarten om deze veranderingen te kunnen doorvoeren</string>
     <string name="later">Later</string>
     <string name="restart">Herstarten</string>
     <string name="caption_systememoji">Standaard emojiset van jouw apparaat</string>
     <string name="caption_blobmoji">De Blob-emojis van Android 4.4–7.1</string>
-    <string name="caption_twemoji">Standaard emojiset van Mastodon</string>
+    <string name="caption_twemoji">Standaard emojiset van Gabby</string>
     <string name="download_failed">Downloaden mislukt</string>
     <string name="profile_badge_bot_text">Bot</string>
     <string name="account_moved_description">%1$s is verhuisd naar:</string>
     <string name="reblog_private">Boost naar oorspronkelijke ontvangers</string>
     <string name="unreblog_private">Niet langer boosten</string>
-    <string name="license_description">Tusky bevat broncode en onderdelen van de volgende opensourceprojecten:</string>
+    <string name="license_description"> bevat broncode en onderdelen van de volgende opensourceprojecten:</string>
     <string name="license_apache_2">Gelicenseerd onder de Apache-licentie (kopie hieronder)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
@@ -388,7 +388,7 @@
     <string name="notifications_apply_filter">Filter</string>
     <string name="filter_apply">Toepassen</string>
 
-    <string name="compose_shortcut_long_label">Toot schrijven</string>
+    <string name="compose_shortcut_long_label">Post schrijven</string>
     <string name="compose_shortcut_short_label">Schrijven</string>
     <string name="pref_title_bot_overlay">Botsindicator tonen</string>
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.keylesspalace.tusky">
+    package="com.freespeech4ever.gabby">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -13,7 +13,7 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_gabby_launcher"
         android:label="@string/app_name"
         android:name=".TuskyApplication"
         android:supportsRtl="true"
@@ -78,7 +78,7 @@
             </intent-filter>
             <meta-data
                 android:name="android.service.chooser.chooser_target_service"
-                android:value="com.keylesspalace.tusky.service.AccountChooserService"
+                android:value="com.freespeech4ever.gabby.service.AccountChooserService"
                 />
         </activity>
         <activity
@@ -129,7 +129,7 @@
 
         <service
             tools:targetApi="24"
-            android:name="com.keylesspalace.tusky.service.TuskyTileService"
+            android:name="com.freespeech4ever.gabby.service.TuskyTileService"
             android:icon="@drawable/ic_tusky"
             android:label="Compose Toot"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -140,7 +140,7 @@
         <service android:name=".service.SendTootService" />
         <service
             tools:targetApi="23"
-            android:name="com.keylesspalace.tusky.service.AccountChooserService"
+            android:name="com.freespeech4ever.gabby.service.AccountChooserService"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE"
             >

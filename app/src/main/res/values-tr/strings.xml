@@ -20,7 +20,7 @@
     <string name="error_media_upload_sending">Yükleme başarsız.</string>
     <string name="error_report_too_few_statuses">Her bildirme en azından bir iletiyi işaret etmeli.</string>
     <string name="error_invalid_regex">Geçersiz düzenli ifade</string>
-    <string name="error_sender_account_gone">Toot gönderilirken hata oluştu.</string>
+    <string name="error_sender_account_gone">Post gönderilirken hata oluştu.</string>
     <string name="title_home">Ana sayfa</string>
     <string name="title_advanced">Gelişmiş</string>
     <string name="title_notifications">Bildirimler</string>
@@ -104,7 +104,7 @@
     <string name="action_reject">Reddet</string>
     <string name="action_search">Ara</string>
     <string name="action_access_saved_toot">Taslaklar</string>
-    <string name="action_toggle_visibility">Toot görünürlüğü</string>
+    <string name="action_toggle_visibility">Post görünürlüğü</string>
     <string name="action_content_warning">İçerik uyarısı</string>
     <string name="action_emoji_keyboard">Emoji klavye</string>
     <string name="action_add_tab">Sekme Ekle</string>
@@ -205,9 +205,9 @@
     <string name="notification_follow_name">Yeni Takipçiler</string>
     <string name="notification_follow_description">Yeni takipçiler hakkında bildirim</string>
     <string name="notification_boost_name">Yükseltilenler</string>
-    <string name="notification_boost_description">Tootların yükseltildiğinde bildirimler</string>
+    <string name="notification_boost_description">Postların yükseltildiğinde bildirimler</string>
     <string name="notification_favourite_name">Favoriler</string>
-    <string name="notification_favourite_description">Tootların favori olarak işaretlendiğinde</string>
+    <string name="notification_favourite_description">Postların favori olarak işaretlendiğinde</string>
     <string name="notification_mention_format">%s senden bahsetti</string>
     <string name="notification_summary_large">%1$s, %2$s, %3$s ve %4$d daha</string>
     <string name="notification_summary_medium">%1$s, %2$s ve %3$s</string>
@@ -215,8 +215,8 @@
     <string name="notification_title_summary">%d yeni etkileşim</string>
     <string name="description_account_locked">Kitli Hesap</string>
     <string name="about_title_activity">Hakkında</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Özgür ve açık kaynak yazılım Tusky.
+    <string name="about_tusky_version"> %s</string>
+    <string name="about_tusky_license">Özgür ve açık kaynak yazılım .
         GNU Genel Kamu Lisansı sürüm 3 altında lisanslanmıştır.
         Lisansı buradan görüntüleyebilirsiniz: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
@@ -229,9 +229,9 @@
         https://tusky.app
     </string>
     <string name="about_bug_feature_request_site"> &amp; özellik istekleri hata raporları:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/freespeech4ever/Gabby/issues
     </string>
-    <string name="about_tusky_account">Tusky\'nin Profili</string>
+    <string name="about_tusky_account">\'nin Profili</string>
     <string name="status_share_content">İletinin içeriğini paylaş</string>
     <string name="status_share_link">İletinin adresini paylaş</string>
     <string name="status_media_images">Görseller</string>
@@ -267,11 +267,11 @@
     <string name="lock_account_label">Hesabı Kilitle</string>
     <string name="lock_account_label_description">Manuel olarak takipçi onayla</string>
     <string name="compose_save_draft">Taslaklara kaydet?</string>
-    <string name="send_toot_notification_title">Toot gönderiliyor…</string>
-    <string name="send_toot_notification_error_title">Toot gönderilirken hata oluştu</string>
-    <string name="send_toot_notification_channel_name">Toot gönderiliyor</string>
+    <string name="send_toot_notification_title">Post gönderiliyor…</string>
+    <string name="send_toot_notification_error_title">Post gönderilirken hata oluştu</string>
+    <string name="send_toot_notification_channel_name">Post gönderiliyor</string>
     <string name="send_toot_notification_cancel_title">Gönderme iptal edildi</string>
-    <string name="send_toot_notification_saved_content">Toot\'un bir kopyası taslaklara kaydedildi</string>
+    <string name="send_toot_notification_saved_content">Post\'un bir kopyası taslaklara kaydedildi</string>
     <string name="action_compose_shortcut">Oluştur</string>
     <string name="error_no_custom_emojis">Sunucunuzun %s özel emoji seti yok</string>
     <string name="copy_to_clipboard_success">Panoya kopyalandı</string>
@@ -280,7 +280,7 @@
     <string name="download_fonts">Emoji setini kullanabilmek için indirmeniz gerekli</string>
     <string name="performing_lookup_title">Araştırılıyor…</string>
     <string name="expand_collapse_all_statuses">Tüm durumları Genişlet/Küçült</string>
-    <string name="action_open_toot">Toot aç</string>
+    <string name="action_open_toot">Post aç</string>
     <string name="restart_required">Uygulamayı yeniden başlatmanız lazım</string>
     <string name="restart_emoji">Değişikliklerin uygulanabilmesi için uygulama yeniden başlatılmalı</string>
     <string name="later">Daha sonra</string>
@@ -293,7 +293,7 @@
     <string name="account_moved_description">%1$s buraya taşındı:</string>
     <string name="reblog_private">Kendi kitlenize yükseltin</string>
     <string name="unreblog_private">Yükseltmeyi geri çek</string>
-    <string name="license_description">Tusky aşağıdakı açık kaynaklı projelerden kod ve materyal içeriyor:</string>
+    <string name="license_description"> aşağıdakı açık kaynaklı projelerden kod ve materyal içeriyor:</string>
     <string name="license_apache_2">Apache Lisansı altında lisanslanmıştır (kopya aşağıda)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>

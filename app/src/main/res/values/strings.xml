@@ -29,7 +29,7 @@
     <string name="title_public_federated">Federated</string>
     <string name="title_direct_messages">Direct Messages</string>
     <string name="title_tab_preferences">Tabs</string>
-    <string name="title_view_thread">Toot</string>
+    <string name="title_view_thread">Post</string>
     <string name="title_tag">#%s</string>
     <string name="title_statuses">Posts</string>
     <string name="title_statuses_with_replies">With replies</string>
@@ -72,7 +72,7 @@
     <string name="action_unfavourite">Remove favourite</string>
     <string name="action_more">More</string>
     <string name="action_compose">Compose</string>
-    <string name="action_login">Login with Mastodon</string>
+    <string name="action_login">Login with Gabby</string>
     <string name="action_logout">Log Out</string>
     <string name="action_logout_confirm">Are you sure you want to log out of the account %1$s?</string>
     <string name="action_follow">Follow</string>
@@ -84,8 +84,8 @@
     <string name="action_report">Report</string>
     <string name="action_delete">Delete</string>
     <string name="action_delete_and_redraft">Delete and re-draft</string>
-    <string name="action_send">TOOT</string>
-    <string name="action_send_public">TOOT!</string>
+    <string name="action_send">POST</string>
+    <string name="action_send_public">POST!</string>
     <string name="action_retry">Retry</string>
     <string name="action_close">Close</string>
     <string name="action_view_profile">Profile</string>
@@ -113,7 +113,7 @@
     <string name="action_reject">Reject</string>
     <string name="action_search">Search</string>
     <string name="action_access_saved_toot">Drafts</string>
-    <string name="action_toggle_visibility">Toot visibility</string>
+    <string name="action_toggle_visibility">Post visibility</string>
     <string name="action_content_warning">Content warning</string>
     <string name="action_emoji_keyboard">Emoji keyboard</string>
     <string name="action_add_tab">Add Tab</string>
@@ -271,8 +271,8 @@
     <string name="description_account_locked">Locked Account</string>
 
     <string name="about_title_activity">About</string>
-    <string name="about_tusky_version">Tusky %s</string>
-    <string name="about_tusky_license">Tusky is free and open-source software.
+    <string name="about_tusky_version">Gabby %s</string>
+    <string name="about_tusky_license">Gabby is free and open-source software.
         It is licensed under the GNU General Public License Version 3.
         You can view the license here: https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
@@ -283,13 +283,13 @@
     -->
     <string name="about_project_site">
         Project website:\n
-        https://tusky.app
+        https://github.com/freespeech4ever/Gabby
     </string>
     <string name="about_bug_feature_request_site">
         Bug reports &amp; feature requests:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/freespeech4ever/Gabby/issues
     </string>
-    <string name="about_tusky_account">Tusky\'s Profile</string>
+    <string name="about_tusky_account">Dev Profile</string>
 
     <string name="status_share_content">Share content of toot</string>
     <string name="status_share_link">Share link to toot</string>
@@ -352,9 +352,9 @@
     <string name="lock_account_label">Lock account</string>
     <string name="lock_account_label_description">Requires you to manually approve followers</string>
     <string name="compose_save_draft">Save draft?</string>
-    <string name="send_toot_notification_title">Sending Toot…</string>
+    <string name="send_toot_notification_title">Sending Post…</string>
     <string name="send_toot_notification_error_title">Error sending toot</string>
-    <string name="send_toot_notification_channel_name">Sending Toots</string>
+    <string name="send_toot_notification_channel_name">Sending Posts</string>
     <string name="send_toot_notification_cancel_title">Sending cancelled</string>
     <string name="send_toot_notification_saved_content">A copy of the toot has been saved to your drafts</string>
     <string name="action_compose_shortcut">Compose</string>
@@ -368,7 +368,7 @@
     <string name="expand_collapse_all_statuses">Expand/Collapse all statuses</string>
     <string name="action_open_toot">Open toot</string>
     <string name="restart_required">App restart required</string>
-    <string name="restart_emoji">You\'ll need to restart Tusky in order to apply these changes</string>
+    <string name="restart_emoji">You\'ll need to restart  in order to apply these changes</string>
     <string name="later">Later</string>
     <string name="restart">Restart</string>
     <string name="caption_systememoji">Your device\'s default emoji set</string>
@@ -384,7 +384,7 @@
     <string name="reblog_private">Boost to original audience</string>
     <string name="unreblog_private">Unboost</string>
 
-    <string name="license_description">Tusky contains code and assets from the following open source projects:</string>
+    <string name="license_description"> contains code and assets from the following open source projects:</string>
     <string name="license_apache_2">Licensed under the Apache License (copy below)</string>
     <string name="license_cc_by_4">CC-BY 4.0</string>
     <string name="license_cc_by_sa_4">CC-BY-SA 4.0</string>
@@ -461,7 +461,7 @@
     <string name="notifications_apply_filter">Filter</string>
     <string name="filter_apply">Apply</string>
 
-    <string name="compose_shortcut_long_label">Compose Toot</string>
+    <string name="compose_shortcut_long_label">Compose Post</string>
     <string name="compose_shortcut_short_label">Compose</string>
     <string name="pref_title_bot_overlay">Show indicator for bots</string>
 

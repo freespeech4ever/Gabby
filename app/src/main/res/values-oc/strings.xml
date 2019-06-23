@@ -56,7 +56,7 @@
     <string name="action_favourite">Aimar</string>
     <string name="action_more">Mai</string>
     <string name="action_compose">Redactar</string>
-    <string name="action_login">Començar la session amb Mastodon</string>
+    <string name="action_login">Començar la session amb Gabby</string>
     <string name="action_logout">Tampar la session</string>
     <string name="action_logout_confirm">Volètz vertadièrament vos desconnectar del compte %1$s ?</string>
     <string name="action_follow">Seguir</string>
@@ -193,7 +193,7 @@
     <string name="notification_title_summary">%d interaccions nòvas</string>
     <string name="description_account_locked">Compte blocat</string>
     <string name="about_title_activity">A prepaus</string>
-    <string name="about_tusky_license">Tusky es programa gratuït, liure e de còdi dobèrt.
+    <string name="about_tusky_license"> es programa gratuït, liure e de còdi dobèrt.
         Es publicat jols tèrms de la licéncia publica generala GNU version 3.
         Podeu trobar les llicència aquí: https://www.gnu.org/licenses/gpl-3.0.ca.html</string>
     <!-- note to translators:
@@ -206,9 +206,9 @@
         https://tusky.app
     </string>
     <string name="about_bug_feature_request_site">        Rapòrts d\'errors e demandas de foncionalitats :\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/freespeech4ever/Gabby/issues
     </string>
-    <string name="about_tusky_account">Perfil de Tusky</string>
+    <string name="about_tusky_account">Perfil de </string>
     <string name="status_share_content">Partejar lo contengut del tut</string>
     <string name="status_share_link">Partejar lo ligam del tut</string>
     <string name="status_media_images">Imatges</string>
@@ -228,7 +228,7 @@
     <string name="replying_to">En responsa a @%s</string>
     <string name="load_more_placeholder_text">cargar mai</string>
     <string name="add_account_name">Apondre un compte</string>
-    <string name="add_account_description">Apondre un nòu compte Mastodon</string>
+    <string name="add_account_description">Apondre un nòu compte Gabby</string>
     <string name="action_lists">Listas</string>
     <string name="title_lists">Listas</string>
     <string name="title_list_timeline">Flux de la lista</string>
@@ -254,18 +254,18 @@
     <string name="expand_collapse_all_statuses">Desplegar/Plegar totes los estatuts</string>
     <string name="action_open_toot">Dobrir lo tut</string>
     <string name="restart_required">Reaviada necessària</string>
-    <string name="restart_emoji">Vos caldrà reaviar Tusky per aplicar aquestes cambiaments</string>
+    <string name="restart_emoji">Vos caldrà reaviar  per aplicar aquestes cambiaments</string>
     <string name="later">Mai tard</string>
     <string name="restart">Reaviar</string>
     <string name="caption_systememoji">Los emoji per defaut de vòstre aparelh</string>
     <string name="caption_blobmoji">Emoji basats en Blob emojis coneguts d\'Android 4.4–7.1</string>
-    <string name="caption_twemoji">Emoji estandards de Mastodon</string>
+    <string name="caption_twemoji">Emoji estandards de Gabby</string>
     <string name="download_failed">Fracàs del telecargament</string>
     <string name="profile_badge_bot_text">Robòt</string>
     <string name="account_moved_description">%1$s mudèt los catons a :</string>
     <string name="reblog_private">Partejar al public d’origina</string>
     <string name="unreblog_private">Quitar de partejar</string>
-    <string name="license_description">Tusky content de còdis e compausants dels projèctes liures seguents :</string>
+    <string name="license_description"> content de còdis e compausants dels projèctes liures seguents :</string>
     <string name="license_apache_2">Licéncia Apache License (còpia çai-jos)</string>
     <string name="profile_metadata_label">Metadonada del perfil</string>
     <string name="profile_metadata_add">Contengut</string>
@@ -315,7 +315,7 @@
 
     <string name="pref_media_display">Afichatge dels mèdias</string>
 
-    <string name="about_tusky_version">Tusky %s</string>
+    <string name="about_tusky_version"> %s</string>
     <string name="abbreviated_days_ago">%dd</string>
     <string name="abbreviated_hours_ago">%dh</string>
     <string name="abbreviated_minutes_ago">%dm</string>
