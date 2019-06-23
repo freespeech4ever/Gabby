@@ -1,6 +1,6 @@
 # Gabby
 
-![](/fastlane/metadata/android/en-US/images/icon.png)
+![](/app/src/main/res/mipmap-hdpi/ic_gabby_launcher.png)
 
 Gabby is a beautiful Android client for any ActivityPub instance. ActivityPub/Mastodon/etc are a GNU social-compatible federated social network. That means not one entity controls the whole network, rather, like e-mail, volunteers and organisations operate their own independent servers, users from which can all interact with each other seamlessly.
 
